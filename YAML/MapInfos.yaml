@@ -1,0 +1,897 @@
+---
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: INTRO-2
+  expanded: false
+  order: 111
+  scroll_y: 208
+  parent_id: 0
+7: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Basement
+  expanded: false
+  order: 15
+  scroll_y: 208
+  parent_id: 42
+10: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: Dissection
+  expanded: false
+  order: 16
+  scroll_y: 240
+  parent_id: 42
+42: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 00: Reality'
+  expanded: true
+  order: 9
+  scroll_y: 224
+  parent_id: 0
+53: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Corridor
+  expanded: false
+  order: 23
+  scroll_y: 208
+  parent_id: 42
+54: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Library
+  expanded: false
+  order: 10
+  scroll_y: 208
+  parent_id: 42
+55: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: TVroom
+  expanded: false
+  order: 11
+  scroll_y: 208
+  parent_id: 42
+57: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: Diningroom
+  expanded: false
+  order: 12
+  scroll_y: 208
+  parent_id: 42
+58: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Outside
+  expanded: false
+  order: 13
+  scroll_y: 208
+  parent_id: 42
+59: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Attic
+  expanded: false
+  order: 14
+  scroll_y: 208
+  parent_id: 42
+1: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 01: Bears'
+  expanded: true
+  order: 24
+  scroll_y: 208
+  parent_id: 0
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 2ndEntrance
+  expanded: true
+  order: 28
+  scroll_y: 208
+  parent_id: 1
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: BearRoom
+  expanded: false
+  order: 29
+  scroll_y: 208
+  parent_id: 3
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: CatRoom
+  expanded: true
+  order: 30
+  scroll_y: 240
+  parent_id: 3
+12: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MirrorRoom
+  expanded: true
+  order: 34
+  scroll_y: 208
+  parent_id: 1
+9: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: 1stEntrance
+  expanded: true
+  order: 25
+  scroll_y: 708
+  parent_id: 1
+8: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FireRoom
+  expanded: false
+  order: 31
+  scroll_y: 256
+  parent_id: 6
+13: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: LeftRoom
+  expanded: false
+  order: 26
+  scroll_y: 208
+  parent_id: 9
+29: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: RightRoom
+  expanded: false
+  order: 27
+  scroll_y: 208
+  parent_id: 9
+40: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Kitchen
+  expanded: true
+  order: 32
+  scroll_y: 208
+  parent_id: 1
+41: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: BackDoorPlace
+  expanded: false
+  order: 33
+  scroll_y: 208
+  parent_id: 40
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MiniRoom
+  expanded: false
+  order: 35
+  scroll_y: 208
+  parent_id: 12
+11: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: ThreeBears
+  expanded: true
+  order: 36
+  scroll_y: 320
+  parent_id: 1
+14: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: CakeRoom
+  expanded: false
+  order: 37
+  scroll_y: 208
+  parent_id: 11
+15: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: ChairRoom
+  expanded: false
+  order: 38
+  scroll_y: 208
+  parent_id: 11
+16: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: BedRoom
+  expanded: false
+  order: 39
+  scroll_y: 208
+  parent_id: 11
+19: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Chem Lab
+  expanded: false
+  order: 17
+  scroll_y: 208
+  parent_id: 42
+20: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Monster Room
+  expanded: false
+  order: 18
+  scroll_y: 208
+  parent_id: 42
+22: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: Door Room
+  expanded: false
+  order: 19
+  scroll_y: 208
+  parent_id: 42
+24: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 00: Dream'
+  expanded: true
+  order: 1
+  scroll_y: 208
+  parent_id: 0
+25: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Tailor Room
+  expanded: false
+  order: 20
+  scroll_y: 208
+  parent_id: 42
+21: !ruby/object:RPG::MapInfo
+  scroll_x: 384
+  name: 'Level 02.5: Clocks'
+  expanded: true
+  order: 60
+  scroll_y: 240
+  parent_id: 0
+30: !ruby/object:RPG::MapInfo
+  scroll_x: 982
+  name: Maze Room
+  expanded: false
+  order: 61
+  scroll_y: 371
+  parent_id: 21
+28: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Corridor
+  expanded: false
+  order: 2
+  scroll_y: 208
+  parent_id: 24
+32: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Library
+  expanded: false
+  order: 3
+  scroll_y: 208
+  parent_id: 24
+33: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: TVroom
+  expanded: false
+  order: 4
+  scroll_y: 208
+  parent_id: 24
+34: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: Diningroom
+  expanded: false
+  order: 5
+  scroll_y: 208
+  parent_id: 24
+37: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Attic
+  expanded: false
+  order: 6
+  scroll_y: 208
+  parent_id: 24
+23: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: Space
+  expanded: false
+  order: 21
+  scroll_y: 320
+  parent_id: 42
+26: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: "??? Room"
+  expanded: false
+  order: 22
+  scroll_y: 208
+  parent_id: 42
+38: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: Tic-tac-toe Room
+  expanded: false
+  order: 68
+  scroll_y: 320
+  parent_id: 21
+39: !ruby/object:RPG::MapInfo
+  scroll_x: 304
+  name: "/WorstEnd"
+  expanded: true
+  order: 72
+  scroll_y: 484
+  parent_id: 21
+45: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: DOORS
+  expanded: false
+  order: 77
+  scroll_y: 288
+  parent_id: 60
+43: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: "/Intermission"
+  expanded: false
+  order: 73
+  scroll_y: 208
+  parent_id: 39
+60: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 03: Surreal'
+  expanded: true
+  order: 76
+  scroll_y: 208
+  parent_id: 0
+48: !ruby/object:RPG::MapInfo
+  scroll_x: 1004
+  name: TV HALL
+  expanded: false
+  order: 112
+  scroll_y: 240
+  parent_id: 0
+17: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: ROOM
+  expanded: false
+  order: 78
+  scroll_y: 256
+  parent_id: 60
+62: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: POMEGRANATES
+  expanded: false
+  order: 79
+  scroll_y: 256
+  parent_id: 60
+63: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: FLOWERS
+  expanded: false
+  order: 80
+  scroll_y: 288
+  parent_id: 60
+64: !ruby/object:RPG::MapInfo
+  scroll_x: 432
+  name: MEAT
+  expanded: false
+  order: 81
+  scroll_y: 304
+  parent_id: 60
+31: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Corridor
+  expanded: true
+  order: 62
+  scroll_y: 420
+  parent_id: 21
+65: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MAP065
+  expanded: false
+  order: 63
+  scroll_y: 208
+  parent_id: 31
+66: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MAP066
+  expanded: false
+  order: 64
+  scroll_y: 208
+  parent_id: 31
+67: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MAP067
+  expanded: false
+  order: 65
+  scroll_y: 208
+  parent_id: 31
+68: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MAP068
+  expanded: false
+  order: 66
+  scroll_y: 208
+  parent_id: 31
+69: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: MAP069
+  expanded: false
+  order: 67
+  scroll_y: 208
+  parent_id: 31
+70: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: CharRoom
+  expanded: false
+  order: 7
+  scroll_y: 224
+  parent_id: 24
+72: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 02: Silent Movie'
+  expanded: true
+  order: 45
+  scroll_y: 288
+  parent_id: 0
+78: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lft
+  expanded: false
+  order: 54
+  scroll_y: 304
+  parent_id: 72
+79: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: rght
+  expanded: false
+  order: 46
+  scroll_y: 256
+  parent_id: 72
+73: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lib1
+  expanded: false
+  order: 47
+  scroll_y: 208
+  parent_id: 72
+74: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lib2
+  expanded: false
+  order: 48
+  scroll_y: 224
+  parent_id: 72
+77: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lib3
+  expanded: false
+  order: 49
+  scroll_y: 224
+  parent_id: 72
+80: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lib4
+  expanded: false
+  order: 50
+  scroll_y: 224
+  parent_id: 72
+81: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lib5
+  expanded: false
+  order: 51
+  scroll_y: 224
+  parent_id: 72
+82: !ruby/object:RPG::MapInfo
+  scroll_x: 304
+  name: 2drs
+  expanded: false
+  order: 52
+  scroll_y: 208
+  parent_id: 72
+83: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 1dr
+  expanded: false
+  order: 53
+  scroll_y: 208
+  parent_id: 72
+52: !ruby/object:RPG::MapInfo
+  scroll_x: 649
+  name: Maze Room2
+  expanded: false
+  order: 69
+  scroll_y: 1228
+  parent_id: 21
+56: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Incinerator Room
+  expanded: false
+  order: 70
+  scroll_y: 208
+  parent_id: 21
+76: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 04: Slaughterland'
+  expanded: true
+  order: 82
+  scroll_y: 208
+  parent_id: 0
+85: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder1
+  expanded: true
+  order: 55
+  scroll_y: 208
+  parent_id: 72
+86: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder2
+  expanded: false
+  order: 56
+  scroll_y: 208
+  parent_id: 85
+87: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder3
+  expanded: false
+  order: 57
+  scroll_y: 208
+  parent_id: 85
+90: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Waitroom
+  expanded: false
+  order: 44
+  scroll_y: 208
+  parent_id: 1
+46: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: TVroom
+  expanded: false
+  order: 8
+  scroll_y: 208
+  parent_id: 24
+96: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: River
+  expanded: true
+  order: 83
+  scroll_y: 208
+  parent_id: 76
+97: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: River01
+  expanded: false
+  order: 84
+  scroll_y: 208
+  parent_id: 96
+98: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: River02
+  expanded: false
+  order: 85
+  scroll_y: 208
+  parent_id: 96
+99: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: River03
+  expanded: false
+  order: 86
+  scroll_y: 208
+  parent_id: 96
+100: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TwoHouses
+  expanded: true
+  order: 87
+  scroll_y: 208
+  parent_id: 76
+101: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: House
+  expanded: true
+  order: 90
+  scroll_y: 208
+  parent_id: 76
+102: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: House2
+  expanded: true
+  order: 92
+  scroll_y: 208
+  parent_id: 76
+103: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Skyscraper
+  expanded: true
+  order: 95
+  scroll_y: 580
+  parent_id: 76
+104: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: House3
+  expanded: true
+  order: 103
+  scroll_y: 208
+  parent_id: 76
+105: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 3Houses
+  expanded: true
+  order: 106
+  scroll_y: 208
+  parent_id: 76
+106: !ruby/object:RPG::MapInfo
+  scroll_x: 288
+  name: '4981'
+  expanded: true
+  order: 104
+  scroll_y: 208
+  parent_id: 104
+107: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: '8'
+  expanded: false
+  order: 91
+  scroll_y: 208
+  parent_id: 101
+108: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: NurseryRhyme-r
+  expanded: false
+  order: 88
+  scroll_y: 208
+  parent_id: 100
+109: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: NurseryRhyme-r2
+  expanded: false
+  order: 89
+  scroll_y: 208
+  parent_id: 100
+111: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Executioners-r
+  expanded: true
+  order: 93
+  scroll_y: 208
+  parent_id: 102
+113: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: H1 - 9
+  expanded: false
+  order: 107
+  scroll_y: 208
+  parent_id: 105
+114: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: H2 - 1
+  expanded: false
+  order: 108
+  scroll_y: 208
+  parent_id: 105
+115: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: H3 - 4
+  expanded: false
+  order: 109
+  scroll_y: 208
+  parent_id: 105
+91: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder4
+  expanded: false
+  order: 58
+  scroll_y: 208
+  parent_id: 85
+116: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Homunuculi
+  expanded: false
+  order: 100
+  scroll_y: 208
+  parent_id: 94
+119: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TV2
+  expanded: false
+  order: 71
+  scroll_y: 208
+  parent_id: 21
+121: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: Entrance
+  expanded: true
+  order: 96
+  scroll_y: 320
+  parent_id: 103
+122: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TVRUM
+  expanded: false
+  order: 102
+  scroll_y: 208
+  parent_id: 103
+123: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Key-r
+  expanded: false
+  order: 94
+  scroll_y: 208
+  parent_id: 111
+124: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Executionermask-r
+  expanded: false
+  order: 105
+  scroll_y: 208
+  parent_id: 106
+84: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: Left
+  expanded: false
+  order: 101
+  scroll_y: 320
+  parent_id: 121
+93: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: Right
+  expanded: true
+  order: 97
+  scroll_y: 320
+  parent_id: 121
+94: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: Right2
+  expanded: true
+  order: 99
+  scroll_y: 320
+  parent_id: 121
+128: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: INTRO-1
+  expanded: false
+  order: 110
+  scroll_y: 208
+  parent_id: 0
+129: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 'Level 05: Final (Tru End)'
+  expanded: false
+  order: 128
+  scroll_y: 320
+  parent_id: 0
+118: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: 3rdEntrance
+  expanded: true
+  order: 40
+  scroll_y: 240
+  parent_id: 1
+131: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: corridor
+  expanded: true
+  order: 41
+  scroll_y: 208
+  parent_id: 118
+132: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: room1
+  expanded: false
+  order: 42
+  scroll_y: 208
+  parent_id: 131
+133: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: room2
+  expanded: false
+  order: 43
+  scroll_y: 208
+  parent_id: 131
+134: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: "/ToHeart"
+  expanded: true
+  order: 74
+  scroll_y: 420
+  parent_id: 39
+135: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 'Level 02.1: Silent Movie'
+  expanded: true
+  order: 113
+  scroll_y: 288
+  parent_id: 0
+136: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: rght
+  expanded: false
+  order: 114
+  scroll_y: 256
+  parent_id: 135
+137: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lib1-entr
+  expanded: false
+  order: 115
+  scroll_y: 208
+  parent_id: 135
+138: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: center
+  expanded: false
+  order: 116
+  scroll_y: 224
+  parent_id: 135
+139: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: left
+  expanded: false
+  order: 117
+  scroll_y: 224
+  parent_id: 135
+140: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: leftleft
+  expanded: false
+  order: 118
+  scroll_y: 224
+  parent_id: 135
+141: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: right
+  expanded: false
+  order: 119
+  scroll_y: 224
+  parent_id: 135
+142: !ruby/object:RPG::MapInfo
+  scroll_x: 304
+  name: 2drs
+  expanded: false
+  order: 120
+  scroll_y: 208
+  parent_id: 135
+143: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: 1dr
+  expanded: false
+  order: 121
+  scroll_y: 208
+  parent_id: 135
+144: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: lft
+  expanded: false
+  order: 122
+  scroll_y: 304
+  parent_id: 135
+145: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder1
+  expanded: true
+  order: 123
+  scroll_y: 208
+  parent_id: 135
+146: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder2
+  expanded: false
+  order: 124
+  scroll_y: 208
+  parent_id: 145
+147: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder3
+  expanded: false
+  order: 125
+  scroll_y: 208
+  parent_id: 145
+148: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TheLadder4
+  expanded: false
+  order: 126
+  scroll_y: 208
+  parent_id: 145
+150: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Char
+  expanded: false
+  order: 75
+  scroll_y: 208
+  parent_id: 134
+27: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TV1
+  expanded: false
+  order: 59
+  scroll_y: 208
+  parent_id: 85
+61: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: TV_1
+  expanded: false
+  order: 127
+  scroll_y: 208
+  parent_id: 145
+75: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: Rightdoor
+  expanded: false
+  order: 98
+  scroll_y: 320
+  parent_id: 93

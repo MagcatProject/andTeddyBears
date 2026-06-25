@@ -1,0 +1,556 @@
+---
+-
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Meet Aliens
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Что за насмешка над настоящей едой.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['И это всё, что они сейчас могут']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['предложить?']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [2, 2, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [HuxFaces, 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тебе стоит попробовать ОБОИ, дорогое']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [дитя. Они особенно богаты железом.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [3, 3, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Не слушай его!]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [МЫЛО гораздо полезней употреблять]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [в пищу.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Эм, ребята? Можно мне слово вставить?"]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 6, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [У инопланетян и вправду нет понятия]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['личного пространства, не так ли?']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кстати, мистер Эйден, та дверь в коридоре']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [цокольного этажа не открывается.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 5, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Она закрыта из-за... небольших]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [строительных работ. Тут не о чем]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [беспокоиться.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 4, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Если ты выйдешь ночью, то сможешь']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [там найти кое-что интересное.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эйден щипает Беннетта.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 6, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ОЙ!]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 1, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Перестань внушать этому ребёнку]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['странные идеи! Не слушай его, милая']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [девочка.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Если хочешь присоединиться, то']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [я буду смотреть Мылонет в комнате]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [с телевизором.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [К мыльным операм просто НЕОБХОДИМ]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мыльный молочный коктейль!]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Беннетт уходит.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [3, 3, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [HuxFaces, 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я почти забыл!]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Приходи позже в Комнату для]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['препарирования, я хочу попросить тебя']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [кое о чём.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [65, 65, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [2, 2, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эйден и Хаксли тоже уходят.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [26, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [39, 0, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [1, 1, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [8, 8, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [45, 45, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [25, 25, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [21, 21, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 1
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Danger BGM
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Chase Pulse Faster, volume: 100, pitch: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 2
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Eat Soap
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 5, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Фу... Совсем невкусно.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 3
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Player X and Y
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [3, 3, 0, 3, 5, -1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [4, 4, 0, 3, 5, -1, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 4
+- !ruby/object:RPG::CommonEvent
+  trigger: 2
+  name: Teddy Enemy
+  switch_id: 72
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 112, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 8, 1, 7, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [24, 24, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [72, 72, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [7, 7, 0, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [3]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [7, 7, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 413, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 5
+- !ruby/object:RPG::CommonEvent
+  trigger: 2
+  name: Bear Chase
+  switch_id: 24
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 112, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 8, 1, 7, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [24, 24, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [7, 7, 0, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [5]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [7, 7, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 413, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 6
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 7
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 8
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Restricted Vision
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [10, 10, 0, 0, 50]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [11, 11, 0, 0, 200]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [77, 77, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [visimage("ImageName")]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 9
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Normal BGM
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Unseen Horrors, volume: 100, pitch: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 10
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 11
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 12
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 13
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: TicTacToe
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tictactoe, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это игра в крестики-нолики.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 14
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Use Key
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 40, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Использовать Бронзовый ключ?']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ключ не подходит.]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 15
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Throw Book
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 40, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Бросить книгу в медведя?']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Monster6, pitch: 100, volume: 80}]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [100, 100, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [40, 40, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [178, 178, 0]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 241, p: [!ruby/object:RPG::BGM {name: Unseen Horrors, volume: 80, pitch: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}, 120, true]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 6, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Фух, сработало.']}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Не стоит недооценивать силу слов.]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [19, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 16
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Azure Ribbon
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 126, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Как она может быть лазурной, если']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['она всё же серая?']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 322, p: [1, ActorSheet2, 0, CharFaces, 7]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [23, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 17
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Doodles
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Extra, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 18
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Kill Yourself
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 123, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Шарлотта использует ножницы на себе."]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Удар, удар, удар.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Удар, удар, удар.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Удар, удар, удар.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Удар, удар, удар.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [121, 121, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [45, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [10]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [80]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 8, 6, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Scissors, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Пожалуйста, не навреди себе.'], 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Пожалуйста, не навреди себе.']}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я и не собиралась, глупый!']}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 19
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: ''
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 20
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Book of Truth
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, book2, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, book4, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, book5, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, book6, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 135, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, book3, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, book1, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 21
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: MachineGun
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 123, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Шарлота стреляет в себя."]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage2, pitch: 100, volume: 80}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [121, 121, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 8, 6, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MachineGun, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 22
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Bow Saw
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 123, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Шарлотта использует ножовку на себе."]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [121, 121, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 8, 6, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, BowSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Будь поосторожней с этим.], 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Будь поосторожней с этим.]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ладненько.]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 23
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Scissors
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Scissors, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 24
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: AmputSaw
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 123, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Шарлотта использует пилу для ампутаций на"]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [себе.]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Режет, режет, режет.']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [121, 121, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 8, 6, 0, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Будь поосторожней с этим.], 2]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Будь поосторожней с этим.]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ладненько.]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 25
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Doodles 2
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Extra2, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 26
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Follower
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Mask, 0, 0, 0, 0, 100, 100, 255, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Надета маска Последователя."]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как я выгляжу?']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 1, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Угрожающе.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 3, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Приму это за комплимент.]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 27
+- !ruby/object:RPG::CommonEvent
+  trigger: 0
+  name: Take Pills
+  switch_id: 1
+  list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Приняты таблетки."]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [163, 163, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [16, 1, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [51, 0, 0, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  id: 28

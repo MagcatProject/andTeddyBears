@@ -1,0 +1,1432 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 14
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: Omni1
+    x: 4
+    y: 5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Bell3, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [У Текущего пользователя ограниченный]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [доступ к Всемокубику ТЕЛЕПОРТАЦИИ.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Комната с телевизором, Столовая, Библиотека, Отмена], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Комната с телевизором]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 55, 2, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Столовая]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 57, 15, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Библиотека]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 54, 4, 6, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: Omni2
+    x: 6
+    y: 5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Bell3, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [У текущего пользователя ограничен доступ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [к ДАННЫМ Всемокубика.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пожалуйста, введите свой запрос.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Экраны, Всемокубики, Жильцы, Отмена], 4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Экраны]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Экраны хранят данные Пользователя и]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [контролируют активность Пользователя.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Абсолютное правило:']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Экраны нельзя выключать.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Текущий пользователь, <Шарлотта>, как']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['предполагается, безоговорочно следует']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Абсолютным правилам.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Мы не несём ответственности за ущерб здоровью,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['расчленение или психические проблемы, вызванные']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['нарушением правил, упомянутых выше.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Всемокубики]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Всемокубики, сокращение от "Всемогущие кубики",']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['являются многоцелевыми устройствами, которые']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['позволяют хранить данные, переносить органическую']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['материю, клонировать, создавать и уничтожать.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пожалуйста, НЕ ПОМЕЩАЙТЕ жидкое мыло внутрь']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Всемокубиков, так как это может привести к']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [непредвиденным последствиям.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Жильцы]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пожалуйста, выберите категорию,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [чтобы прочитать наблюдения Текущего]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [пользователя.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Шарлотта, Эйден, Хаксли, Беннетт], 5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Шарлотта]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Текущий пользователь, который пока не до']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [конца прошёл Программу обучения.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Эйден]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [AidFaces, 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Дворецкий с Подвального этажа.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Заметки Пользователя:']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Проводит время за шитьём и]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [таксидермией.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Хаксли]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [HuxFaces, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Хирург, которому принадлежит меж-']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [пространственная клиника на втором этаже.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Заметки Пользователя: однажды заказал']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [30 коробок скотча ради неизвестных целей.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, Беннетт]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [BenFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Профессия и настоящие имя неизвестны.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Заметки Пользователя:']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["<Беннетт> - это имя на значке костюма"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [химической защиты.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 403, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    x: 3
+    y: 7
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 66, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я слишком сонная, чтобы выходить...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 53, 8, 3, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [106, 106, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 48
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 7, 8, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: Start
+    x: 14
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Room, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это моя комната.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Она довольно... минималистичная., Какой безжизненный дизайн.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Она довольно... минималистичная.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Довольно современно, не думаешь?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Пойдём-ка в столовую. Хочу есть.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [33, 33, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Какой безжизненный дизайн.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Неужели?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ты привыкнешь к ней.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Пойдём-ка в столовую. Хочу есть.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [33, 33, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: Start2
+    x: 12
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 4
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [106, 106, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [6, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [8, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [17, 17, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [33, 33, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: Mag
+    x: 7
+    y: 6
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 46
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ActorSheet1
+        character_index: 3
+        direction: 6
+        pattern: 1
+      move_type: 2
+      move_speed: 3
+      move_frequency: 4
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: false
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 3
+          parameters: []
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 4
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 46, 1]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - 0
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &1 !ruby/object:RPG::MoveCommand
+            code: 42
+            parameters:
+            - 0
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  15: !ruby/object:RPG::Event
+    id: 15
+    name: Cabinet
+    x: 11
+    y: 5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 65
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 65, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [29, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Найден ключ от подвала!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [39, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пластыри, скальпели, записки, чайные']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [пакетики... Всё в таком беспорядке.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пластыри, скальпели, записки, чайные']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пакетики... Всё в таком беспорядке.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    x: 6
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 38
+        switch2_id: 52
+        variable_id: 14
+        variable_value: 4
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 4
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &2 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &3 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 10, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, старшая сестрёнка собирается пойти']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['спать. Что насчёт тебя?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces2, 5, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Мне не нужен сон.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я возьму бутылку с мылом и измерю твои]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['мозговые волны, пока ты спишь, глупый']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [человек.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Похоже на план!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Полагаю, мне не требуется составлять тебе']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['компанию в ванной?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Да ни за что на свете. Иди спи уже.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Спокойной ночи!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [37, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [66, 66, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [54, 54, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [8, 1, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 216, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: Knock Knock
+    x: 13
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 64
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 4
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -136.0, g: -119.0, b: -85.0, a: 68.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 8_kosyou, pitch: 120, volume: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что это был за звук?..']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Да и Феликс обещал скоро вернуться...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Он потерялся в доме?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как насчёт того, чтобы пойти поискать']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['его?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Пожалуйста, будь осторожна.', 'Возможно, стоит взять перцовый балончик.'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Пожалуйста, будь осторожна.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ты всегда так волнуешься.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Возможно, стоит взять перцовый балончик.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Огнемёт был бы более эффективен,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ты так не думаешь?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [40, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: Bed
+    x: 10
+    y: 6
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 66, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: -119.0, g: -119.0, b: -119.0, a: 68.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, я пошла спать.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Спокойной ночи.], 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Спокойной ночи.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Спокойной ночи, Сэт.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["> Что-то скользкое вползает в комнату."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [46, 46, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Спрятаться, Не прятаться], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Спрятаться]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["> Шарлотта прячется под постельными"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [простынями.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [MagFaces, 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['МРЯУ-У-У-У-У-У-У-У-У?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ох! Привет, личинкот.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Ты тут немного напугал моего Кукловода.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Не прятаться]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [MagFaces, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [МРЯУ-У-У-У!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['О, это просто мой личинкокот.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Однажды мой кот превратился в личинку.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Или он всё время был личинкой, которая']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['превратилась в кота?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [MagFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"МРЯУ!"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Личинкот утверждает, что собирается']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [удобно устроиться на моей кровати.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Magcat2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [20, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Хороший, хороший кот.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [MagFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["> Шарлотта гладит личинкота. Он мурлычет."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 10, false]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["> Шарлотта мирно засыпает."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [46, 46, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [64, 64, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [66, 66, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я пока не хочу спать.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    x: 7
+    y: 4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Журнал пользователя: "Это может быть полезно"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0001', Отмена], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0001']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [1. Ищите символы Кукловода.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['2. Только пользователи с "X" [кс] в именах имеют']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [доступ ко всем дверям.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: EV008
+    x: 8
+    y: 4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Журнал пользователя: "Это может быть полезно"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0001', Отмена], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0001']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [1. Ищите символы Кукловода.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['2. Только пользователи с "X" [кс] в именах имеют']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [доступ ко всем дверям.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: Bed
+    x: 10
+    y: 5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 66, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: -119.0, g: -119.0, b: -119.0, a: 68.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, я пошла спать.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Спокойной ночи.], 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Спокойной ночи.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Спокойной ночи, Сэт.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["> Что-то скользкое вползает в комнату."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [46, 46, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Спрятаться, Не прятаться], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Спрятаться]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["> Шарлотта прячется под постельными"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [простынями.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [MagFaces, 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['МРЯУ-У-У-У-У-У-У-У-У?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ох! Привет, личинкот.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Ты тут немного напугал моего Кукловода.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Не прятаться]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [MagFaces, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [МРЯУ-У-У-У!]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['О, это просто мой личинкокот.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Однажды мой кот превратился в личинку.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Или он всё время был личинкой, которая']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['превратилась в кота?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [MagFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['"МРЯУ!"']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Личинкот утверждает, что собирается']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [удобно устроиться на моей кровати.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Magcat2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [20, 1, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Хороший, хороший кот.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [MagFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["> Шарлотта гладит личинкота. Он мурлычет."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 10, false]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["> Шарлотта мирно засыпает."]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 223, p: [!ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [46, 46, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [64, 64, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [66, 66, 1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я пока не хочу спать.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: EV011
+    x: 11
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: false
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 4
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: false
+          list:
+          - &4 !ruby/object:RPG::MoveCommand
+            code: 30
+            parameters:
+            - 5
+          - &5 !ruby/object:RPG::MoveCommand
+            code: 29
+            parameters:
+            - 5
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM
+  name: ''
+  volume: 100
+  pitch: 100
+tileset_id: 1
+encounter_step: 30
+width: 17
+data: !ruby/object:Table
+  dim: 3
+  x: 17
+  y: 14
+  z: 4
+  data:
+  - 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d04 1d1c 1d1c 1d1c 1d1c 1d1c 1d1c 1d1c 1d1c 1d08 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d18 16d2 16d2 16d2 16d2 16d2 16d2 16d2 16d2 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d18 16d8 16d8 16d8 16d8 16d8 16d8 16d8 16d8 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d18 116f 11c7 122f 11c3 11c2 11c2 11c2 11c6 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d04 1d26 11c3 11c5 11c2 11c1 11c0 11c0 11c0 11c4 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d18 11cb 11c1 11c5 11c0 11c1 11c0 11c0 11c0 11c4 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d02 1d24 11c1 11c5 11c0 11c1 11c0 11c0 11c0 11c4 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d18 11c9 11cd 11c8 11c9 11c8 11c8 11c8 11cc 1d10 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d02 1d14 1d14 1d14 1d14 1d14 1d14 1d14 1d14 1d01 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00
+  - 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00 1d00
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0dcb 0dcd 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - '0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0000 0000 0000 0013 0014 0000 0000 0000 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0000 0000 0000 001b 001c 0000 0000 0000 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0000 0000 0000 0000 0000 0000 0025 00c9 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0000 0000 0000 0000 0000 0000 002d 0000 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0000 0000 0000 0000 0000 0000 0000 0000 0000 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0000 0000 0000 0000 0000 0000 0000 0000 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0000 0000 0000 0000 0000 0000 0000 00d2 0000 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084'
+  - '0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084 0084'
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS
+  name: ''
+  volume: 80
+  pitch: 100
+parallax_loop_y: false
+autoplay_bgm: false
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: false
+disable_dashing: false
+parallax_sy: 0
+display_name: Комната Шарлотты
+specify_battleback: false
+note: ''
+battleback1_name: ''
+battleback2_name: ''

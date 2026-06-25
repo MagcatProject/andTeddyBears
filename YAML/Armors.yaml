@@ -1,0 +1,25 @@
+---
+-
+- !ruby/object:RPG::Armor
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  note: ''
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0

@@ -1,0 +1,50 @@
+---
+-
+- !ruby/object:RPG::State
+  message2: ''
+  name: Death
+  priority: 100
+  icon_index: 17
+  message1: ''
+  message4: ''
+  restriction: 4
+  release_by_damage: false
+  message3: ''
+  note: "State #1 will be automatically added when\r\nHP reaches 0."
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 9
+    value: 0.0
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+- !ruby/object:RPG::State
+  message2: ''
+  name: Poison
+  priority: 65
+  icon_index: 2
+  message1: is poisoned!
+  message4: ''
+  restriction: 0
+  release_by_damage: false
+  message3: ''
+  note: ''
+  id: 2
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 50
+  remove_by_walking: true
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false

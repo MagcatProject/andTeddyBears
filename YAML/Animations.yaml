@@ -1,0 +1,21 @@
+---
+-
+- !ruby/object:RPG::Animation
+  animation2_hue: 0
+  position: 1
+  name: ''
+  animation2_name: ''
+  frames:
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  animation1_hue: 0
+  frame_max: 1
+  animation1_name: ''
+  timings: []
+  id: 1

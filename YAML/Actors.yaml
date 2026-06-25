@@ -1,0 +1,292 @@
+---
+-
+- !ruby/object:RPG::Actor
+  name: Шарлотта
+  face_index: 7
+  character_index: 1
+  initial_level: 1
+  face_name: CharFaces
+  class_id: 1
+  character_name: ''
+  id: 1
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+- !ruby/object:RPG::Actor
+  name: Хаксли
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: HuxFaces
+  class_id: 1
+  character_name: ActorSheet1
+  id: 2
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Верь ему, он доктор.
+  max_level: 1
+- !ruby/object:RPG::Actor
+  name: Беннетт
+  face_index: 4
+  character_index: 4
+  initial_level: 1
+  face_name: BenFaces
+  class_id: 1
+  character_name: ActorSheet1
+  id: 3
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+- !ruby/object:RPG::Actor
+  name: Эйден
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: AidFaces
+  class_id: 1
+  character_name: ActorSheet1
+  id: 4
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: Портной и таксидермист.
+  max_level: 1
+- !ruby/object:RPG::Actor
+  name: Окулус
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: OcuFaces
+  class_id: 1
+  character_name: "$eyeball"
+  id: 5
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Личинкот
+  face_index: 1
+  character_index: 3
+  initial_level: 1
+  face_name: MagFaces
+  class_id: 1
+  character_name: ActorSheet1
+  id: 6
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: "Кот, который стал личинкой, \r\nили личинка, которая стала котом?"
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Фрея
+  face_index: 6
+  character_index: 0
+  initial_level: 1
+  face_name: FreyaFaces
+  class_id: 1
+  character_name: "$freya"
+  id: 7
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Феликс
+  face_index: 1
+  character_index: 5
+  initial_level: 1
+  face_name: FelFaces
+  class_id: 1
+  character_name: ActorSheet1
+  id: 8
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Человек-зонтик
+  face_index: 5
+  character_index: 7
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ActorSheet1
+  id: 9
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: "Таинственный мужчина, который носит \r\nс собой зонтик"
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Миссис Поппи
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: "$flowergirl1"
+  id: 10
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Сет
+  face_index: 0
+  character_index: 0
+  initial_level: 99
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 11
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 12
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 13
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 1
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Фрей
+  face_index: 0
+  character_index: 2
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: freyas
+  id: 14
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
