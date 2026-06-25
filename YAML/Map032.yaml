@@ -2,54 +2,6 @@
 parallax_name: ''
 height: 13
 events:
-  8: !ruby/object:RPG::Event
-    id: 8
-    name: EV008
-    x: 10
-    y: 6
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мне сейчас не нужно никуда звонить.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
     name: EV009
@@ -143,7 +95,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дверь заперта.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The door is locked.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   1: !ruby/object:RPG::Event
     id: 1
@@ -191,10 +143,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Поваренная книга анархиста: Теперь ещё больше"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['рецептов!", "БУМ! Углубленная химия для взрывных']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['энтузиастов", "Альманах научной фантастики: 24-ое']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [издание"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Anarchist Cookbook: Now with More Recipes!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"KABOOM!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Advanced Chemistry for Explosives Enthusiasts"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Science Fiction Almanac: 24th Edition"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -242,10 +194,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Шитьё для всех и каждого"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Шитьё платьев - как делать это легко и просто"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Причудливые складки: Искусство складывания"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [салфеток"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Sewing for Everyone"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Dressmaking Made Easy"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Fancy Folds: Art of Napkin Folding"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -293,9 +244,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Полки заполнены литературой на инопланетном]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [языке.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я не могу прочесть названия.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The shelves are full of literature in]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [alien language.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can't read the titles.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -343,10 +294,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Властелин нердов"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Мой прекрасный сарариман"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Астронавт-коммандо"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это шкаф мамы. Она любит романы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Nerd Lord"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"My Fair Salaryman"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Astronaut Commando"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This is mother's shelf. She loves romance books.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -394,7 +345,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Как замаскироваться под человека"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"How to Disguise Yourself as a Human"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -442,10 +393,60 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Золотые яблоки Солнца"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Физика невозможного"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Golden Apples of the Sun"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Physics of the Impossible"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"One Hit Man"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Моя скромная книжная полка.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My humble bookshelf.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: EV008
+    x: 10
+    y: 6
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't need to call anywhere right now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> There's nothing on the table."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -526,7 +527,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Библиотека
+display_name: Library
 specify_battleback: false
 note: ''
 battleback1_name: ''

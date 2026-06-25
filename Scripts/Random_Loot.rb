@@ -69,10 +69,10 @@ module Random_Loot
 #  SCRIPT SETUP OPTIONS
 #------------------------------------------------------------------------------#
  
-  GET_MESSAGE = "Найдено "              # Text before item name.
+  GET_MESSAGE = "Found "              # Text before item name.
   GET_MESSAGE_AFTER = "!"             # Text after item name.
  
-  FAIL_MESSAGE = "В коробке ничего нет."        # Text when random item comes up nothing.
+  FAIL_MESSAGE = "There's nothing in the box."        # Text when random item comes up nothing.
    
   SOUND_EFFECT = ["Chime2", 90, 100]    # Sound effect of gaining an item.
                                       # ["SE Name", volume, pitch]
@@ -82,7 +82,7 @@ module Random_Loot
                                       # battle will happen instead.
   ESCAPE_MONSTER = true               # Can you escape it? true or false
    
-  MONSTER_MESSAGE = "В коробке монстр!"     # Message when a monster appears.
+  MONSTER_MESSAGE = "Monster in a box!!"     # Message when a monster appears.
                                              # Make it "" to disable.
  
 #------------------------------------------------------------------------------#

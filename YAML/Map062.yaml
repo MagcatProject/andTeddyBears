@@ -1267,41 +1267,39 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 104, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему ты мне не сказала, что ты одна']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['из нас?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Why didn''t you tell me you were one of us?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Эм...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Uh...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Возможно, из-за броши она теперь']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['принимает тебя за одну из них?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Perhaps the brooch makes her think]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['you are one of them?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пожалуйста, помоги мне!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please help me!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я так боюсь этих гранатов, что не могу']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [сдвинуться ни на сантиметр!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm so scared of these pomegranates that]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can't move an inch!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ПФ-Ф.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [PFFT.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Мы же не можем отказать ей в помощи,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['верно?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Хорошо., Занимайся своим делом.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Хорошо.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['We can''t refuse helping her, can we?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[All right., Mind your own business.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, All right.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [49, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 129, p: [10, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [113, 113, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Занимайся своим делом.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Mind your own business.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Простите, нам нужно идти.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Sorry, we have to go.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я не верю тебе! Уходи!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't trust you! Go away!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Цветочная леди игнорирует нас."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The flower lady ignores us."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

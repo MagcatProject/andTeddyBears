@@ -48,12 +48,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -147,15 +147,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Найдена шутка!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Found a Joke!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Intertile13, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
@@ -253,12 +253,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(2, 1, 1, 50, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -352,12 +352,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(2, 1, 1, 50, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -451,12 +451,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(2, 1, 1, 50, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -550,12 +550,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -649,12 +649,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -748,12 +748,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -847,12 +847,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -946,12 +946,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1045,12 +1045,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1144,12 +1144,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(1, 1, 1, 30, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1243,12 +1243,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(2, 1, 1, 50, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1342,12 +1342,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(2, 1, 1, 50, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1441,12 +1441,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['random_item(2, 1, 1, 50, 0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1587,14 +1587,14 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Получен драматичный эффект снега!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Obtained Dramatic Snow Effect!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 236, p: [! ':snow', 5, 0, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1736,24 +1736,23 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта коробка неожиданно тяжёлая.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Открыть её, Не открывать], 3]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Открыть её]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This box is surprisingly heavy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Open it, Don't open], 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Open it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Найдена дверная ручка!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Found a Door Knob!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [28, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не открывать]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't open]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Давай попробуем подвинуть её!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's try lifting it!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ладно.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [All right.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Она слишком тяжёлая для того, чтобы мы']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [её подвинули.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too heavy for us to lift.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1843,12 +1842,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то отвратительное! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nasty! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Intertitle19, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
@@ -1949,14 +1948,14 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Найдено что-то хорошее! Взять это?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лучше не надо, Взять это], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Взять это]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Получен драматичный эффект снега!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Obtained Dramatic Snow Effect!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 236, p: [! ':snow', 5, 0, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

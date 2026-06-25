@@ -48,85 +48,83 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Одно из расчленённых тел шевельнулось."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> One of the dismembered bodies is moving."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["!.."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Она всё ещё жива!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [She's still alive!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Ну-ну, здравствуйте, дорогие..."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['палачи. Вы такие крошечные, но именно']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [вы пришли покончить с нашим последним]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['дитя? Какая ирония.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Well, well, hello, dear...executioners."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You''re so tiny, yet you''re the ones']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['who came to end the life of our last child?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [How ironic.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вперёд, взмахните своим лезвием!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Не заставляйте нас больше ждать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come forth and swing your blade!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't make us wait any longer.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Эм, мне очень жаль, но мы не будем']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [вредить вам в любом случае.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Um, I''m very sorry,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but we won't harm you in any way.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не будете?.. Как так?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You won''t...? How come?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ну, для начала, мы не из вашего вида.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы снимем наши маски.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well, for starters, we are not']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ones of your kind.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We take off our masks.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, ActorSheet2, 4, CharFaces, 7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [8, ActorSheet1, 5, FelFaces, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Девушка протягивает свою слабую руку]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [к моему лицу.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The girl extends her weak hands to]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [my face.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [0, 1, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Только два глаза...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Just two eyes...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты просто путешественница.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You are merely a traveler.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Эм, я что-то упускаю?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Uh, am I missing something?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тише!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Hush!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы говорим с настоящим Оракулом.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Создателем всего существующего в]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [этой вселенной. Это тело - просто]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [умирающий сосуд.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We are speaking to a real Oracle.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The Creator of all that exists in this]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [universe. This body is just a dying vessel.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Э-это честь - встретить вас!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I-it's a honour to meet you!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['По-видимому, ты хороший ребёнок.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You seem to be a good child.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Надеемся, что когда-нибудь познакомимся']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [с твоими родителями.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We believe we've known your parent once.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кха...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kh...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Девушка кашляет кровью."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The girl coughs up blood."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 4, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вам нужно покинуть эти земли,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [так как у нас осталось не так много]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [времени.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You should leave these lands,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for we do not have much time left.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что насчёт той девочки?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What about this girl?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Её больше нельзя спасти.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [She can no longer be saved.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Но мы... мы хотим остаться с нашими]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [детьми до самого конца.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But we...We wish to be with our children]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [until the very end.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(Но тут только трупы...)"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(But there are only corpses...)"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Мы должны уходить, Шарлотта."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...We should leave, Charlotte."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Верно.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Right.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы встретимся снова?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Will we meet again?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces2, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ищи и обрящешь.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Seek and you shall find.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [155, 155, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -263,7 +261,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Мёртвое тело."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> It's a dead body."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -311,7 +309,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Мёртвое тело."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> It's a dead body."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -359,7 +357,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Может, она просто спит?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Maybe she''s just sleeping?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -407,7 +405,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Может, она просто спит?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Maybe she''s just sleeping?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -455,7 +453,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Может, она просто спит?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Maybe she''s just sleeping?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -503,7 +501,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Ещё одно мёртвое тело."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Another dead body."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -551,7 +549,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Ещё одно мёртвое тело."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Another dead body."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -597,10 +595,10 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0058 0058 0058 0058 0058 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0058 0058 0058 0058 0058 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0058 0058 0058 0058 0058 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 00fa 00fa 00fa 00fa 00fa 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000

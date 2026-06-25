@@ -1,8 +1,8 @@
 ---
 -
 - !ruby/object:RPG::Item
-  description: Лучший выбор для беготни по коридорам.
-  name: Ножницы
+  description: Best choice for running in the hallways.
+  name: Scissors
   consumable: false
   occasion: 0
   icon_index: 140
@@ -81,8 +81,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Для того, чтобы уменьшить боль.
-  name: Глазные капли
+  description: Made for soothing the pain.
+  name: Eye drops
   consumable: false
   occasion: 0
   icon_index: 221
@@ -106,8 +106,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Хаксли говорит, что это ключевой элемент\r\nлюбой хирургии."
-  name: Скотч
+  description: Huxley says it's a key element in every surgery.
+  name: Duct Tape
   consumable: false
   occasion: 0
   icon_index: 260
@@ -131,8 +131,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Этот блокнот содержит все секреты этого\r\nмира."
-  name: '"Книга Правды"'
+  description: This notebook contains all the world's secrets.
+  name: '"Book of Truth"'
   consumable: false
   occasion: 0
   icon_index: 226
@@ -161,8 +161,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Бонусные арты от etherane!
-  name: Рисовашки
+  description: Extra art from etherane!
+  name: Doodles
   consumable: false
   occasion: 0
   icon_index: 238
@@ -221,8 +221,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Бутылочка с мылом.
-  name: Мыло
+  description: A bottle of soap.
+  name: Soap
   consumable: true
   occasion: 0
   icon_index: 220
@@ -257,7 +257,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Серебряный ключ
+  name: Silver Key
   consumable: false
   occasion: 0
   icon_index: 242
@@ -281,8 +281,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Волшебное слово - это "Пожалуйста"
-  name: Записка
+  description: The magic word is "Please".
+  name: Note
   consumable: false
   occasion: 0
   icon_index: 236
@@ -306,8 +306,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"ФАКТ: Куриные наггетсы - это также и ОВОЩИ"'
-  name: Удачный обед
+  description: '"FACT: Chicken Nuggets are VEGETABLES too"'
+  name: Lucky Meal
   consumable: true
   occasion: 0
   icon_index: 266
@@ -337,7 +337,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Записка с "837529"
+  name: '"837529" note'
   consumable: false
   occasion: 0
   icon_index: 239
@@ -361,8 +361,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Кто решил, что это хорошая идея?
-  name: Мясная кукла
+  description: Who thought this was a good idea?
+  name: Meat Doll
   consumable: false
   occasion: 0
   icon_index: 0
@@ -386,8 +386,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Внутри сильная кислота.
-  name: Серная кислота
+  description: Strong acid inside.
+  name: Sulfuric Acid
   consumable: false
   occasion: 0
   icon_index: 194
@@ -411,8 +411,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"Абилифай", 100 мг, 30 таблеток'
-  name: Таблетки
+  description: '"Abilify", 100mg, 30 tablets'
+  name: Pills
   consumable: true
   occasion: 0
   icon_index: 208
@@ -441,8 +441,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Странно выглядящая белая маска.
-  name: Маска Последователя
+  description: A weird-looking white mask.
+  name: Follower Mask
   consumable: false
   occasion: 0
   icon_index: 0
@@ -471,8 +471,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Скетч Оракула.
-  name: Рисунок
+  description: It's a sketch of an Oracle.
+  name: Drawing
   consumable: false
   occasion: 0
   icon_index: 0
@@ -496,8 +496,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Жутко тяжёлый.
-  name: Научно-фантастический альманах
+  description: It's super heavy.
+  name: Sci-Fi Almanac
   consumable: false
   occasion: 0
   icon_index: 375
@@ -527,7 +527,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Право собственности на Улитку
+  name: Nebula Ownership
   consumable: false
   occasion: 0
   icon_index: 238
@@ -551,8 +551,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Бонусные арты от etherane!
-  name: Рисовашки
+  description: Extra art from etherane!
+  name: Doodles
   consumable: false
   occasion: 0
   icon_index: 238
@@ -582,7 +582,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Игрушечный кролик
+  name: Rabbit Toy
   consumable: false
   occasion: 0
   icon_index: 0
@@ -607,7 +607,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Лазурная лента
+  name: Azure Ribbon
   consumable: true
   occasion: 0
   icon_index: 527
@@ -636,8 +636,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Сверкает в темноте.
-  name: Светящаяся брошь
+  description: It glows in the dark.
+  name: Shiny Brooch
   consumable: false
   occasion: 0
   icon_index: 184
@@ -662,7 +662,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Ключ
+  name: Key
   consumable: true
   occasion: 0
   icon_index: 242
@@ -686,8 +686,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Съешьте Удачный обед.
-  name: Накормить Шарлотту
+  description: Eat the Lucky Meal.
+  name: Feed Charlotte
   consumable: false
   occasion: 0
   icon_index: 140
@@ -712,7 +712,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Кольцо
+  name: Ring
   consumable: false
   occasion: 0
   icon_index: 513
@@ -737,7 +737,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Дверная ручка
+  name: Door Knob
   consumable: false
   occasion: 0
   icon_index: 0
@@ -762,7 +762,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Ключ от подвала
+  name: Basement Key
   consumable: false
   occasion: 0
   icon_index: 244
@@ -787,7 +787,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Неизвестный ключ
+  name: Unknown Key
   consumable: false
   occasion: 0
   icon_index: 242
@@ -812,7 +812,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Бронзовый ключ
+  name: Bronze Key
   consumable: false
   occasion: 0
   icon_index: 240
@@ -842,7 +842,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Причудливый ключ
+  name: Fancy Key
   consumable: false
   occasion: 0
   icon_index: 243
@@ -892,7 +892,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Ключ от задней двери
+  name: Back Door Key
   consumable: false
   occasion: 0
   icon_index: 244
@@ -916,8 +916,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Воткнута в мягкую ткань.
-  name: Окровавленная булавка
+  description: Soaked in soft tissue.
+  name: Bloody Pin
   consumable: false
   occasion: 0
   icon_index: 0
@@ -942,7 +942,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Вычурная брошь
+  name: Fancy Brooch
   consumable: false
   occasion: 0
   icon_index: 189
@@ -966,8 +966,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Почитайте книги, посетите запертые комнаты, \r\nпоговорите с жильцами."
-  name: Убить время
+  description: Read books, visit closed rooms, talk to the tenants.
+  name: Kill Time
   consumable: false
   occasion: 0
   icon_index: 140
@@ -991,8 +991,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Найдите телефон и позвоните в службу доставки\r\nеды."
-  name: Заказать еду
+  description: Find a phone and call food delivery services.
+  name: Order Food
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1016,8 +1016,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"Он, должно быть, где-то в моей комнате".'
-  name: Найти ключ от подвала
+  description: '"It must be somewhere in my room."'
+  name: Find Basement Key
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1041,8 +1041,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"Надеюсь, с ним не случилось ничего плохого".'
-  name: Найти Феликса
+  description: '"I hope nothing bad happened to him."'
+  name: Find Felix
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1066,8 +1066,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Левая дверь открывается ключом.
-  name: Найти ключ
+  description: The left door opens with a key.
+  name: Find the Key
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1091,8 +1091,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Правую дверь открывает кольцо.
-  name: Найти кольцо
+  description: The right door opens with a ring.
+  name: Find the Ring
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1116,8 +1116,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\"Возможно, она в одной из этих вонючих\r\nкоробок?\""
-  name: Найти дверную ручку
+  description: '"Perhaps it''s in one of these funky boxes?"'
+  name: Find the Door Knob
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1142,7 +1142,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Найти выход
+  name: Find the Way Out
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1166,8 +1166,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Найти способ совершить суицид.
-  name: Убить себя
+  description: Find a way to commit suicide.
+  name: Kill Yourself
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1191,8 +1191,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Досчитать до пяти сотен.
-  name: Считать овец
+  description: Count to five hundred.
+  name: Count Sheep
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1216,8 +1216,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "\"Я должна принимать их перед школой\r\nкаждое утро.\""
-  name: Принять таблетки
+  description: '"I should take these before school every morning."'
+  name: Take Pills
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1241,8 +1241,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Принести вещи, которые просит Цветочная\r\nледи."
-  name: Принести вещи
+  description: Bring the item the Flower Lady requested.
+  name: Bring Items
   consumable: true
   occasion: 0
   icon_index: 140
@@ -1266,8 +1266,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Проводить Цветочную леди в комнату с цветами.
-  name: Помочь мисс Поппи
+  description: Escort the Flower Lady to the Flower Room.
+  name: Help Ms Poppy
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1291,8 +1291,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Найти способ выйти в вестибюль.
-  name: Ответить на звонок
+  description: Find a way to get to the attic.
+  name: Answer the Door
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1316,8 +1316,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Пойти в комнату Шарлотты.
-  name: Пойти спать
+  description: Go to Charlotte's room.
+  name: Go to Sleep
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1391,8 +1391,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Сделана Г. Тиманном и Ко.
-  name: Пила для ампутаций
+  description: Manufactured by G. Tiemann and Co.
+  name: Amputation Saw
   consumable: false
   occasion: 0
   icon_index: 0
@@ -1446,8 +1446,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Сделана Г. Тиманном и Ко.
-  name: Ножовка
+  description: Manufactured by G. Tiemann and Co.
+  name: Bow Saw
   consumable: false
   occasion: 0
   icon_index: 0

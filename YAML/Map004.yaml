@@ -48,12 +48,12 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Привет, Шарлотта!'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Привет, Шарлотта!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Hello, Charlotte!'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Hello, Charlotte!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Приятно познакомиться.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's nice to meet you.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пожалуйста, позаботься обо мне.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please take care of me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 42, 4, 7, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}

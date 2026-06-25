@@ -161,20 +161,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [144, 144, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 48, 6, 10, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вау.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [["<ошибка>"], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, "<ошибка>"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Wow.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [["<error>"], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, "<error>"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Что-то не так, Сэт?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[У меня проблемы с программой.], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, У меня проблемы с программой.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['What''s wrong, Seth?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I'm having problems with the program.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I'm having problems with the program.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Это означает, что я могу делать всё, что']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['захочу?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Нет. Я просто не могу выйти в меню перемотки.], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Нет. Я просто не могу выйти в меню перемотки.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Does that mean that I can do what I want?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[No. I simply can't access rewind menu.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, No. I simply can't access rewind menu.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ну, это очень плохо.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Well, that''s too bad.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
@@ -269,7 +268,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Дверь не открывается."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The door won't open."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -317,12 +316,12 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Ох. Так под комнатой пыток они не"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['имели в виду, что меня будут тут пытать.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Oh. So by torture room they didn't mean"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that I'd be tortured there.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 2, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но не похоже, чтобы эта комната как-то']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [отличалась от остальных.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This room doesn't look any different from]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['others, though.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -444,7 +443,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Комната пыток
+display_name: Torture Room
 specify_battleback: false
 note: ''
 battleback1_name: ''

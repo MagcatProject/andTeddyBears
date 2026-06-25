@@ -95,11 +95,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"СПОСОБЫ ОБНАРУЖИТЬ, ОДЕРЖИМ ЛИ ВАШ"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['СОСЕД БОГОМ:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"WAYS TO FIND OUT IF YOUR NEIGHBOUR IS"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['POSSESSED BY GOD:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['1. ЗАСТРЕЛИТЬ ЕГО И ПОСМОТРЕТЬ, ЧТО']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ПРОИЗОЙДЁТ"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [1. SHOOT HIM AND SEE WHAT HAPPENS"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -198,11 +197,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"СПОСОБЫ ОБНАРУЖИТЬ, ОДЕРЖИМ ЛИ ВАШ"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['СОСЕД БОГОМ:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"WAYS TO FIND OUT IF YOUR NEIGHBOUR IS"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['POSSESSED BY GOD:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['1. ЗАСТРЕЛИТЬ ЕГО И ПОСМОТРЕТЬ, ЧТО']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ПРОИЗОЙДЁТ"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [1. SHOOT HIM AND SEE WHAT HAPPENS"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -253,22 +251,21 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Круто.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Мы не будем брать это.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Мы не будем брать это.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Cool.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[We're not taking that.], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, We're not taking that.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Но оружие бы пригодилось.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Не тогда, когда ты не знаешь, как им пользоваться.', Дети в наши дни...], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Не тогда, когда ты не знаешь, как им пользоваться.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['A weapon would come in handy, though.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Not when you don't know how to use it., Kids these days...], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Not when you don't know how to use it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ну, в этом есть смысл.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [У меня самые худшие оценки на]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [физкультуре.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Well, you do have a point.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I have the worst marks in gym class.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Дети в наши дни...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Kids these days...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Я почти слышу твой вздох с другой]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [стороны контрольной панели.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I can almost hear you sighing from]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [the other side of the control console.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

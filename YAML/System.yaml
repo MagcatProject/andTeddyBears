@@ -24,7 +24,7 @@ test_battlers:
   - 1
   - 0
 _: 7829367
-edit_map_id: 57
+edit_map_id: 137
 battle_end_me: !ruby/object:RPG::ME
   name: ''
   pitch: 100
@@ -246,7 +246,7 @@ battle_bgm: !ruby/object:RPG::BGM
   name: ''
   volume: 100
   pitch: 100
-version_id: 88526834
+version_id: 27597002
 start_map_id: 128
 battler_name: Assassin
 magic_number: 77696160
@@ -435,8 +435,8 @@ switches:
 - RabbitToy
 - HiFelix
 - ''
-- ''
-- ''
+- LCKML
+- AZURE
 - ''
 - ''
 - ''
@@ -456,7 +456,7 @@ gameover_me: !ruby/object:RPG::ME
   name: ''
   pitch: 100
   volume: 100
-game_title: Привет, Шарлотта
+game_title: Hello Charlotte EP1
 title_bgm: !ruby/object:RPG::BGM
   name: Noise
   volume: 100
@@ -482,25 +482,25 @@ terms: !ruby/object:RPG::System::Terms
   - ''
   - ''
   - ''
-  - ВЕЩИ
-  - НАВЫКИ
-  - ОДЕЖДА
-  - СТАТУС
+  - STUFF
+  - SKILL
+  - DRESS
+  - STATUS
   - ''
-  - ПЕРЕМОТКА
-  - ВЫХОД
+  - REWIND POINT
+  - EXIT
   - ''
   - WEAPONS
   - ''
-  - ЗАДАНИЯ
+  - TASKS
   - ''
   - ''
   - CLEAR
-  - ИГРАТЬ
-  - ЗАГРУЗКА
-  - ВЫХОД
-  - ГЛАВНОЕ МЕНЮ
-  - ОТМЕНА
+  - PLAY
+  - LOAD
+  - QUIT
+  - TITLE SCREEN
+  - CANCEL
   - ''
   basic:
   - Level

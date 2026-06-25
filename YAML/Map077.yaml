@@ -1398,10 +1398,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это просто нечестно!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That's just unfair!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Очень легко.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ответ - нуль.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Too easy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The answer is zero.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   49: !ruby/object:RPG::Event
     id: 49

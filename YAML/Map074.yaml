@@ -2239,10 +2239,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 81, 0, 2, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как мы здесь оказались?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How did we end up here?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Меня тошнит от этого иррационального]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [дерьма.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I feel sick from this illogical bullshit.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -2896,19 +2895,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Не читай"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прочитать?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Прочитать, Лучше не надо], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Прочитать]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Don''t read"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Read?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Read, Better not], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Read]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Плохая концовка: Не читай']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Don''t Read']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Лучше не надо]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Better not]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3143,10 +3142,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 81, 0, 2, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как мы здесь оказались?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How did we end up here?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Меня тошнит от этого иррационального]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [дерьма.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I feel sick from this illogical bullshit.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -3237,10 +3235,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 81, 0, 2, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как мы здесь оказались?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How did we end up here?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Меня тошнит от этого иррационального]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [дерьма.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I feel sick from this illogical bullshit.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page

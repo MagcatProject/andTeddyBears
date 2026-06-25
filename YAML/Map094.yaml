@@ -189,18 +189,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Думаю, что слышал что-то за дверью.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I think I heard something behind the door.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Надеюсь, это не Палачи.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I hope it's not Executioners.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прямо сейчас мы Палачи, помнишь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Right now, we are the Executioners,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['remember?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть дверь?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the door?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 116, 8, 12, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -250,7 +251,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"БОРИСЬ ЗА РАВЕНСТВО"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"FIGHT FOR EQUALITY"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -298,7 +299,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"БОРИСЬ ЗА РАВЕНСТВО"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"FIGHT FOR EQUALITY"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4

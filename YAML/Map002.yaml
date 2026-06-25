@@ -103,9 +103,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут ничего нет.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's nothing in here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Или есть?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Or is there?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page

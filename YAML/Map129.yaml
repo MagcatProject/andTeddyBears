@@ -488,142 +488,138 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Applause1, pitch: 100, volume: 40}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Браво, браво!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Applause, applause!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Заходите, заходите, дорогие гости.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Welcome, welcome, dear guests.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы ждали вас.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We were waiting for you.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Теперь мы можем наконец-то поговорить.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Now we can finally have a talk.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ну, тогда, вам понравилось шоу?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Или оно было не в вашем вкусе?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well then, did you enjoy the show?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Was is not to your liking?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Шоу"?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The "show"?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ну конечно. Все "миры", которые вы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [посетили.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Well of course. All of the "worlds"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you've visited.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Раньше существовало бесконечное]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['число каналов, вы знаете?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There used to be an infinite number]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of channels, you know?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Теперь они стали просто записями о их]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [былой славе.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Now, they''ve turned into mere']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [recordings of their past glory.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Могу я спросить, что случилось с этим']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['миром?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['If I may ask, what happened to this world?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Много, много вещей.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Many, many things.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Давным-давно нас называли "богом",']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [хотя мы никогда им не были.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A long time ago,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['we used to be called a "god",']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [although we never were one.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Наши собственные дети подняли на нас]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нож.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Our own children raised a knife against us.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Раньше у нас были тысячи рук,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['но они отрезали их все, и теперь мы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [бессильны.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['We used to have a thousand hands,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['yet, they’ve cut all of them off,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and now, we are powerless.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Раньше мы наблюдали за миром при]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['помощи миллиарда наших глаз, но они']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['выкололи каждый из них, и теперь мы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [слепы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We used to observe the world with billion]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of eyes, yet, they gouged out every']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['single one, and now, we are blind.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Раньше мы проходили через препятствия]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['и границы, через миры, что мы создали, но']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мы не можем больше сделать ни единого]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['шага, так как наши ноги забрали.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We used to walk in leaps and bounds]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['though the worlds we''d created, yet,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['we can no longer take a single step,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [as our legs were taken away.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Наши творения, которых мы горячо']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['любили независимо от их поступков,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['уничтожили сами себя, и теперь мы одни.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The creations we dearly loved regardless]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of their deeds destroyed themselves,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and now, we are alone.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Но мы простили их за этот грех.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Yet, we forgave them for their sin.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [И мы прощаем тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [And we forgive you.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Видишь, Вселенная, которую мы создали,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [умирает.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You see, the Universe we''ve created is dying.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ничего больше нет.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing exists anymore.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Всё, что мы можем делать, - это']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['предаваться воспоминаниям о прошлом,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['неважно, насколько они искажены.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [All we can do is indulge in the memories]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the past, no matter how']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [distorted they are.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Скоро мы распадёмся на части, также']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['распадётся эта земля и то, что на ней.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Soon, we will fall apart,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so will this land and those walking on it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это было бы проблематично...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Нам абсолютно необходимо вернуться]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [к завтрашнему утру.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That would be troubling...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We absolutely have to return home by]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [tomorrow's morning.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ну, есть способ, человеческое дитя.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well, there is a way, human child.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь попробовать?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Согласиться, Отказаться], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Согласиться]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do you wish to try?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Agree, Refuse], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Agree]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отказаться]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Refuse]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [["<ошибка ввода>"], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, "<ошибка ввода>"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [["<input error>"], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, "<input error>"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Что мне делать?"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...What do I have to do?"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaGlitch3, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Положи свои руки на экран, хорошо?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Put your hands on the screen, would you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты уверена насчёт этого?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you sure about this?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ну, нет другого способа, чтобы мы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['могли уйти. Разве ты не слушал Оракула?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Well, there is no other way we can leave.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Didn''t you hear the Oracle?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты бы меня в любом случае не послушалась,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['не так ли?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You would not have listened to me either]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['way, would you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Даже хоть я не хочу причинять проблемы]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['другим, в конце концов, я довольно']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['проблемный человек, верно?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Even though I don't want to cause trouble]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['for anyone, in the end,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m quite a troublesome person, aren''t I?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я кладу мои руки на экран.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I put my hands on the screen.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Final, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Оракул... нет, Бог этого мира положила']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [свои ладони напротив моих по другую]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [сторону экрана.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The Oracle...no, the God of this world']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [puts their palms to match mine on the other]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [side of the screen.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я только смутно могу вспомнить, что']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [случилось дальше.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can only vaguely remember what happened next.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я приняла Бога в моё сердце,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и мы пошли домой рука об руку.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I accepted the God into my heart,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and we walked home hand-in-hand.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Всё, чем была я, стало ей, и всё,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['чем была она, стало частью меня.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Everything that I was became her,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and everything that she was]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [became a part of me.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вместе мы сказали спокойной ночи]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [умирающему миру.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Together, we said goodnight to the dying world.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вся жизнь, планеты, звёзды, чёрные дыры,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [даже атомы перестали существовать!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['All the life, the planets, the stars, the black holes,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [even the atoms have ceased to exist!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Один за одним каналы стали выключаться.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['One by one, the channels switched off.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [168, 168, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}

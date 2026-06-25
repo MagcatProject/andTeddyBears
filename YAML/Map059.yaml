@@ -49,45 +49,45 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Madagaskarskii_tarakan_shipit, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [За дверью раздаётся странный шипящий]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['звук. Хочешь, чтобы я открыла?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A strange hissing noise is coming from behind]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the door. Want me to open it?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Открыть, Не открывать], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Открыть]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [184, 184, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Open, Don't open], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Open]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Шарлотта открывает дверь."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Charlotte opens the door."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [50, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [За ней гигантский таракан.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There's a giant cockroach behind it.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Roach, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Доставка Оздоравливающей вредной еды от]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Чарли! Пожалуйста, распишитесь здесь.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Charlie's Healthy Junk Foods delivery!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please sign here.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Оки-доки.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Okie-dokie.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [43, 43, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["(Нужно сделать мою подпись покрасивее...)"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["(Gotta make my signature beautiful...)"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['> Шарлотта рисует большой "X" на бумаге.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['> Charlotte draws a large "X" on the paper.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Готово!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Nailed it!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Спасибо. Надеемся, что вы насладитесь остатком']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [дня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Thank you. Hope you enjoy the rest of your day.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Вежливо шипит курьер и уходит."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The delivery man hisses politely and leaves."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [14, 14, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не открывать]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't open]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Подожду, пока он уйдёт.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'll wait until they leave.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [260]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [50, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Звуки стихли. Теперь должно быть]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [безопасно.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The sounds are gone now. It should be safe.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [38, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [117, 117, 0]}
@@ -141,7 +141,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Мне сейчас не нужно выходить наружу.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No need to go outside right now.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -192,10 +192,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Надо сначала ответить на звонок в дверь.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's answer the door first.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 54, 7, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 184, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces2, 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hey! What about the food?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 54, 7, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -247,22 +254,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 29]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Дверь открыта!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Unlocked the door!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 7, 4, 6, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [29, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Эта лестница ведёт в подвал.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This ladder leads to the basement.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 20, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Сначала нужно ответить на звонок в дверь.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Gotta answer the door first.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Хм-м... Я забыла, куда положила ключ от']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [подвала.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Hmm...I forgot where I put the basement]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [key.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -307,7 +314,14 @@ events:
       priority_type: 0
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 7, 4, 6, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 184, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Seth! The food's right there.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 7, 4, 6, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -354,14 +368,15 @@ events:
       priority_type: 1
       trigger: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [184, 184, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [12, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Найден Удачный обед!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Obtained Lucky Meal!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [26, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Получено новое задание: Накормить Шарлотту."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> New Task received: Feed Charlotte."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [14, 14, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [4, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 57, 14, 7, 0, 0]}
@@ -452,7 +467,7 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ни следа мальчика.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [No signs of the boy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -541,7 +556,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта лестница ведёт на первый этаж.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The ladder leads to the 1st floor.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -589,7 +604,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут ничего интересного.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -637,7 +652,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут ничего интересного.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -685,7 +700,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут ничего интересного.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -733,7 +748,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут ничего интересного.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -814,7 +829,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Вестибюль
+display_name: Hallway
 specify_battleback: false
 note: ''
 battleback1_name: ''

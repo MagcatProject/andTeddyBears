@@ -48,9 +48,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Покупайте наши пневматические пистолеты для"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['незабываемого, весёлого опыта.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [От Вайсмана пушки. Весёлые пирушки!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Buy our air-powered guns for an unforgettable fun"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [experience.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Weissman Gun. Barrels of Fun!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -98,9 +98,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Покупайте наши пневматические пистолеты для"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['незабываемого, весёлого опыта.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [От Вайсмана пушки. Весёлые пирушки!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Buy our air-powered guns for an unforgettable fun"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [experience.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Weissman Gun. Barrels of Fun!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -148,8 +148,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Когда не можете уснуть, не заводите овец."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Заводите свою бензопилу!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"When You Can't Sleep, Don't Count Sheep."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Count on Your Chainsaw!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -197,8 +197,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Когда не можете уснуть, не заводите овец."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Заводите свою бензопилу!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"When You Can't Sleep, Don't Count Sheep."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Count on Your Chainsaw!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5

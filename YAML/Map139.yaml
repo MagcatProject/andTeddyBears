@@ -1490,12 +1490,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ответ будет нуль, верно?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The answer would be zero, right?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вау, ты и вправду имеешь способности к']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [вычислению. Кто бы мог подумать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Wow, you''re actually capable of calculus.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Who would've thought.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(Ну, не совсем...)"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(Well, not really...)"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   49: !ruby/object:RPG::Event
     id: 49

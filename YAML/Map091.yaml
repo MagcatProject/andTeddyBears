@@ -94,19 +94,20 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ПАРОЛЬ, НЕОБХОДИМЫЙ ДЛЯ ****']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [PASSWORD REQUIRED FOR ****]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не очень хорошо запомнила его, прости.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I didn''t memorize it that well, sorry.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тогда я введу его.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll enter it then.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 103, p: [15, 8]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 15, 0, 31221312, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ПОЗДРАВЛЯЕМ]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [CONGRATULATIONS]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 160, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, FelixDies, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [200]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [8, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [147, 147, 0]}
@@ -136,7 +137,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ОЧЕНЬ ПЛОХО]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [TOO BAD]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -371,13 +372,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Его головы... нет...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [His head...gone...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Этого... не может быть...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This...can't be...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Разве мы не можем что-нибудь сделать?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Это--], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Это--]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Can''t we do something?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[It's--], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, It's--]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [157, 157, 0]}
@@ -407,70 +409,70 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это бесполезно. Неважно, что ты сделаешь,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [он в конце концов так или иначе умрёт]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [здесь.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['It''s no use. No matter what you do,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [he'll end up dying here in one way]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [or another.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["!"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кто ты?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Who are you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Человек с четырьмя глазами рассмеялся."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The four-eyed person lets out a laugh."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не делай такое лицо, это тебе не идёт.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Stop making that face, it doesn''t suit you.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я библиотекарь.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но, видишь, больше никто не приходит']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [сюда читать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm a librarian.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But you see, nobody comes to read']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [anymore.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Так или иначе, бессмысленно плакать над']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мёртвым куском мяса.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Anyhow, there''s no use crying']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [over dead meat.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Как ты можешь!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [How could you!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я обещала присмотреть за ним... но...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I promised to look after him...yet...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ну-ну. Не всё ещё потеряно... за]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['исключением его головы, полагаю.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There, there. Not all is lost...aside from']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['this person''s head, I guess.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 5, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Подожди-подожди, не бей меня за это!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Wait, wait, don''t hit me for that!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тогда что, полагаешь, мне делать?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What do you suggest I do, then?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Переключить канал.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Switch the channel.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это всё.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That's all.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как это поможет мне?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How would that help me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сама увидишь.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Возможно, тебе повезёт достаточно, чтобы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [изменить историю.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You'll see for yourself.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Perhaps you'll get lucky enough]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to change history.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Почему я должна поверить тебе?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Why should I trust you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я не говорю тебе делать что-то]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['немыслимое, не так ли?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm not telling you to do something]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['unthinkable, am I?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Короме того, я довольно хорошо']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['осведомлён о том, как работает это место.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Besides, I am quite knowledgeable']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [about how this place works.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ах, прости, я слишком увлёкся.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это первый раз за последние годы, когда']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [я разговариваю с настоящим человеком.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ah, sorry, I am enjoying myself too much.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's the first time I've talked to an]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [actual person in years.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дверь открыта.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Разве тебе не надо спешить?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The door's open.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Aren''t you in a hurry?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...верно. Тогда прощай."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...right. Goodbye, then."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Пока-пока.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Bye-bye.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Будь осторожна, если встретишь на своём']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пути Палачей. Они не такие хорошие как я.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Be careful if you meet the Executioners]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [on your way. They won't be nice like me.]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -542,7 +544,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Шарлотта сдерживает слёзы."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Charlotte averts her eyes."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7

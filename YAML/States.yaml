@@ -8,7 +8,6 @@
   message1: ''
   message4: ''
   restriction: 4
-  release_by_damage: false
   message3: ''
   note: "State #1 will be automatically added when\r\nHP reaches 0."
   id: 1
@@ -26,6 +25,7 @@
   remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  release_by_damage: false
 - !ruby/object:RPG::State
   message2: ''
   name: Poison
@@ -34,7 +34,6 @@
   message1: is poisoned!
   message4: ''
   restriction: 0
-  release_by_damage: false
   message3: ''
   note: ''
   id: 2
@@ -48,3 +47,4 @@
   remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  release_by_damage: false

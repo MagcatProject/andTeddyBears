@@ -258,9 +258,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Давным-давно жили-были три медведя."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Маленький, крошечный медвежонок, Средний']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['медведь и Большой, огромный медведь."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Once upon a time, there lived three bears."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A Little, Small, Wee Bear, a Middle-sized Bear,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and a Great, Huge Bear."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -414,9 +414,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 173, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Одёрнуть занавески?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the curtains?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [23, 23, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 3, 8, 4, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [5]}
@@ -425,16 +425,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [32, 32, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [76, 76, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 174, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Одёрнуть занавески?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Open the curtains?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [23, 23, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 3, 8, 4, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [5]}
@@ -443,13 +443,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [32, 32, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [76, 76, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Занавески тяжёлые.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The curtains are heavy.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -501,7 +501,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"СЪЕШЬ КАШУ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"EAT THE PORRIDGE"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -549,7 +549,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ПОСПИ НА КРОВАТИ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SLEEP ON THE BED"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -770,19 +770,19 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 22, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Одёрнуть занавески?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the curtains?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [За занавесками стена!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's a wall behind the curtains!]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Занавески тяжёлые.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The curtains are heavy.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -833,20 +833,20 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 22, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Одёрнуть занавески?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the curtains?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [16, 16, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Тут окно нарисовано на стене!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The window is painted on the wall!]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Занавески тяжёлые.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The curtains are heavy.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1068,7 +1068,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ПОСИДИ НА СТУЛЕ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SIT ON THE CHAIR"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -1117,7 +1117,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 76, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...Дверь не открывается."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...The door doesn't open."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 12, 4, 0, 0]}
@@ -1231,8 +1231,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 311, p: [0, 1, 1, 0, 200, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Ты была плохой, очень плохой']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [девочкой]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: You''ve Been a Bad, Bad Girl']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1339,8 +1338,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 311, p: [0, 1, 1, 0, 200, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Ты была плохой, очень плохой']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [девочкой]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: You''ve Been a Bad, Bad Girl']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1458,8 +1456,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 311, p: [0, 1, 1, 0, 200, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Ты была плохой, очень плохой']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [девочкой]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: You''ve Been a Bad, Bad Girl']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1513,19 +1510,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [6, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ТЫ СЪЕЛА МОЮ КАШУ!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YOU ATE MY PORRIDGE!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [6, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ТЫ СИДЕЛА НА МОЁМ СТУЛЕ!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YOU SAT IN MY CHAIR!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [6, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ТЫ СПАЛА НА МОЕЙ КРОВАТИ!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YOU SLEPT IN MY BED!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [31, 31, 0]}
@@ -1621,7 +1618,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 118, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Теперь нам нужно поискать выход.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Now we have to look for an exit.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [173, 173, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1806,15 +1803,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"У каждого была миска для каши, стул и"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [кровать.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Они были честными, добродушными,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [доверчивыми медведями."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Each had a porridge bowl, a chair and"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a bed.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['They were honest, good-natured, trusting']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bears."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Однажды в их дом пришла девочка."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Возможно, она не была хорошей, честной маленькой']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['девочкой; для начала она заглянула и, никого не']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['увидев в доме, подняла щеколду".']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"One day, a girl came into their house."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['She could not have been a good, honest']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['little girl; for first she peeped in a keyhole,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and seeing nobody in the house, she lifted the latch".']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -1862,22 +1859,22 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я знаю, как закончилась история Трёх медведей.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['А что насчёт тебя?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Медведи убили незванного гостя, Незванный гость убежал через окно, Незванный гость убил медведей], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Медведи убили незванного гостя]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I know how the Three Bears story ended.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What about you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[The bears killed the intruder, The intruder left through the window, The intruder killed the bears], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, The bears killed the intruder]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Нет. Она убежала через окно!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Но мы не в сказке.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No. She left through the window!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [But we're not in a fairy tale.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Незванный гость убежал через окно]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, The intruder left through the window]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Да! Но мы не в сказке.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Yes! But we're not in a fairy tale.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Незванный гость убил медведей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The intruder killed the bears]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Нет. Она убежала через окно!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Но мы не в сказке.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No. She left through the window!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [But we're not in a fairy tale.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1929,10 +1926,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Если бы она была хорошей девочкой, она бы"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['подождала, пока Медведи пригласят её в дом,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [так как они были хорошими Медведями. Но она]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['была грубой, плохой, очень плохой девочкой."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"If she had been a good girl, she would have"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['waited for the Bears to invite her into the house,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for they were good Bears.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But she was a rude, bad, bad little girl."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   26: !ruby/object:RPG::Event
     id: 26
@@ -1980,10 +1977,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Если бы она была хорошей девочкой, она бы"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['подождала, пока Медведи пригласят её в дом,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [так как они были хорошими Медведями. Но она]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['была грубой, плохой, очень плохой девочкой."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"If she had been a good girl, she would have"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['waited for the Bears to invite her into the house,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for they were good Bears.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But she was a rude, bad, bad little girl."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

@@ -207,21 +207,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кровать выглядит удобной.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полежать на ней?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bed looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lay on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Она слишком высокая для меня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too high at the foot for me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [27, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не время отдыхать.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала мне нужно найти Феликса. Он]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [где-то там совсем один.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's not the time to be resting.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find Felix first. He's all alone out]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [there.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -313,7 +313,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 225, p: [7, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КТО-ТО ЛЕЖАЛ НА МОЕЙ КРОВАТИ!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [SOMEBODY HAS BEEN LYING IN MY BED!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -578,21 +578,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кровать выглядит удобной.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полежать на ней?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bed looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lay on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Она слишком высокая для меня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too high at the foot for me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [27, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не время отдыхать.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала мне нужно найти Феликса. Он]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [где-то там совсем один.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's not the time to be resting.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find Felix first. He's all alone out]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [there.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -683,21 +683,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кровать выглядит удобной.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полежать на ней?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bed looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lay on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Она слишком высокая для меня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too high at the foot for me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [27, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не время отдыхать.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала мне нужно найти Феликса. Он]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [где-то там совсем один.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's not the time to be resting.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find Felix first. He's all alone out]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [there.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -788,21 +788,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кровать выглядит удобной.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полежать на ней?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bed looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lay on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Она слишком высокая для меня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too high at the foot for me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [27, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не время отдыхать.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала мне нужно найти Феликса. Он]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [где-то там совсем один.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's not the time to be resting.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find Felix first. He's all alone out]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [there.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -893,21 +893,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кровать выглядит удобной.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полежать на ней?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bed looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lay on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Она слишком высокая для меня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too high at the foot for me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [27, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не время отдыхать.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала мне нужно найти Феликса. Он]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [где-то там совсем один.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's not the time to be resting.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find Felix first. He's all alone out]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [there.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -998,21 +998,21 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Кровать выглядит удобной.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полежать на ней?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bed looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Lay on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Она слишком высокая для меня.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's too high at the foot for me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [27, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не время отдыхать.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала мне нужно найти Феликса. Он]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [где-то там совсем один.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's not the time to be resting.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find Felix first. He's all alone]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [out there.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -1103,7 +1103,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посуда, немного трав... скучно.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Tableware, some herbs...boring.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1151,7 +1151,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посуда, немного трав... скучно.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Tableware, some herbs...boring.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

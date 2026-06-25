@@ -18,8 +18,8 @@ module Vocab
   ExpNext         = "To Next %s"
 
   # Save/Load Screen
-  SaveMessage     = "В какой файл сохранить?"
-  LoadMessage     = "Какой файл загрузить?"
+  SaveMessage     = "Save to which file?"
+  LoadMessage     = "Load which file?"
   File            = "File"
 
   # Display when there are multiple members

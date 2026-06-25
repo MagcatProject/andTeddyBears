@@ -48,17 +48,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть коробку?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Нет, Да], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['No', 'Yes'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [127, 127, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Плохая концовка: Лживые цветы']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Lying Flowers']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -149,17 +149,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть коробку?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Нет, Да], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['No', 'Yes'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [133, 133, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Плохая концовка: Лживые цветы']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Lying Flowers']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -250,17 +250,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть коробку?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Нет, Да], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['No', 'Yes'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [134, 134, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Плохая концовка: Лживые цветы']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Lying Flowers']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -351,14 +351,14 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть коробку?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Нет, Да], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['No', 'Yes'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Найдена вычурная брошь!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Found a Fancy Brooch!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [36, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [102, 102, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
@@ -451,17 +451,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть коробку?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Нет, Да], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['No', 'Yes'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [132, 132, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Плохая концовка: Лживые цветы']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Lying Flowers']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}

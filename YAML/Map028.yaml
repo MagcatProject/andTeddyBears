@@ -316,7 +316,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Коридор
+display_name: Corridor
 specify_battleback: false
 note: ''
 battleback1_name: ''

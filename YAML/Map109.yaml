@@ -156,7 +156,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ОНА - ЭТО МЫ. МЫ - ЭТО ОНА."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SHE IS US. WE ARE HER."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -204,7 +204,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ОНА - ЭТО МЫ. МЫ - ЭТО ОНА."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SHE IS US. WE ARE HER."']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

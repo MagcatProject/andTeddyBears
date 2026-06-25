@@ -48,25 +48,23 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мой мир давным-давно встретил свой конец.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My world met its end a long time ago.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Человечество, каким я его знала, прекратило своё']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [существование и бесследно исчезло.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The humanity as I knew it has ceased to exist,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and disappeared without a single trace.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Боги, в которых они верили, умерли, а церкви']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [были построены как их могилы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The gods they believed in have died, and churches']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [were built as their graves.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хаос обратился в порядок, а в конце стал тишиной.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The chaos turned into order, and it finally became quiet.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Всё, что я могу делать, - это смотреть сны,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так как я очень, очень устала.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['All I can do is dream, for I am so, so tired.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прежде чем я отброшу слова, которые создают']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['шум в моей голове, не будешь ли ты так добр,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что присоединишься к моим сновидениям?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Before I abandon the words that form noise in my head,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Will you be so kind as to join me in dream-seeing?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Привет, Шарлотта: Эпизод 1']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Вредная еда, боги и плюшевые мишки"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hello Charlotte: Episode 1']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Junk Food, Gods and Teddy Bears"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 4, 8, 5, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, ActorSheet2, 4, CharFaces, 7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

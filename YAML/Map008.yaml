@@ -86,7 +86,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [27, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Получено кольцо!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ring obtained!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page

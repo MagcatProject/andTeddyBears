@@ -49,17 +49,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Дорогая Шарлотта!"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Буду дома поздно.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Позвони на 0800-XXXXXXX, чтобы заказать еду у Чарли.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XOXO, мама”']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Dear Charlotte!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I’ll be home late.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Call 0800-XXXXXXX to order food from Charlie's.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XOXO, mom”']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [13, 13, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Этой записке 8 месяцев.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This note is 8 months old.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мои родители работают по выходным.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My parents work on holidays.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Получено новое задание: Заказать еду."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> New Task received: Order Food."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [38, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -104,10 +104,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Дорогая Шарлотта!"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Буду дома поздно.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Позвони на 0800-XXXXXXX, чтобы заказать еду у Чарли.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XOXO, мама”']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Dear Charlotte!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I’ll be home late.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Call 0800-XXXXXXX to order food from Charlies’.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XOXO, mom”']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -156,7 +156,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 12]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Мне бы хотелось поесть в столовой.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'd like to eat in the dining room.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 53, 7, 5, 0, 0]}
@@ -211,9 +211,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [9, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Получено мыло!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Даже в шкафах нашей столовой нет"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ничего съедобного.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Soap obtained!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Not even our dining room drawers"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [have anything edible.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -253,9 +253,11 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing edible inside.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -303,7 +305,7 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Феликса здесь нет.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Felix is not here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -601,30 +603,32 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [14, 14, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ах, прости, я не очень хорошо готовлю.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Боюсь, в этот раз я подорву кухню.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ah, sorry, cooking is no good.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm afraid I'll blow up the kitchen this]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [time.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['А кто сказал, что будешь готовить ты?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я сам могу всё сделать.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who said that you will be cooking?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can make things myself.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Что бы ты хотела?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['What would you like?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 4, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Как насчёт творожной запеканки?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['How about cottage cheese casserole?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces2, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда морковные кексы.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Carrot cupcakes it is, then.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 5, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["..."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['В последний раз, когда я пыталась']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['что-нибудь приготовить, мир был (почти)']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [уничтожен пищевым монстром.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The last time I tried to cook something,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the world was (almost) destroyed by the]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [food monster.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Надеюсь, Беннетт не положил свои реактивы']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [на полки вместе с сахаром и солью.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I wish Bennett didn't put his chemicals on]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the shelves along with the sugar]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [and the salt.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -674,30 +678,30 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Журнал пользователя: "Дом"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0002', Отмена], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['User Log: "The House"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0002', Cancel], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0002']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Подвальный этаж: Комната для препарирования,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Портняжная комната, Тестовые комнаты']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Basement: Dissection Room, Tailoring Room,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Test Rooms]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 64, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Цокольный этаж: Жилые комнаты, ??? комната']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['1-ый этаж: Школьный этаж']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2-ой этаж: Больничный этаж']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ground Floor: Living Rooms, ??? Room']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['1st Floor: School Floor']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2nd Floor: Hospital Floor']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['3-ий этаж: Библиотека']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4-тый этаж: Рабочий этаж']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['5-ый этаж: Правительственный этаж']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['6-12-ый этажи: 4-10-ое измерения']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['3rd Floor: The Library']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4th Floor: Labour Floor']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['5th Floor: Government Floor']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['6-12th Floor: 4-10th Dimensions']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Цокольный этаж: Жилые комнаты']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ground Floor: Living Rooms']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Cancel]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -747,30 +751,30 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Журнал пользователя: "Дом"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0002', Отмена], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['User Log: "The House"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0002', Cancel], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0002']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Подвальный этаж: Комната для препарирования,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Портняжная комната, Тестовые комнаты']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Basement: Dissection Room, Tailoring Room,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Test Rooms]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 64, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Цокольный этаж: Жилые комнаты, ??? комната']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['1-ый этаж: Школьный этаж']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2-ой этаж: Больничный этаж']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ground Floor: Living Rooms, ??? Room']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['1st Floor: School Floor']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['2nd Floor: Hospital Floor']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['3-ий этаж: Библиотека']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4-тый этаж: Рабочий этаж']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['5-ый этаж: Правительственный этаж']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['6-12-ый этажи: 4-10-ое измерения']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['3rd Floor: The Library']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['4th Floor: Labour Floor']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['5th Floor: Government Floor']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['6-12th Floor: 4-10th Dimensions']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Цокольный этаж: Жилые комнаты']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ground Floor: Living Rooms']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Cancel]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -820,27 +824,27 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Журнал пользователя: "Руководство Марионетки"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0000', Отмена], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['User Log: "Puppet Manual"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0000', Cancel], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0000']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['В меню управления Марионетки есть четыре опции:']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ВЕЩИ, ЗАДАНИЯ, ПЕРЕМОТКА, ВЫХОД.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The Puppet Control Menu has 4 options:']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['STUFF, TASKS, REWIND POINTS, EXIT.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Мусор - это вещи, которые мы выбрасываем.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ВЕЩИ - это мусор, который мы оставляем.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Junk is stuff we throw away.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [STUFF is junk we keep.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ЗАДАНИЯ - ежедневные жизненные задачи.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [TASKS are daily life quests.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ПЕРЕМОТКА содержит сохранённые данные]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [о предыдущих событиях. Внимание! Стоит]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['использовать, только если Марионетка умирает или']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Кукловоду нужно отойти от Панели управления.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [REWIND POINTS contain saved data of]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [previous events.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [NB! Should be used ONLY if the Puppet dies]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [or if the Puppeteer must leave the Control Console.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ВЫХОД - это НЕ вариант для ответственного]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Кукловода.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [EXIT should NOT be an option for a responsible]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Puppeteer.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Cancel]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -890,27 +894,27 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Журнал пользователя: "Руководство Марионетки"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0000', Отмена], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['User Log: "Puppet Manual"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0000', Cancel], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0000']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['В меню управления Марионетки есть четыре опции:']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ВЕЩИ, ЗАДАНИЯ, ПЕРЕМОТКА, ВЫХОД.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The Puppet Control Menu has 4 options:']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['STUFF, TASKS, REWIND POINTS, EXIT.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Мусор - это вещи, которые мы выбрасываем.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ВЕЩИ - это мусор, который мы оставляем.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Junk is stuff we throw away.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [STUFF is junk we keep.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ЗАДАНИЯ - ежедневные жизненные задачи.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [TASKS are daily life quests.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ПЕРЕМОТКА содержит сохранённые данные]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [о предыдущих событиях. Внимание! Стоит]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['использовать, только если Марионетка умирает или']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Кукловоду нужно отойти от Панели управления.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [REWIND POINTS contain saved data of]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [previous events.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [NB! Should be used ONLY if the Puppet dies]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [or if the Puppeteer must leave the Control Console.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ВЫХОД - это НЕ вариант для ответственного]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Кукловода.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [EXIT should NOT be an option for a responsible]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Puppeteer.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Отмена]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Cancel]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -960,7 +964,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Внутри лежит немного посуды."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Some tableware inside."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1008,7 +1012,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Внутри лежит немного посуды."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Some tableware inside."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -1089,7 +1093,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Столовая
+display_name: Dining Room
 specify_battleback: false
 note: ''
 battleback1_name: ''

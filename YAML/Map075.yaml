@@ -141,15 +141,15 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Так вот как они здесь изображают Оракула.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [So that's how they portray Oracles here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Она прекрасна."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...She's beautiful."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Скажу тебе в порядке информации, у']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Оракула нет физической формы или пола.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Just for your information, Oracles do not']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [have a physical form nor a gender.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Та, что изображена здесь, - не более чем']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [юная жрица Пифия.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The one depicted here is no more than]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a young Pythian priestess.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page

@@ -49,10 +49,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Book2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Дорогая Шарлотта!"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Буду дома поздно. Позвони на 0800-XXXXXXX,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [чтобы заказать еду у Отбросов.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XOXO, мама”']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Dear Charlotte!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I’ll be home late.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Call 0800-XXXXXXX to order food from Junkies’.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['XOXO, mom”']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -147,8 +147,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мама купила несколько гранатов]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и других фруктов.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Mom bought some pomegranates]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and other fruit.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -334,7 +334,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [От камина идёт тепло.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's warm by the fireplace.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -382,7 +382,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Картина.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A painting.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -430,7 +430,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Картина.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A painting.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -478,7 +478,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Цветы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Flowers.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -526,7 +526,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Внутри лежит посуда.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Tableware inside.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -574,7 +574,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Внутри лежит посуда.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Tableware inside.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -622,7 +622,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Цветы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Flowers.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -703,7 +703,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Столовая
+display_name: Dining Room
 specify_battleback: false
 note: ''
 battleback1_name: ''

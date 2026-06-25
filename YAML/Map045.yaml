@@ -48,21 +48,20 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ВОТКНИ ИГЛУ В ГЛАЗ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"STICK A NEEDLE IN THE EYE"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 10, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Сначала нам нужно проводить леди.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [We have to escort the lady first.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [8, 24]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Итак, мы теперь можем использовать']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [иглу.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['So, we have a needle now.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [8, 4]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Давай вместо этого используем глазные капли.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Давай вместо этого используем глазные капли.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Let's use the eyedrops instead.], 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Let's use the eyedrops instead.]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Хорошо!]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [All right!]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 126, p: [4, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
@@ -70,17 +69,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Сердце на клочки порву,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [без надежды проживу]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['и иглу в глаза воткну,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [если вдруг я обману~]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Воткнуть иглу, Остановиться], 5]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Воткнуть иглу]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Cross your heart and hope to die,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Stick a needle in the eye~]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Stick a needle, Stop it], 5]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Stick a needle]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Остановиться]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Stop it]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['У тебя есть идея получше?']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Do you have a better idea?']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 403, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
@@ -90,7 +87,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Эта дверь пялится на меня.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [This door is glaring at me.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -137,7 +134,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [116, 116, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Глаз кровоточит."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The eye bleeds."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [166, 166, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
@@ -186,13 +183,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Глаз выглядит лучше."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The eye looks better."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [166, 166, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сработало.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It worked.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Всё благодаря Сэту!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [All thanks to Seth!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [129, 129, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 21, 12, 12, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -248,9 +245,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"МЕСТО ИЗОБИЛИЯ"']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['"SPACE OF ABUNDANCE"']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Дверь не открывается."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The door won't open."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -300,13 +297,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"МЕСТО ГУРО"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Войти, Не входить], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Войти]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SPACE OF GORE"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Enter, Don't enter], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Enter]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 62, 13, 15, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не входить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't enter]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -356,13 +353,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"МЕСТО СЧАСТЬЯ"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Войти, Не входить], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Войти]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SPACE OF HAPPINESS"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Enter, Don't enter], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Enter]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 17, 1, 15, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не входить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't enter]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -459,7 +456,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"МЕСТО ЗДОРОВЬЯ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SPACE OF HEALTH"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 60, 8, 9, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1082,7 +1079,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"ВЫХОДА НЕТ"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"NO WAY OUT"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

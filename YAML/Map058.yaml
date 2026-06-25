@@ -6,7 +6,7 @@ events:
     id: 1
     name: EV001
     x: 8
-    y: 6
+    y: 5
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -44,16 +44,23 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 59, 8, 4, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 184, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Seth, Seth! Don''t forget the food! I hunger!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 59, 8, 4, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
     name: EV002
     x: 2
-    y: 6
+    y: 5
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -91,18 +98,18 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта дверь заперта.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Не хочу беспокоить моих соседей...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This door is locked.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't want to disturb my neighbours...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
     name: EV003
     x: 14
-    y: 6
+    y: 5
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -140,11 +147,11 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта дверь заперта.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This door is locked.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -187,22 +194,23 @@ events:
       walk_anime: false
       step_anime: false
       direction_fix: true
-      through: true
-      priority_type: 0
+      through: false
+      priority_type: 1
       trigger: 0
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [184, 184, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [12, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Найден Удачный обед!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Lucky Meal was found!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мне лучше вернуться в столовую.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'd better return to the dining room.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [26, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Получено новое задание: Накормить Шарлотту."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> New Task received: Feed Charlotte."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [117, 117, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 57, 13, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -221,10 +229,10 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: "!Flame"
+        character_name: ''
         character_index: 6
-        direction: 8
-        pattern: 0
+        direction: 2
+        pattern: 1
       move_type: 0
       move_speed: 3
       move_frequency: 3
@@ -239,8 +247,8 @@ events:
       walk_anime: false
       step_anime: false
       direction_fix: false
-      through: true
-      priority_type: 1
+      through: false
+      priority_type: 0
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -248,7 +256,7 @@ events:
     id: 4
     name: EV004
     x: 5
-    y: 6
+    y: 5
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -286,15 +294,14 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Интересно, куда ведёт эта дверь?..']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder where this door leads to.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты и твоё любопытство... Ладно, я']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [открою её.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You and your curiosity...Fine, I''ll open it.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 23, 2, 18, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}

@@ -49,50 +49,46 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 4]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Использовать глазные капли?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Use Eyedrops?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: 2noize, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['popup(2, "[.--.] [---] [--] [---] [--.] [..] [#] ']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['[--] [-.] [.] ",0,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['popup(2, ".... . .-.. .--. / -- .",0,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Этот не пытается снести нам головы,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['как остальные. Может, он болен?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This one isn't trying to chop our]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['heads off like the others. Maybe it''s sick?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ага, давай сейчас поиграем в доктора,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [когда мы спешим.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['popup(2,"[..-..] [-] [---] [#] [-...] [---] [.-..] ']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: ['[-..-] [-.] [---] [#] ",0,0)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Yeah, let''s play doctor now that we are']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [in a hurry.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: ['popup(2,".. - / .... ..- .-. - ...",0,0)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тише! Даже монстр может оценить]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [человеческую доброту.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Это плохая идея., 'Возможно, мы найдём способ помочь ему.'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Это плохая идея.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hush! Even a monster can appreciate]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [human kindness.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[It's a bad idea., Perhaps we'll find a way to help it.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, It's a bad idea.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Бу.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Boo.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Мне всё же не по себе из-за этого.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I still feel bad for it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Возможно, мы сможем вернуться сюда']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [позже.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Maybe we still can come back later.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Возможно, мы найдём способ помочь ему.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Perhaps we'll find a way to help it.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я знала, что ты поймёшь!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I knew you'd understand!]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Не волнуйся, маленькая глазастая хрень,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['пожирающая людей, сделаем что-нибудь!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Don''t worry, little man-eating eye thing,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [we'll do something!]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: 2noize, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['popup(2,"[.--] [---] [--..] [.--] [.-.] [.-] ']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ["[--.-] [.-] [.---] [...] [.-.-] [#] [...] [-.-] "]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ['[---] [.-.] [.] [.] ",0,0)']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 355, p: ['popup(2,"-.-. --- -- . / -... .- -.-. -.- / ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 655, p: ['... --- --- -.",0,0)']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -141,11 +137,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [4, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 2noize, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['popup(2,"[-..] [.-] [.---] [#] [--] [-.] [.] [#] ']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ["[.-..] [..--] [-...] [..] [-] [-..-] [#] [-] [.] "]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['[-...] [.-.-] [#] ",0,0)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['popup(2,".-.. . - / -- . / .-.. --- ...- . / ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['-.-- --- ..-",0,0)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Глазное яблоко вращается из благодарности.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The eyeball spins in gratitude.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition

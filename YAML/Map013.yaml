@@ -143,8 +143,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Дождик капает, дождик льёт."]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [А старый медведь жутко ревёт."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"It's raining, it's pouring."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The old bear is growling."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -195,29 +195,29 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 73, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Потянуть?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Pull?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Хм?..']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ничего не произошло.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hm?..']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [It didn't do anything.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Потянуть?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Pull?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [137, 137, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [71, 71, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [70, 70, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Хм-м...]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Hmm...]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -270,7 +270,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Эти игрушки довольно милые.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [These toys are kinda cute.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -320,8 +320,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Интересно, почему здесь везде игрушечные']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [медведи...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder why are there bear toys]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [everywhere...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -369,10 +369,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Человеческая таксидермия"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Выпусти зверя: охота, человеческие права и"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [спорное значение природы"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Щитовидная железа: 101 праздничный рецепт"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Human Taxidermy"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Going Wild: Hunting, Human Rights &"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Contested Meaning of Nature"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Thyroid Gland: 101 festive recipes"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -420,9 +420,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Полноценное руководство по снятию кожи"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и потрошению"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Homo sapiens: Готовим с азартом"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Ultimate Guide to Skinning and Gutting"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Homo sapiens: Cooking with Passion"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -470,9 +469,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Полноценное руководство по снятию кожи"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и потрошению"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Homo sapiens: Готовим с азартом"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Ultimate Guide to Skinning and Gutting"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Homo sapiens: Cooking with Passion"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -520,12 +518,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Человеческая таксидермия"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Выпусти зверя: охота, человеческие права и"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [спорное значение природы"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Щитовидная железа: 101 праздничный рецепт"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Human Taxidermy"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Going Wild: Hunting, Human Rights &"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Contested Meaning of Nature"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Thyroid Gland: 101 festive recipes"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [А теперь это жутко.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Now this is creepy.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11

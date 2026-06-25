@@ -49,24 +49,23 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 129, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["[-] [-.--] [#] [-..] [---] [-...] [.-.] [.-] [.-.-] [......] [#]"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["[.--.] [---] [..-..] [-] [---] [--] [..-] [#] [-] [-.--] [#]"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["[--] [---] [...-] [.] [----] [-..-] [#] [.--.] [.-.] [---] [.---]"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["[-] [..] [......]"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["-.-- --- ..- / .- .-. . / -.- .. -. -.. .-.-.- /"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["- .... . .-. . ..-. --- .-. . --..-- / -.-- --- ..- /"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [" -- .- -.-- / .--. .- ... ... .-.-.-"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Дверь открыта."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The door opens."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 30, 22, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Использовать булавку?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Use the pin?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [35, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -112,11 +111,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Шарлотта выкалывает глаз двери."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Charlotte gouges the door's eye out."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 6mishimishi, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Open2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Дверь открыта."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The door opens."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 30, 22, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -382,7 +381,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Дверь плотно закрыта."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The door is closed shut."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -426,16 +425,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 2, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дверь наполовину открыта.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The door is half-open.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Открыть дверь?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the door?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open5, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Presence2, volume: 80, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 39, 9, 26, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -486,8 +485,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Beware, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"ВНИМАНИЕ."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ОПАСАЙСЯ ТРЁХГЛАЗОЙ"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"CAUTION."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [BEWARE OF THE THREE-EYED"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event

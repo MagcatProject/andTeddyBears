@@ -546,7 +546,7 @@ class Window_Base < Window
   # * Draw Item Name
   #     enabled : Enabled flag. When false, draw semi-transparently.
   #--------------------------------------------------------------------------
-  def draw_item_name(item, x, y, enabled = true, width = 177)
+  def draw_item_name(item, x, y, enabled = true, width = 172)
     return unless item
     draw_icon(item.icon_index, x, y, enabled)
     change_color(normal_color, enabled)

@@ -48,9 +48,9 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Давайте войдём.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Let's go in.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Верно.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Right.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [152, 152, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [144, 144, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [139, 139, 1]}

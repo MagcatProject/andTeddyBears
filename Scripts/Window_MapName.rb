@@ -19,7 +19,7 @@ class Window_MapName < Window_Base
   # * Get Window Width
   #--------------------------------------------------------------------------
   def window_width
-    return 260
+    return 240
   end
   #--------------------------------------------------------------------------
   # * Frame Update

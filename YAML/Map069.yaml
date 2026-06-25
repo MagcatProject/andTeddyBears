@@ -50,35 +50,34 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [154, 154, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [165, 165, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['У меня такое чувство, будто я здесь']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [трачу время.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I feel like I'm wasting time here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Интересно, в порядке ли Феликс.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы оставили его совсем одного.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Не волнуйся. Он в порядке., Я тоже волнуюсь.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Не волнуйся. Он в порядке.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder if Felix is all right.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We left him all alone.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Don't worry. He's all right., 'I''m worried, too.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Don't worry. He's all right.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Надеюсь на это.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I hope so.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Давай вернёмся.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's go back.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты снова меня подбадриваешь, хах.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я знаю, что это не часть твоей работы,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [но ты всё равно это делаешь.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You''re cheering me up again, huh.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I know this isn''t part of your job,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [but you do this nevertheless.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Спасибо тебе, Сэт.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Не за что.], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Не за что.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Thank you, Seth.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[It's my pleasure.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, It's my pleasure.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Я тоже волнуюсь.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'I''m worried, too.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Как и ожидалось от Беспокойного Сэта.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [As expected from Seth the Worrywart.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Давай поторопимся к нему!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Конечно.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Конечно.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's hurry back to his side!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Sure thing.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Sure thing.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -168,12 +167,12 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [164, 164, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я тут только трачу время.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Веди меня обратно.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm only wasting time here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Guide me back.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Пожалуйста."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Конечно, один момент.'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Конечно, один момент.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["...Please."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Sure, just a moment.'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Sure, just a moment.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}

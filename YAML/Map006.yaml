@@ -94,7 +94,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Не пей из правой чашки!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't drink from the right cup!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -142,7 +142,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Не пей из левой чашки!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't drink from the left cup!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -189,13 +189,13 @@ events:
       priority_type: 0
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Пить, Не пить], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Пить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 313, p: [0, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [У меня кружится голова...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I feel dizzy...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не пить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -337,17 +337,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Выпей меня!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Пить, Не пить], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Пить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Drink me!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 313, p: [0, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [У меня кружится голова...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I feel dizzy...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [19, 19, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [37, 37, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не пить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -391,7 +391,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я уже выпила из чашки.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've drank from the cup already.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -439,15 +439,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Выпей меня!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Пить, Не пить], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Пить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Drink me!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [У меня кружится голова...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I feel dizzy...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [19, 19, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не пить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -491,7 +491,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я уже выпила из чашки.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've drank from the cup already.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -539,7 +539,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Красивые цветы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [These flowers are pretty.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -587,7 +587,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Красивые цветы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [These flowers are pretty.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -683,16 +683,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [В камине танцуют языки пламени.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Войти внутрь?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Войти, Не входить], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Войти]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: 204.0, g: 0.0, b: 0.0, a: 0.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The flames are dancing in the fireplace.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Go inside?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Go in, Don't go], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Go in]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 180, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, BurnAlive, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Плохая концовка: Сгоревшая дотла']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Burned To Death']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Не входить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't go]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -742,23 +745,26 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [В камине танцуют языки пламени.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Войти внутрь?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Не входить, Войти], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Не входить]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The flames are dancing in the fireplace.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Go inside?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Don't go, Go in], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Don't go]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Войти]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Go in]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 37, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Огонь обнимает меня.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The fire embraces me.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 8, 8, 12, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Огонь обнимает меня.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The fire embraces me.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 180, false]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, BurnAlive, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Плохая концовка: Сгоревшая дотла']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Bad End: Burned To Death']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
@@ -811,7 +817,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КОШКИ НЕ ЛГУТ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CATS DO NOT TELL LIES]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -859,7 +865,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ВОЙДИ В ПРАВЫЙ КАМИН]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ENTER THE RIGHT FIREPLACE]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -995,7 +1001,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Кошачья комната
+display_name: Cat Room
 specify_battleback: false
 note: ''
 battleback1_name: ''

@@ -154,19 +154,18 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посидеть на стуле?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit in the chair?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Упс, он сломался. В последнее время я']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['поправилась?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Oops, it broke. Have I gained weight lately?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Хорошо.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Right.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
@@ -270,7 +269,7 @@ events:
     id: 6
     name: EV006
     x: 3
-    y: 5
+    y: 4
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -308,23 +307,23 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Этот большой диван выглядит удобным.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посидеть на нём?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The big sofa looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...Слишком жёсткий."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too hard."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я могу посидеть на полу, если устану.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can sit on the floor if I'm tired.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -365,7 +364,7 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -373,7 +372,7 @@ events:
     id: 8
     name: EV008
     x: 12
-    y: 5
+    y: 4
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -411,24 +410,24 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это кресло выглядит удобным.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посидеть на нём?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The chair looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...Слишком мягкое. Совсем неудобно."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too soft. Not comfy at all."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не хотелось бы случайно сломать это]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [кресло.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Wouldn't want to accidentally]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [break this chair.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -469,7 +468,7 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -520,7 +519,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 225, p: [7, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КТО-ТО СИДЕЛ НА МОЁМ СТУЛЕ!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [SOMEBODY HAS BEEN SITTING IN MY CHAIR!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -609,8 +608,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Коллекция сказок с медведями.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Аккуратно расставлена.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A collection of fairytales involving bears.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Neat.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -659,7 +658,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Найден серебряный ключ!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Found a Silver Key!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [10, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -707,7 +706,7 @@ events:
     id: 7
     name: EV007
     x: 13
-    y: 5
+    y: 4
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -745,24 +744,24 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это кресло выглядит удобным.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посидеть на нём?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The chair looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...Слишком мягкое. Совсем неудобно."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too soft. Not comfy at all."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не хотелось бы случайно сломать это]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [кресло.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Wouldn't want to accidentally break]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this chair.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -803,7 +802,7 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -853,13 +852,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут ничего интересного.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
     name: EV010
     x: 4
-    y: 5
+    y: 4
     pages:
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -897,23 +896,23 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Этот большой диван выглядит удобным.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Посидеть на нём?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да, Нет], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...Слишком жёсткий."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The big sofa looks comfy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too hard."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я могу посидеть на полу, если устану.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can sit on the floor if I'm tired.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -954,7 +953,7 @@ events:
       step_anime: false
       direction_fix: false
       through: false
-      priority_type: 0
+      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

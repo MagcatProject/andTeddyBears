@@ -93,7 +93,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Казнена']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
@@ -424,7 +424,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Гниющий труп."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> A rotting corpse."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -472,7 +472,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Гниющий труп."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> A rotting corpse."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -522,19 +522,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[И это мы не будем брать.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, И это мы не будем брать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему ты так против, чтобы я брала']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['острые предметы?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Я смогу тебя сберечь и без них., 'Несколько раз мне пришлось перематывать, потому ч-'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Я смогу тебя сберечь и без них.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я полагаюсь на тебя в этом, ты знаешь?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Несколько раз мне пришлось перематывать, потому ч-']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А-а-а, не напоминай мне это!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -634,19 +634,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[И это мы не будем брать.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, И это мы не будем брать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему ты так против, чтобы я брала']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['острые предметы?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Я смогу тебя сберечь и без них., 'Несколько раз мне пришлось перематывать, потому ч-'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Я смогу тебя сберечь и без них.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я полагаюсь на тебя в этом, ты знаешь?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Несколько раз мне пришлось перематывать, потому ч-']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А-а-а, не напоминай мне это!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -746,19 +746,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[И это мы не будем брать.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, И это мы не будем брать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему ты так против, чтобы я брала']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['острые предметы?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Я смогу тебя сберечь и без них., 'Несколько раз мне пришлось перематывать, потому ч-'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Я смогу тебя сберечь и без них.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я полагаюсь на тебя в этом, ты знаешь?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Несколько раз мне пришлось перематывать, потому ч-']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А-а-а, не напоминай мне это!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -858,19 +858,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[И это мы не будем брать.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, И это мы не будем брать.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему ты так против, чтобы я брала']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['острые предметы?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Я смогу тебя сберечь и без них., 'Несколько раз мне пришлось перематывать, потому ч-'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Я смогу тебя сберечь и без них.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я полагаюсь на тебя в этом, ты знаешь?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Несколько раз мне пришлось перематывать, потому ч-']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А-а-а, не напоминай мне это!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1013,7 +1013,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Казнена']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
@@ -1107,7 +1107,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Казнена']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
@@ -1201,7 +1201,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Казнена']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
@@ -1295,7 +1295,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Казнена']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
@@ -1389,7 +1389,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Плохая концовка: Казнена']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0

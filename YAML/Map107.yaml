@@ -95,8 +95,8 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тут никого нет в комнатах.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Только трупы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's no one in these rooms.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Only the corpses.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -185,7 +185,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Ещё одно мёртвое тело."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Another dead body."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -207,8 +207,8 @@ data: !ruby/object:Table
   - 16d0 16d0 16d0 16d0 1491 1490 16d3 16d2 16d2 16d2 16d2 16d2 16d6 1490 1494 16d0 16d0
   - 16d0 16d0 16d0 16d0 1491 1490 16d1 16d0 16d0 16d0 16d0 16d0 16d4 1490 1494 16d0 16d0
   - 16d0 16d0 16d0 16d0 1491 1490 16d9 16d8 16d8 16d8 16d8 16d8 16dc 1490 1494 16d0 16d0
-  - 16d0 16d0 16d0 16d0 131e 1490 149a 149a 149a 149a 149a 149a 149a 1490 131b 16d0 16d0
-  - 16d0 16d0 16d0 16d0 1493 1490 16d3 16d2 16d2 16d2 16d2 16d2 16d6 1490 1496 16d0 16d0
+  - 16d0 16d0 16d0 16d0 1491 1490 149a 149a 149a 149a 149a 149a 149a 1490 1494 16d0 16d0
+  - 16d0 16d0 16d0 16d0 1491 1490 16d3 16d2 16d2 16d2 16d2 16d2 16d6 1490 1494 16d0 16d0
   - 16d0 16d0 16d0 16d0 1491 1490 16d1 16d0 16d0 16d0 16d0 16d0 16d4 1490 1494 16d0 16d0
   - 16d0 16d0 16d0 16d0 1491 1490 16d9 16d8 16d8 16d8 16d8 16d8 16dc 1490 1494 16d0 16d0
   - 16d0 16d0 16d0 16d0 1491 1490 1492 1492 1492 1492 1492 1492 1492 1490 1494 16d0 16d0
