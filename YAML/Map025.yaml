@@ -48,26 +48,28 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hi, Mr Aiden. Being a busybody as always?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どうも、エイダンさん！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [相変わらず忙しくしてるの？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hello, dear girl.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんにちは、シャルロッテちゃん。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['There''s a dress I want you to try on,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [if you don't mind.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [シャルロッテちゃんが]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [着てみてほしいドレスがあります。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [構いませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'd love to!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [オッケー！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I put on the dress the tailor made.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [仕立て屋が作ったドレスを着る。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, Illust7, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Whoa! It's totally rad!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [すごい！超カッコイイの！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's called "White Spotted Jellyfish Dress".]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「白まだらクラゲドレス」と呼ばれます。"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [AidFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It still needs a few finishing touches.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll give it to you when it's ready.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [まだ完成していません。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [完成したら上げます。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -113,24 +115,24 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [14, 14, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Still busy, Mr Aiden?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [まだ忙しい、エイダンさん？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [AidFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Hello, little Charlotte and Felix.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [こんにちは、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [シャルロッテちゃんとフェリックスくん。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [AidFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Since you''re here, would you mind trying']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['on some clothing?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ここに来たので、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [新しい服を着てみて下さいませんか。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [What a pain...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [面倒くさい。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Charlotte covers Felix's mouth with her"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [hand.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞シャルロッテはフェリックスの口を手で隠す。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Of course we do!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ああ、今はちょっと。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Aiden is absorbed in the process.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's not hinder him.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [エイダンは裁縫に夢中になっている。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [邪魔しないようにしましょうね。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -273,7 +275,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This dress is prettier than the one next to it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [このドレスの方が隣のよりも綺麗である。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -321,7 +323,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A polka-dot dress.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [水玉模様のドレスである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -415,7 +417,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A polka-dot dress.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [水玉模様のドレスである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -463,7 +465,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Yet another polka-dot dress.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もう一つの水玉模様のドレスである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -511,7 +513,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A pretty dress.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [綺麗なドレスである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -559,7 +561,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Another polka-dot dress.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もう一つの水玉模様のドレスである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -653,12 +655,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A simple black-and-white dress.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [地味で白黒のドレスである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Want to try it on?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [着てみますか？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['What do you take me for? A dress-up doll?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [俺を何だと思ってるだい？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [着せ替え人形？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -708,8 +711,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Aiden loves order. Even his mannequins are]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [in place.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [エイダンは秩序が好き。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [マネキンでさえもきちんと整っている。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -838,7 +841,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Tailoring Room
+display_name: 仕立ての部屋
 specify_battleback: false
 note: ''
 battleback1_name: ''

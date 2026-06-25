@@ -18,9 +18,9 @@ module Vocab
   ExpNext         = "To Next %s"
 
   # Save/Load Screen
-  SaveMessage     = "Save to which file?"
-  LoadMessage     = "Load which file?"
-  File            = "File"
+  SaveMessage     = "どのファイルに記録しますか？"
+  LoadMessage     = "どのファイルを読み込みますか？"
+  File            = "ファイル"
 
   # Display when there are multiple members
   PartyName       = "%s's Party"
@@ -37,7 +37,7 @@ module Vocab
   Defeat          = "%s was defeated."
   ObtainExp       = "%s EXP received!"
   ObtainGold      = "%s\\G found!"
-  ObtainItem      = "%s found!"
+  ObtainItem      = "%s 見つけた！"
   LevelUp         = "%s is now %s %s!"
   ObtainSkill     = "%s learned!"
 

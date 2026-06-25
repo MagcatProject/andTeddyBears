@@ -86,7 +86,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [27, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ring obtained!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [指輪を手に入れた！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -176,6 +176,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 27]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 6, 8, 4, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [37, 37, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

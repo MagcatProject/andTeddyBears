@@ -69,10 +69,10 @@ module Random_Loot
 #  SCRIPT SETUP OPTIONS
 #------------------------------------------------------------------------------#
  
-  GET_MESSAGE = "Found "              # Text before item name.
-  GET_MESSAGE_AFTER = "!"             # Text after item name.
+  GET_MESSAGE = ""              # Text before item name.
+  GET_MESSAGE_AFTER = "を見つけた！"             # Text after item name.
  
-  FAIL_MESSAGE = "There's nothing in the box."        # Text when random item comes up nothing.
+  FAIL_MESSAGE = "空っぽである。"        # Text when random item comes up nothing.
    
   SOUND_EFFECT = ["Chime2", 90, 100]    # Sound effect of gaining an item.
                                       # ["SE Name", volume, pitch]

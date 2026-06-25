@@ -56,34 +56,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The meat is not yet rotten, but the body']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [is hollow.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [肉はまだ腐らないけど、]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [体は空っぽです。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Yet another unsightly death.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もう一つの無様で非業の死でしたね。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This is no good.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [これはダメです。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Illust10, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Not only you''ve led the girl to a wrong path,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you've completely lost control of her actions]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and been manipulated by her.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [違う道に人形を導いただけでなくて、]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [完全に行動の支配を失って]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [人形に操られました。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I cannot congratulate you on such an]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [embarrassment of an ending.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [なんて恥ずかしい終わりので]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [褒められない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [SethFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I am deeply sorry for my inappropriate]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [behavior as a Puppeteer.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [人形使いとしてみっともない振る舞いを]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もしわけありません。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [SethFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I hereby request you grant me another]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [chance.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もう一度やり直させておねがします。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['That''s quite a bold request, dear boy.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [大胆な頼みですね、セツくん。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''ll grant it, however.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Death can be rather amusing.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [まあ、与えます。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [死はちょっと面白いだろうね。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [15]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [UMFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Try as many times as you'd like.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [好きにやり直してください。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 124, p: [1]}
@@ -269,7 +268,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Tea Room
+display_name: 喫茶室
 specify_battleback: false
 note: ''
 battleback1_name: ''

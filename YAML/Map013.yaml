@@ -143,8 +143,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"It's raining, it's pouring."]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The old bear is growling."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["「雨が降ってる　ざあざあ降ってる"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [熊のじいさん　唸ってる」]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -195,29 +195,29 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 73, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Pull?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [引きますか？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[引く, 引かない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 引く]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hm?..']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [It didn't do anything.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [うーん・・・]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [何もなかった。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 引かない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Pull?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [引きますか？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[引く, 引かない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 引く]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [137, 137, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [71, 71, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [70, 70, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Hmm...]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [うーん・・・]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 引かない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -270,7 +270,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [These toys are kinda cute.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [このぬいぐるみはちょっとかわいいの。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -320,8 +320,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder why are there bear toys]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [everywhere...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どうしてどこにでも熊のぬいぐるみ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [があるのかな・・・]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -369,10 +369,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Human Taxidermy"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Going Wild: Hunting, Human Rights &"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Contested Meaning of Nature"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Thyroid Gland: 101 festive recipes"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『人間剥製術』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ゴーイング・ワイルド： 狩猟と人権と"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [自然の論争の意味』]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『甲状腺：１０１のお祝いレシピ』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -420,8 +420,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Ultimate Guide to Skinning and Gutting"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Homo sapiens: Cooking with Passion"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『皮むきと腸抜きの完全な手引書』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『Ｈｏｍｏ　ｓａｐｉｅｎｓ：情熱の料理』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -469,8 +469,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Ultimate Guide to Skinning and Gutting"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Homo sapiens: Cooking with Passion"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『皮むきと腸抜きの完全な手引書』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『Ｈｏｍｏ　ｓａｐｉｅｎｓ：情熱の料理』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -518,12 +518,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Human Taxidermy"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Going Wild: Hunting, Human Rights &"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Contested Meaning of Nature"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Thyroid Gland: 101 festive recipes"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『人間剥製術』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ゴーイング・ワイルド： 狩猟と人権と"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [自然の論争の意味』]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『甲状腺：１０１のお祝いレシピ』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Now this is creepy.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [なんて不気味なタイトルなの。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11

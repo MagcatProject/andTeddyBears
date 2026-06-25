@@ -50,10 +50,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 8_munasawagi, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What''s this squishy?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こちらのぷにぷにの子は誰？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A specimen for research and an organ]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [supply. Look but do not touch.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [これは研究のための標本で]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [臓器供給元だ。見ていいけど触らないで。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [14, 14, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -192,9 +192,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: 8_munasawagi, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['What did I say about touching it?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [それに触るなんて言った？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Oops.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [おっと。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -277,7 +277,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Test Lab
+display_name: 試験室
 specify_battleback: false
 note: ''
 battleback1_name: ''

@@ -1267,39 +1267,40 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 104, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Why didn''t you tell me you were one of us?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [何故仲間だと言ってくれなかったのですか？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Uh...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [えっと・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Perhaps the brooch makes her think]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['you are one of them?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ブローチが彼女に]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [シャルロッテが仲間と思わせるかも？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Please help me!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [助けてください！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm so scared of these pomegranates that]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can't move an inch!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ザクロがとても怖くて]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [全然動けません！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [PFFT.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [プッ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['We can''t refuse helping her, can we?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[All right., Mind your own business.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, All right.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [彼女の依頼を断れないよね。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[その通りですよ。, 自分のしなきゃ行けないことを考えて。], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, その通りですよ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [49, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 129, p: [10, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [113, 113, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Mind your own business.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 自分のしなきゃ行けないことを考えて。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Sorry, we have to go.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ごめんね、行かなきゃ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't trust you! Go away!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [お前は信用しできない！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [出ていけ！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The flower lady ignores us."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> 花の女の人は私たちを無視する。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

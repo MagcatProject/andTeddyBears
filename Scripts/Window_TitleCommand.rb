@@ -19,7 +19,7 @@ class Window_TitleCommand < Window_Command
   # * Get Window Width
   #--------------------------------------------------------------------------
   def window_width
-    return 160
+    return 110
   end
   #--------------------------------------------------------------------------
   # * Update Window Position

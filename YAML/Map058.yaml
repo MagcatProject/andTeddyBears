@@ -49,7 +49,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 184, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Seth, Seth! Don''t forget the food! I hunger!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [セツ、セツ！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [食べ物を忘れないで！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [お腹すいた！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 59, 8, 4, 0, 0]}
@@ -102,8 +104,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This door is locked.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't want to disturb my neighbours...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カギが掛かっている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [隣人に迷惑をかけたくない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -151,7 +153,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This door is locked.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カギが掛かっている。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -202,12 +204,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [12, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Lucky Meal was found!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ラッキーセットを見つけた！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'd better return to the dining room.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [食堂へ戻ろうね。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [26, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> New Task received: Feed Charlotte."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["＞新たな用事を受けた：シャルロッテにえさやって。"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [117, 117, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 57, 13, 7, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
@@ -298,10 +300,11 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder where this door leads to.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [このドアを入るとどこに出るかな。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You and your curiosity...Fine, I''ll open it.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [お前の好奇心はまったく・・・]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [いい、俺が開ける。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 23, 2, 18, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}

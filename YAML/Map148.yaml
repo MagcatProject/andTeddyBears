@@ -94,66 +94,67 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Password required for exit]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [出口のためのパスワードが必要です。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll enter it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [俺が入力する。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [No! Don't touch it!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ダメ！触らないで！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Why are you acting so cautious]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['all of a sudden?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [何故そんなに用心するだい、突然に。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We've... been here once.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私たちは・・・もうここに来たことがある。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I switched the channel and--]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [チャンネルを変えて、そう―]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Switched the channel"?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What does that even mean?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [チャンネルを変えたって？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [一体何の意味だい？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't think I quite understand myself.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [自分はよく分かんないけど、]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['After doing that, I came back to the exact']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['same place, but some things had changed.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [そうしてから、同じ所に来たけど]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いくつかのことが変わった。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Like what?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どんなこと？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Like...you are still alive.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [とりあえず・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [フェリックスはまだ生きてる・・・]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Did I die right here?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ここで・・・俺が死んだ？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Your head got cut off.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [首切られた。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [あー。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Then, what should we do?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [で、どうしたらいい？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'll go first.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Seth can rewind if I die before my]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [expiration date.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私が先に行くの。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私が期限の前に死んだら、]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [セツは時間を巻き戻せる。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Besides, I can''t afford losing you again.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それに、またフェリックスを無くす]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [なんて嫌なの。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That's just stupid.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バカかい？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's the only way out.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [他の出口がないんだ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Enter the password?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [パスワードを入力します？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[入力する, 入力しない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 入力する]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 103, p: [20, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 20, 0, 13223121, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Have a nice day.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ごきげんよう。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 61, 8, 11, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Wrong password.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [パスワードは間違っていました。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 入力しない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -199,12 +200,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 103, p: [20, 8]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 20, 0, 13223121, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Have a nice day.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ごきげんよう。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 61, 8, 11, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Wrong password.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [パスワードは間違っていました。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

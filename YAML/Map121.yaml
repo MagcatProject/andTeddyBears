@@ -48,7 +48,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Christmas Morning You Will Be Happier With A Shotgun"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「クリスマスの朝、散弾銃でもっとハッピー」"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -96,55 +96,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"An All-Family Adventure: Godhunt"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  4: !ruby/object:RPG::Event
-    id: 4
-    name: EV004
-    x: 20
-    y: 8
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"An All-Family Adventure: Godhunt"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「家族のみんな冒険：神狩り」"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -192,7 +144,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Everyone is Born To Execute"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [処刑のためにみんな生まれた。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -240,7 +192,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Christmas Morning You Will Be Happier With A Shotgun"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「クリスマスの朝、散弾銃でもっとハッピー」"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -669,57 +621,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The door is locked."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞カギがかかっている。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  6: !ruby/object:RPG::Event
-    id: 6
-    name: EV006
-    x: 4
-    y: 8
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Everyone is Born To Execute"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -853,7 +757,103 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Television Room"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「テレビの部屋」"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    x: 4
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [処刑のためにみんな生まれた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    x: 20
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「家族のみんな冒険：神狩り」"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

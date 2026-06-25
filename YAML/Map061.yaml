@@ -51,9 +51,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Enter TV?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [テレビに入りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[入る, 入らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 入る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Isolation_ward, volume: 70, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 48, 14, 10, 0, 0]}
@@ -69,7 +69,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [144, 144, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [139, 139, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 入らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

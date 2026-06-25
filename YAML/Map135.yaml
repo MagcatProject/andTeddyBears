@@ -604,103 +604,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [No going back.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  16: !ruby/object:RPG::Event
-    id: 16
-    name: EV016
-    x: 7
-    y: 17
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 0
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [No going back.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  17: !ruby/object:RPG::Event
-    id: 17
-    name: EV017
-    x: 9
-    y: 17
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 0
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [No going back.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [戻ってはいけない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
     id: 21
@@ -938,27 +842,27 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 28]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [28, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 3, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It fits!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [会う。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the door?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ドアを開けるの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 236, p: [! ':none', 9, 0, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 145, 8, 10, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The door knob must be around here.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ドアノブはきっと近くにある。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [FelFaces2, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [You are rather confident about this.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [お前はちょっと強気だね。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1004,14 +908,14 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the door?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ドアを開けるの？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 236, p: [! ':none', 9, 0, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 145, 8, 10, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1202,6 +1106,102 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 144, 16, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: EV013
+    x: 9
+    y: 17
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [戻ってはいけない。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: EV016
+    x: 7
+    y: 17
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [戻ってはいけない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

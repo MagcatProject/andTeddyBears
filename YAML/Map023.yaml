@@ -48,11 +48,11 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Whoa! We're in outer space!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [すごい！宇宙にいるの！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Satisfied?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [満足かい？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Yup!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [うん！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [14, 14, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -189,24 +189,25 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found something nice! Take it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Better not, Take it], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Better not]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いい物を見つけた！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [取りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[取らない方がいい, 取る], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 取らない方がいい]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Take it]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 取る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [20, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Obtained Helix Nebula Ownership!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [らせん星雲の所有権を手に入れた！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Wow!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [うわ！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I hereby proclaim myself the Empress of]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [the Helix Nebula.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['How does that sound?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ここに自分がらせん星雲の女帝]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [だと宣言するの！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [フェリックスはどう思う？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Utterly cheesy.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ド派手な称号だ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}

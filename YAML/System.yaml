@@ -24,7 +24,7 @@ test_battlers:
   - 1
   - 0
 _: 7829367
-edit_map_id: 137
+edit_map_id: 150
 battle_end_me: !ruby/object:RPG::ME
   name: ''
   pitch: 100
@@ -246,7 +246,7 @@ battle_bgm: !ruby/object:RPG::BGM
   name: ''
   volume: 100
   pitch: 100
-version_id: 27597002
+version_id: 74043709
 start_map_id: 128
 battler_name: Assassin
 magic_number: 77696160
@@ -290,7 +290,7 @@ switches:
 - EnterRoom
 - RightCup
 - Sleep
-- ''
+- LeftCup
 - BearRoom
 - Monocle
 - BringBox
@@ -437,7 +437,7 @@ switches:
 - ''
 - LCKML
 - AZURE
-- ''
+- DEAD OR DESPAIR
 - ''
 - ''
 - ''
@@ -482,25 +482,25 @@ terms: !ruby/object:RPG::System::Terms
   - ''
   - ''
   - ''
-  - STUFF
+  - 物
   - SKILL
   - DRESS
   - STATUS
   - ''
-  - REWIND POINT
-  - EXIT
+  - 巻き戻しポイント
+  - 終わる
   - ''
   - WEAPONS
   - ''
-  - TASKS
+  - 用事
   - ''
   - ''
   - CLEAR
-  - PLAY
-  - LOAD
-  - QUIT
-  - TITLE SCREEN
-  - CANCEL
+  - 始める
+  - 続ける
+  - 終わる
+  - タイトルへ
+  - キャンセル
   - ''
   basic:
   - Level
@@ -537,7 +537,7 @@ window_tone: !ruby/object:Tone
   g: 255.0
   b: 255.0
   a: 0.0
-japanese: false
+japanese: true
 opt_draw_title: false
 opt_use_midi: false
 opt_transparent: false

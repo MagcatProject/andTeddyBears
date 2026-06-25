@@ -101,11 +101,11 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's nothing in here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ここには何もないの。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Or is there?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それとも何かあるの？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page

@@ -347,21 +347,22 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The big porridge bowl makes me kind of]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['hungry. Eat it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [大きいおかゆの器は私を空腹にするの。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [食べますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[食べる, 食べない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 食べる]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The porridge is too hot! My tongue burns.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [おかゆが熱すぎるの！舌がひりひりする・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [25, 25, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 食べない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Yep, I''d better not. There are still']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [butterflies in my stomach after that tea]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [blend in the Cat Room.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [うん、食べない方がいい。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [猫の部屋のお茶を飲んでから]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [まだお腹を壊しているの。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [実には、吐き出すような気がする。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -452,20 +453,20 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The porridge bowl makes me kind of]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['hungry. Eat it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [このおかゆの器は私を空腹にするの。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [食べますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[食べる, 食べない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 食べる]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The porridge is too cold. Ew.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [おかゆが冷たすぎるの！まずい。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [25, 25, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 食べない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Thanks.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There's no way I'm eating this.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ありがとう。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [これを食べるわけない。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -556,22 +557,22 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The small porridge bowl makes me kind of]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['hungry. Eat it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さいおかゆの器は私を空腹にするの。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [食べますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[食べる, 食べない], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 食べる]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The porridge was delicious!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I wish there was more of it.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [おかゆがうまかったの！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もっとおかゆがあればいい。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [25, 25, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 食べない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Right.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Don''t make me eat anything in sight,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['will you?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・うん。"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [見えたものをなんでも食べさせないで、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もう。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
@@ -664,7 +665,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Tick-tock. Tick-tock.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カチカチ。カチカチ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -713,7 +714,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 225, p: [7, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [SOMEBODY HAS BEEN AT MY PORRIDGE!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [誰かに我が粥を食べられてしまった！！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -849,15 +850,15 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Not this again...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['What''s wrong?'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'What''s wrong?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [またか・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[どうしましたか？], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, どうしましたか？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The default clock sound!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who even uses that anymore?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [既定の時計の音！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [一体誰がまだあれを使ってるの？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Please, let''s leave this horrible place']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [as soon as we find Felix.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [フェリックスを見つけたら、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [すぐにこのひどい所から出ましょう。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}

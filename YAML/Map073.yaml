@@ -738,10 +738,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's a notebook that looks out of]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['place. Read it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [怪しくてぼろぼろなノートがある。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [読みますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[読む, 読まない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 読む]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Book1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Tiny1, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
@@ -764,7 +764,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 読まない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -2269,7 +2269,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Hall of Ignorance
+display_name: 無知の殿堂
 specify_battleback: false
 note: ''
 battleback1_name: ''

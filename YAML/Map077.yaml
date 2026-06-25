@@ -119,8 +119,8 @@ events:
         tile_id: 0
         character_name: "$bookshelves1"
         character_index: 0
-        direction: 2
-        pattern: 1
+        direction: 6
+        pattern: 2
       move_type: 0
       move_speed: 3
       move_frequency: 3
@@ -1398,10 +1398,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That's just unfair!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ずるい！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Too easy.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The answer is zero.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [簡単すぎ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [答えはゼロ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   49: !ruby/object:RPG::Event
     id: 49

@@ -258,9 +258,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Once upon a time, there lived three bears."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['A Little, Small, Wee Bear, a Middle-sized Bear,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and a Great, Huge Bear."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「昔々、三匹の熊たちがいた。"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [可愛くて小っちゃくてちっぽけな熊と中型の熊と]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [巨大な熊であった。」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -414,9 +414,9 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 173, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the curtains?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カーテンを開ける？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [23, 23, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 3, 8, 4, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [5]}
@@ -425,16 +425,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [32, 32, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [76, 76, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 174, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Open the curtains?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [カーテンを開ける？]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [23, 23, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 3, 8, 4, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [5]}
@@ -443,13 +443,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [32, 32, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [76, 76, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The curtains are heavy.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [カーテンは重い。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -501,7 +501,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"EAT THE PORRIDGE"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カユヲタベロ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -549,7 +549,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SLEEP ON THE BED"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ベッドニネロ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -770,19 +770,19 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 22, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the curtains?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カーテンを開けますか？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's a wall behind the curtains!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [カーテンの後ろに壁がある！]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The curtains are heavy.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カーテンは重い。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -833,20 +833,20 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 22, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Open the curtains?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カーテンを開けますか？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [16, 16, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The window is painted on the wall!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [窓は壁に描かれている！]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The curtains are heavy.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カーテンは重い。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1068,7 +1068,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"SIT ON THE CHAIR"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [イスニスワレ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -1117,7 +1117,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 76, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...The door doesn't open."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・ドアが開かない。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 12, 4, 0, 0]}
@@ -1231,7 +1231,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 311, p: [0, 1, 1, 0, 200, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: You''ve Been a Bad, Bad Girl']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：わるーいわるーい子]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1338,7 +1338,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 311, p: [0, 1, 1, 0, 200, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: You''ve Been a Bad, Bad Girl']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：わるーいわるーい子]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1456,7 +1456,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 311, p: [0, 1, 1, 0, 200, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: You''ve Been a Bad, Bad Girl']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：わるーいわるーい子]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1510,19 +1510,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [6, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YOU ATE MY PORRIDGE!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [我が粥を食べてしまった！！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [6, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YOU SAT IN MY CHAIR!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [我が椅子に座ってしまった！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 225, p: [6, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YOU SLEPT IN MY BED!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [我がベッドに寝てしまった！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [31, 31, 0]}
@@ -1618,7 +1618,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 118, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Now we have to look for an exit.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [出口を探しなきゃの。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [173, 173, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1803,15 +1803,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"Each had a porridge bowl, a chair and"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a bed.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['They were honest, good-natured, trusting']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bears."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「熊たちには、それぞれの器と椅子とベッドがあった。"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [熊たちは誠実でお人好しで熊のいい熊であった。」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"One day, a girl came into their house."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['She could not have been a good, honest']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['little girl; for first she peeped in a keyhole,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and seeing nobody in the house, she lifted the latch".']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「ある日、 少女は熊の家に入った。"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼女はいい少女でも誠実な少女でもなかったのだろう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [初めに鍵穴から覗き込んで]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [家に誰もいないのを見て、掛け金を持ち上げた。」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -1859,22 +1857,25 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I know how the Three Bears story ended.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What about you?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[The bears killed the intruder, The intruder left through the window, The intruder killed the bears], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, The bears killed the intruder]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私はこの一匹の熊の物語の終わりを知ってるの。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [セツは？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[侵入者は熊に殺されました。, 侵入者は窓から出かけました。, 侵入者は熊を殺しました。], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 侵入者は熊に殺されました。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No. She left through the window!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [But we're not in a fairy tale.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ブブーッ。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [窓から出かけた！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [でも童話じゃない。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, The intruder left through the window]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 侵入者は窓から出かけました。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Yes! But we're not in a fairy tale.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ピンポン！正解！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [でも童話じゃない。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The intruder killed the bears]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 侵入者は熊を殺しました。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No. She left through the window!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [But we're not in a fairy tale.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ブブーッ。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [窓から出かけた！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [でも童話じゃない。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1926,14 +1927,14 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"If she had been a good girl, she would have"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['waited for the Bears to invite her into the house,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for they were good Bears.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But she was a rude, bad, bad little girl."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「いい子なら、家に誘い入れられるまで待っていて"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [熊達はいい熊だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [だがいい子ではなかった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼女は無礼でろくでもない悪い子だった。」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  26: !ruby/object:RPG::Event
-    id: 26
-    name: EV026
+  22: !ruby/object:RPG::Event
+    id: 22
+    name: EV022
     x: 22
     y: 4
     pages:
@@ -1977,10 +1978,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"If she had been a good girl, she would have"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['waited for the Bears to invite her into the house,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [for they were good Bears.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But she was a rude, bad, bad little girl."']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「いい子なら、家に誘い入れられるまで待っていて"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [熊達はいい熊だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [だがいい子ではなかった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼女は無礼でろくでもない悪い子だった。」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

@@ -93,7 +93,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：処刑された]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
@@ -424,7 +424,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> A rotting corpse."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["＞腐っている死体。"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -472,343 +472,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> A rotting corpse."]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  15: !ruby/object:RPG::Event
-    id: 15
-    name: EV015
-    x: 2
-    y: 2
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  16: !ruby/object:RPG::Event
-    id: 16
-    name: EV016
-    x: 4
-    y: 2
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  17: !ruby/object:RPG::Event
-    id: 17
-    name: EV017
-    x: 12
-    y: 2
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["＞腐っている死体。"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -858,19 +522,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We''re not taking that, either.'], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We''re not taking that, either.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[それも取りません。], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, それも取りません。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why are you so against me taking sharp]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['objects?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I can keep you safe without those., There were times when I had to rewind because you-], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I can keep you safe without those.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どうして私が鋭い物を取ることに反対するの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテを守るように要りません。, 巻き戻しなければならなかったことがある。シャルロッテは―], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテを守るように要りません。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I trust you on that, you know?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私、セツを信じてるの。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, There were times when I had to rewind because you-]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 巻き戻しなければならなかったことがある。シャルロッテは―]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ahhh, don''t remind me of that!']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ああああー、思い出させないで！]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1013,7 +676,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：処刑された]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
@@ -1107,7 +770,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：処刑された]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
@@ -1201,7 +864,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：処刑された]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
@@ -1295,7 +958,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：処刑された]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
@@ -1389,8 +1052,341 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Damage3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Executed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：処刑された]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  15: !ruby/object:RPG::Event
+    id: 15
+    name: EV015
+    x: 2
+    y: 2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[それも取りません。], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, それも取りません。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どうして私が鋭い物を取ることに反対するの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテを守るように要りません。, 巻き戻しなければならなかったことがある。シャルロッテは―], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテを守るように要りません。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私、セツを信じてるの。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 巻き戻しなければならなかったことがある。シャルロッテは―]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ああああー、思い出させないで！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: EV016
+    x: 4
+    y: 2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[それも取りません。], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, それも取りません。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どうして私が鋭い物を取ることに反対するの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテを守るように要りません。, 巻き戻しなければならなかったことがある。シャルロッテは―], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテを守るように要りません。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私、セツを信じてるの。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 巻き戻しなければならなかったことがある。シャルロッテは―]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ああああー、思い出させないで！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  17: !ruby/object:RPG::Event
+    id: 17
+    name: EV017
+    x: 12
+    y: 2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[それも取りません。], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, それも取りません。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どうして私が鋭い物を取ることに反対するの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[そんなのなくてもシャルロッテを守れます, 巻き戻さしなければならなかったことがあった。あのとき、シャルロッテは―], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, そんなのなくてもシャルロッテを守れます]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [セツを信じてるよ、知っているでしょ？]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 巻き戻さしなければならなかったことがあった。あのとき、シャルロッテは―]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ああああー、思い出させないで！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, AmpSaw, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

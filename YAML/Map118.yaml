@@ -321,7 +321,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It's locked.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カギがかかっている。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -395,19 +395,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces1, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> The little girl's eyes well up with tears"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at the sight of Charlotte.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["＞シャルロッテを見て小さい女の子が泣き始める。"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Um, I''m very sorry!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Can I help you somehow? Are you lost?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [あの、ごめんなさい！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どうしたの？？道に迷った？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Aren''t you lost yourself, big sister?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [お姉さんこそ、道に迷ったんじゃない？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["(That hurt!)"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["（痛いところを！）"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Leave. Freya doesn't talk to strangers.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [あっち行って。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [フレイヤは知らない人と話さないよ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -476,43 +476,43 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 22]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [22, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Girl's eyes light up at the sight"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [of the rabbit toy.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞ウサギのぬいぐるみを見て女の子の"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [目の色が変わる。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Want me to give it to you?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [これ、欲しいの？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I can have it?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [本当にフレイヤにくれる？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Sure! Here you go.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もちろん！はい、どうぞ！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Thank you!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [わ、ありがとう！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Your eyes look like egg whites!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [お姉さんの目は卵白みたい！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["(I'll take that as a compliment...I guess.)"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["（それは褒め言葉でいい・・・んだよね）"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm looking for a little boy. He must have]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['lost his way in this place, too.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Have you seen him by any chance?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [男の子を探してる。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [このあたりで彼も道に迷っただろうと。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どこかで彼を見た？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No...there's no one but Freya.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ううん・・・フレイヤ以外は誰もいないよ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I see.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You must be very lonely.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [そうか。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [フレイヤちゃんは寂しそうね。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hmph! Freya is fine on her own anyway!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [へん！フレイヤは一人でいいもん！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Get lost already if you're not going to stay.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ここにずっといるんじゃなかったら、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もうあっち行って。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Heard an unlocking sound."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞カギを開ける音を聞いた。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [156, 156, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The girl mumbles something to herself,"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [walking from side to side.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞彼女が何か呟いて歩き回っている。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -579,42 +579,43 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 22]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [22, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The girl's eyes light up"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [at the sight of the rabbit toy.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞ウサギのぬいぐるみを見て女の子の"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [目の色が変わる。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Want me to give it to you?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [これ、欲しいの？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I can have it?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [本当にフレイヤにくれる？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Sure! Here you go.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もちろん！はい、どうぞ！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Thank you!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [わ、ありがとう！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Your eyes look like egg whites!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [お姉さんの目は卵白みたい！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["(I'll take that as a compliment...I guess.)"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["（それは褒め言葉でいい・・・んだよね）"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'm looking for a little boy. He must have]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['lost his way in this place, too.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Have you seen him by any chance?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [男の子を探してる。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [このあたりで彼も道に迷っただろうと。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どこかで彼を見た？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [No...there's no one but Freya.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ううん・・・フレイヤ以外は誰もいないよ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I see.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You must be very lonely.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [そうか。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [フレイヤちゃんは寂しそうね。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 5, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hmph! Freya is fine on her own anyway!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [へん！フレイヤは一人でいいもん！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces1, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Get lost already if you're not going to stay.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ここにずっといるんじゃなかったら、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もうあっち行って。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> Heard an unlocking sound."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞カギを開ける音を聞いた。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [156, 156, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["> The girl mumbles something to herself."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["＞彼女が何か呟いて歩き回っている。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -658,7 +659,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

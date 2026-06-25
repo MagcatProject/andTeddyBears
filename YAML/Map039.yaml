@@ -70,76 +70,77 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The girl approaches me, leaving the boy']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [like a toy she lost interest in.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [彼女は興味がなくなったおもちゃように]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [男の子を残して私に近づく。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [4]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Why hello, dear guest!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どうも、お客さん！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The girl touches my cheek with her]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [blood-soaked hand.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [彼女は血だらけな手で私の頬を触る。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Why are you so sad?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Does it hurt anywhere?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [なんでーそんなに悲しいか？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [どこか痛いかー？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Come here, I''ll sing you a get-better song!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [こっち来て～]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [元気づける歌を歌ってあげるよ～]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Pain, pain, go away,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Don't come back the other day~]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[RUN, RUN, RUN, RUN], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, RUN]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [痛み　痛み　どっか行けー]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [別の日にもう一度来ないでね。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[ハシレ, ハシレ, ハシレ, ハシレ], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, ハシレ]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, RUN]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, ハシレ]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, RUN]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, ハシレ]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, RUN]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['What about Felix?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[We must leave without him.], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, We must leave without him.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, ハシレ]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Over my dead body.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Snap out of it. He's not even a person!], 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Snap out of it. He's not even a person!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [でもフェリックスは―]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[フェリックスを置いて行かないと。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, フェリックスを置いて行かないと。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['What are you saying?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [嫌だ。フェリックスは―]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[やめなさい。人ですらありません！], 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, やめなさい。人ですらありません！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [何を言ってるの？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...Ah. I get it."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・ああ！分かった。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [We just have to switch the channel]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [to make everything right!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [["...."], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, "...."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [私がチャンネルを変えたら]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ぜんぶ大丈夫になる！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [["・・・・・・"], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, "・・・・・・"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hey!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [おーい！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who are you talking to?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There's no one but me.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [誰と喋ているの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [フレイヤしかいないよ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The very next moment the girl looks at me]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [as if she’s seeing me for the first time.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [すぐ次の瞬間に女の子は、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [初めて見たかのように]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [私を見る。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's play hide-and-seek!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [鬼ごっこしよう！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I'll close my eyes and count to sixty.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [目を閉じて６０まで数えーるよ～]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 242, p: [15]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Make sure you find a good place to hide~]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [隠れるのに良い所を見つけてね～]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Or else...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [しないと・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['...you''re "it"!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["「鬼」だよー！"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [1...2...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [いーち・・・にー・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 124, p: [0, 50]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Chase Pulse Faster, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
@@ -188,7 +189,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [3, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 124, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FreyaFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I see you!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [見えるよー。]}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -334,58 +335,58 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*17]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Little Peter Rabbit had a fly upon his nose,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Little Peter Rabbit had a fly upon his nose...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've always wondered what rabbits have]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [inside their bellies.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I am thi-i-i-i-is surprised!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It wasn't cotton!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I was too late.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Why didn''t you trust me back then, Seth?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Only your safety matters.], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Only your safety matters.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [His death doesn't matter to you]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['as long as I''m alive, huh?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["..."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
         switch1_valid: true
         switch2_valid: false
         variable_valid: false
-        self_switch_valid: true
+        self_switch_valid: false
         item_valid: false
         actor_valid: false
-        switch1_id: 96
+        switch1_id: 122
         switch2_id: 1
         variable_id: 1
         variable_value: 0
@@ -509,6 +510,1526 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 134, 8, 24, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    x: 8
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &18 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &19 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*18]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*19]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &20 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &21 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &22 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &23 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &24 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    x: 7
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &25 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &26 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &27 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*27]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &28 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &29 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &30 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &31 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &32 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*28]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*29]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*31]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*32]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    x: 6
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &33 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &34 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &35 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &36 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*33]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*34]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*35]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*36]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &37 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &38 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &39 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &40 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &41 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*37]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*38]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*39]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*40]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*41]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: EV008
+    x: 5
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &42 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &43 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &44 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &45 !ruby/object:RPG::MoveCommand
+            code: 3
+            parameters: []
+          - &46 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*42]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*43]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*44]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*45]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*46]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &47 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &48 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &49 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &50 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &51 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*47]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*48]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*49]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*50]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*51]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  9: !ruby/object:RPG::Event
+    id: 9
+    name: EV009
+    x: 10
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &52 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &53 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*52]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*53]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &54 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &55 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &56 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &57 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &58 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*54]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*55]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*56]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*57]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*58]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  10: !ruby/object:RPG::Event
+    id: 10
+    name: EV010
+    x: 11
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &59 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &60 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &61 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*59]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*61]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &62 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &63 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &64 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &65 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &66 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*62]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*63]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*64]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*65]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*66]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  11: !ruby/object:RPG::Event
+    id: 11
+    name: EV011
+    x: 12
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &67 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &68 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &69 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &70 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*67]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*68]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*69]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*70]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &71 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &72 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &73 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &74 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &75 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*71]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*72]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*73]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*74]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*75]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  12: !ruby/object:RPG::Event
+    id: 12
+    name: EV012
+    x: 13
+    y: 23
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &76 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &77 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &78 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &79 !ruby/object:RPG::MoveCommand
+            code: 2
+            parameters: []
+          - &80 !ruby/object:RPG::MoveCommand
+            code: 19
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*76]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*77]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*78]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*79]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*80]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &81 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &82 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &83 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &84 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - &85 !ruby/object:RPG::MoveCommand
+            code: 4
+            parameters: []
+          - !ruby/object:RPG::MoveCommand
+            code: 0
+            parameters: []
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*81]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*82]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*83]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*84]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*85]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [小さなうさぎの鼻にハエがとまったよ・・・]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, FreyaFel, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ウサギの腹には何があるかな。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [いつも不思議だった。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こんな風に　お・ど・ろ・い・た！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [それは綿じゃなかったんだ！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, FreyaFel2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces2, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["！"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [3, FreyaFel3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は遅すぎた。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [4, FreyaFel4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 172, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces3, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [先ほど、どうして私を信じなかった、セツ？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[シャルロッテの無事だけが重要のです。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, シャルロッテの無事だけが重要のです。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私がまだ生きてるなら、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [フェリックスが死ぬかどうか]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [気にしないのね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 1, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["・・・"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [122, 122, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 122
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

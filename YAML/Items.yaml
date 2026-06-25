@@ -1,8 +1,8 @@
 ---
 -
 - !ruby/object:RPG::Item
-  description: Best choice for running in the hallways.
-  name: Scissors
+  description: 廊下を走ることに第一である。
+  name: ハサミ
   consumable: false
   occasion: 0
   icon_index: 140
@@ -81,8 +81,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Made for soothing the pain.
-  name: Eye drops
+  description: 痛みを和らげるために作られた。
+  name: 目薬
   consumable: false
   occasion: 0
   icon_index: 221
@@ -106,8 +106,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Huxley says it's a key element in every surgery.
-  name: Duct Tape
+  description: ハックスリーは手術のために必要と言っている。
+  name: ダクトテープ
   consumable: false
   occasion: 0
   icon_index: 260
@@ -131,8 +131,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: This notebook contains all the world's secrets.
-  name: '"Book of Truth"'
+  description: 世界の秘密が全て入っている。
+  name: "『真実の本』"
   consumable: false
   occasion: 0
   icon_index: 226
@@ -161,8 +161,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Extra art from etherane!
-  name: Doodles
+  description: etheraneからのおまけ！
+  name: らくがき
   consumable: false
   occasion: 0
   icon_index: 238
@@ -221,8 +221,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: A bottle of soap.
-  name: Soap
+  description: ソープのボトル。
+  name: ソープ
   consumable: true
   occasion: 0
   icon_index: 220
@@ -257,7 +257,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Silver Key
+  name: 銀のカギ
   consumable: false
   occasion: 0
   icon_index: 242
@@ -281,8 +281,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: The magic word is "Please".
-  name: Note
+  description: パスワードは「Ｐｌｅａｓｅ」。
+  name: ノート
   consumable: false
   occasion: 0
   icon_index: 236
@@ -306,8 +306,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"FACT: Chicken Nuggets are VEGETABLES too"'
-  name: Lucky Meal
+  description: "「知っていましたか？チキンナゲットも野菜です！」"
+  name: ラッキーセット
   consumable: true
   occasion: 0
   icon_index: 266
@@ -336,8 +336,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: '"837529" note'
+  description: ８３７５２９
+  name: "『８３７５２９』　ノート"
   consumable: false
   occasion: 0
   icon_index: 239
@@ -361,8 +361,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Who thought this was a good idea?
-  name: Meat Doll
+  description: 誰がこれをいい考えと思ったの？
+  name: 肉人形
   consumable: false
   occasion: 0
   icon_index: 0
@@ -386,8 +386,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Strong acid inside.
-  name: Sulfuric Acid
+  description: 中には強力な酸が入っている。
+  name: 硫酸
   consumable: false
   occasion: 0
   icon_index: 194
@@ -411,8 +411,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"Abilify", 100mg, 30 tablets'
-  name: Pills
+  description: "「エビリファイ」、 １００ｍｇ。 ３０錠。"
+  name: 薬
   consumable: true
   occasion: 0
   icon_index: 208
@@ -441,8 +441,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: A weird-looking white mask.
-  name: Follower Mask
+  description: 変な白い仮面。
+  name: 死刑執行吏の仮面
   consumable: false
   occasion: 0
   icon_index: 0
@@ -471,8 +471,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: It's a sketch of an Oracle.
-  name: Drawing
+  description: 神託のらくがきである。
+  name: 絵
   consumable: false
   occasion: 0
   icon_index: 0
@@ -496,8 +496,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: It's super heavy.
-  name: Sci-Fi Almanac
+  description: 超重い。
+  name: "『ＳＦ年鑑』"
   consumable: false
   occasion: 0
   icon_index: 375
@@ -527,7 +527,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Nebula Ownership
+  name: らせん星雲の権利証書
   consumable: false
   occasion: 0
   icon_index: 238
@@ -551,8 +551,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Extra art from etherane!
-  name: Doodles
+  description: etheraneからのおまけ！
+  name: らくがき
   consumable: false
   occasion: 0
   icon_index: 238
@@ -582,7 +582,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Rabbit Toy
+  name: ウサギのぬいぐるみ
   consumable: false
   occasion: 0
   icon_index: 0
@@ -607,7 +607,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Azure Ribbon
+  name: 紺碧のリボン
   consumable: true
   occasion: 0
   icon_index: 527
@@ -636,8 +636,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: It glows in the dark.
-  name: Shiny Brooch
+  description: 暗闇で光る。
+  name: キラキラなブローチ
   consumable: false
   occasion: 0
   icon_index: 184
@@ -662,7 +662,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Key
+  name: カギ
   consumable: true
   occasion: 0
   icon_index: 242
@@ -686,8 +686,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Eat the Lucky Meal.
-  name: Feed Charlotte
+  description: ラッキーセットを食べよう
+  name: シャルロッテにえさやって
   consumable: false
   occasion: 0
   icon_index: 140
@@ -712,7 +712,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Ring
+  name: 指輪
   consumable: false
   occasion: 0
   icon_index: 513
@@ -737,7 +737,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Door Knob
+  name: ドアノブ
   consumable: false
   occasion: 0
   icon_index: 0
@@ -762,7 +762,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Basement Key
+  name: 地下のカギ
   consumable: false
   occasion: 0
   icon_index: 244
@@ -787,7 +787,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Unknown Key
+  name: 不明なカギ
   consumable: false
   occasion: 0
   icon_index: 242
@@ -812,7 +812,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Bronze Key
+  name: 銅のカギ
   consumable: false
   occasion: 0
   icon_index: 240
@@ -842,7 +842,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Fancy Key
+  name: 綺麗なカギ
   consumable: false
   occasion: 0
   icon_index: 243
@@ -892,7 +892,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Back Door Key
+  name: 裏口のカギ
   consumable: false
   occasion: 0
   icon_index: 244
@@ -916,8 +916,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Soaked in soft tissue.
-  name: Bloody Pin
+  description: 鮮血淋漓。
+  name: 血塗れ針
   consumable: false
   occasion: 0
   icon_index: 0
@@ -942,7 +942,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Fancy Brooch
+  name: 派手なブローチ
   consumable: false
   occasion: 0
   icon_index: 189
@@ -966,8 +966,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Read books, visit closed rooms, talk to the tenants.
-  name: Kill Time
+  description: 本を読んで、 新しい部屋を訪れて、入居者と話して。
+  name: 時間をつぶして
   consumable: false
   occasion: 0
   icon_index: 140
@@ -991,8 +991,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Find a phone and call food delivery services.
-  name: Order Food
+  description: 電話を見つけて配達サービスに注文しよう。
+  name: 食事を注文して
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1016,8 +1016,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"It must be somewhere in my room."'
-  name: Find Basement Key
+  description: "「私の部屋にあると思う。」"
+  name: 地下のカギを見つけて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1041,8 +1041,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"I hope nothing bad happened to him."'
-  name: Find Felix
+  description: "「大丈夫だといいの。」"
+  name: フェリックスを見つけて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1066,8 +1066,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: The left door opens with a key.
-  name: Find the Key
+  description: 左のドアはカギが必要。
+  name: カギを見つけて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1091,8 +1091,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: The right door opens with a ring.
-  name: Find the Ring
+  description: 右のドアは指輪が必要。
+  name: 指輪を見つけて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1116,8 +1116,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"Perhaps it''s in one of these funky boxes?"'
-  name: Find the Door Knob
+  description: "「あの変な箱の中にあるかな。」"
+  name: ドアノブを見つけて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1142,7 +1142,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: Find the Way Out
+  name: 出口を見つけて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1166,8 +1166,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Find a way to commit suicide.
-  name: Kill Yourself
+  description: 自殺方法を見つけて。おねがい。
+  name: 自殺して
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1191,8 +1191,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Count to five hundred.
-  name: Count Sheep
+  description: ５００まで数えよう。
+  name: 羊を数えて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1216,8 +1216,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: '"I should take these before school every morning."'
-  name: Take Pills
+  description: "「毎朝学校へ行く前に飲まないといけないの」"
+  name: 薬を飲んで
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1241,8 +1241,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Bring the item the Flower Lady requested.
-  name: Bring Items
+  description: 花の女の人に頼まれたアイテムを持っていこう。
+  name: アイテムを持っていって
   consumable: true
   occasion: 0
   icon_index: 140
@@ -1266,8 +1266,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Escort the Flower Lady to the Flower Room.
-  name: Help Ms Poppy
+  description: 花の部屋へ連れて行こうね。
+  name: ヒナゲシさんを助けて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1291,8 +1291,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Find a way to get to the attic.
-  name: Answer the Door
+  description: 玄関へ行かなきゃ。
+  name: ドアを開けて
   consumable: false
   occasion: 0
   icon_index: 140
@@ -1316,8 +1316,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Go to Charlotte's room.
-  name: Go to Sleep
+  description: 私の部屋へ行こう。
+  name: 寝て
   consumable: false
   occasion: 0
   icon_index: 140

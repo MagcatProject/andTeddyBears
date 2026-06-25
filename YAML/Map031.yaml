@@ -330,37 +330,37 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hey, Seth.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes?', Ignore], 3]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ねー、セツ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[はい？, 無視する], 3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, はい？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Do you ever take days off?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[I do not. I cannot leave my duty.], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, I do not. I cannot leave my duty.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [セツは休むことがあるの？]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[ありません。義務を放棄できません。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, ありません。義務を放棄できません。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['So you don''t have a free will either, do you.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [それならセツにも自由意志がないのね。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [It's a pity you can't take a break.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [It'd be great fun if we played video games]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [together.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [休みがなくて残念ね。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [一緒にテレビゲームしたら]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [とっても楽しいと思う。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Although my life may be like a video game]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [to you.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[What nonsense., You're right.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, What nonsense.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [でも、セツには、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私の人生はテレビゲームみたいでしょう。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[ばかばかしい。, その通りです。], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, ばかばかしい。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Oh, really?']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Well, I like your serious approach.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [あ、本当？]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [まあ、まじめなアプローチが好き。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, You're right.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, その通りです。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Just don''t kill me off too often, okay?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [あんまりたくさん死なせないでね。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Ignore]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 無視する]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}

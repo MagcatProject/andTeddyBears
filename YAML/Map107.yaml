@@ -95,8 +95,8 @@ events:
       trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There's no one in these rooms.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Only the corpses.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [この部屋には誰もいない。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [死体だけ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -185,7 +185,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Another dead body."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> もう一つの死体。"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

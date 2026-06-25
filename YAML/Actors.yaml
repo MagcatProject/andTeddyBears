@@ -1,7 +1,7 @@
 ---
 -
 - !ruby/object:RPG::Actor
-  name: Charlotte
+  name: シャルロッテ
   face_index: 7
   character_index: 1
   initial_level: 1
@@ -144,7 +144,7 @@
   max_level: 1
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: Felix
+  name: フェリックス
   face_index: 1
   character_index: 5
   initial_level: 1
@@ -186,7 +186,7 @@
   max_level: 1
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: Ms Poppy
+  name: ヒナゲシさん
   face_index: 0
   character_index: 0
   initial_level: 1

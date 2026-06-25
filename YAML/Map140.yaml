@@ -333,10 +333,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Tale of Ink Princess, part 3"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Read?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『インク姫の物語』　第三話"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['読みますか?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[読む, 読まない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 読む]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Ink10, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
@@ -350,9 +350,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It seems unfinished.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [遣り掛けみたい。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 読まない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

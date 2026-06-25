@@ -1,8 +1,8 @@
 ---
 -
 - !ruby/object:RPG::Weapon
-  description: Best choice for running in the hallways.
-  name: Scissors
+  description: 廊下を走ることに第一である。
+  name: ハサミ
   icon_index: 0
   price: 0
   animation_id: 1

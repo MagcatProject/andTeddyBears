@@ -49,10 +49,10 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['So this is where Bennett''s crew works?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ここは、ベンネットのチームが働く所なの？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Pretty much. Stuff usually blows up in here]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so it has restricted access.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [うん。多くの物がたいてい爆発するから]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [アクセスが制限されてる。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [14, 14, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -142,7 +142,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Antoinette.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [アントワネットだ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -190,7 +190,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [He's Goodwin.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [名前はグッドウィンだ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -238,7 +238,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's Franklin.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [フランクリンだ。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -286,7 +286,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Their name on the suit label is "Blanche".]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [化学防護服 にある彼らの名前は「ブランシュ」である。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -334,15 +334,16 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hello, Florence. What''s up?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どうも、フローレンス。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We've discovered that adding dark matter]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to the dough improves the taste of]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a chocolate cake by fifteen percent!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どうしてる？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [生地に暗黒物質を加えると、]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [チョコレートケーキの味が]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [１５％高まることを発見した]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [BenFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't tell anyone.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [誰も言わないでね。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Okie dokie.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [はーい！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -390,7 +391,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This guy has "Archibald" written on his suit label.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こいつの化学防護服 の名札は「アーチボルド」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [と書いてある。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -485,7 +487,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That's Lecter.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [レクターである。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -533,7 +535,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [His name appears to be Baldwin.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼の名前はボールーウィンみたい。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -581,7 +583,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This person has no suit label.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [こちらの人は化学防護服 の名札がない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -629,7 +631,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [中には興味を引くようなものはない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -678,18 +680,18 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Found Tongue Tearer! Take it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['NO', Put it back], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'NO']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [舌切り取り装置を見つけた！取りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[イヤ, もとの所へ戻しなさい], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, イヤ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Put it back]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, もとの所へ戻しなさい]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Right. Should've known.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [はーい・・・分かったの。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This one's a fake anyway.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [とにかく、これは偽物なんだ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -739,23 +741,23 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['User Log: "  "']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0008', Cancel], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ユーザー・ログ：「」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0008', キャンセル], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0008']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Shhhhh!"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [They're watching."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["「しーーっ！"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [見られている。」]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Cancel]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, キャンセル]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hm. I have always considered a possibility]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [of being watched.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ふむ、ずっと見られている可能性]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [を考えています。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It is pretty plausible if we take into]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [account all the conspiracy theories.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [全ての陰謀論を考慮すれば、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [中々もっともらしいんだ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -805,23 +807,23 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['User Log: "  "']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0008', Cancel], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ユーザー・ログ：「」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['0008', キャンセル], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, '0008']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["\"Shhhhh!"]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [They're watching."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["「しーーっ！"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [見られている。」]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Cancel]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, キャンセル]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Hm. I have always considered a possibility]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [of being watched.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ふむ、ずっと見られている可能性]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [を考えています。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It is pretty plausible if we take into]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [account all the conspiracy theories.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [全ての陰謀論を考慮すれば、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [中々もっともらしいんだ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -904,7 +906,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Chem Lab
+display_name: 研究室
 specify_battleback: false
 note: ''
 battleback1_name: ''

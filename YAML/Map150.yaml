@@ -55,42 +55,43 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [3, 30, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [-1, 8, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [There's no place to hide.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [隠れるとこがない。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [FreyaFaces, 4, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Where~ are~ you~?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [どーこーに隠れた～？]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["!"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["！"]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I don't want to be gutted alive.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [生きたまま腸を切り取られたくないの。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Please...]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['please kill me before she does, Seth.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I'm begging you.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[No way, 'Are you out of your mind?'], 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, No way]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [おねがい・・・]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [おねがい、セツ、彼女がする前に]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [私を殺してくれて！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [お願いだから。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[嫌です！, 正気ですか？], 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 嫌です！]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces3, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Then, I''ll do it myself.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [じゃあ、自分でやるの。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [123, 123, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 111, p: [0, 123, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ["> Charlotte uses Scissors on herself."]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ["＞シャルロッテは自身にはさみを使う。"]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Stab, stab, stab.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [ザク、ザク、ザク]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Stab, stab, stab.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [ザク、ザク、ザク]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Stab, stab, stab.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [ザク、ザク、ザク]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Stab, stab, stab.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [ザク、ザク、ザク]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 250, p: [!ruby/object:RPG::SE {name: Slash6, pitch: 100, volume: 100}]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 211, p: [0]}
@@ -105,23 +106,24 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[Please don't harm yourself.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, Please don't harm yourself.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[自分を傷つけないでください。], 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 自分を傷つけないでください。]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: ['I wasn''t meaning to, silly!']}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [そんなことをするつもりはなかった、]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [お馬鹿さん。]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'Are you out of your mind?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 正気ですか？]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Can''t you see? It''s a "bad end" for me.']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Unless you rewind time, I''m dead one way']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [or another.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [見ないの？これは私の「バッドエンド」。]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [時間を巻き戻さなければ、いずれにしても]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [私は死んでる！]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces3, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [I still have the scissors Felix gave me.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['You know what to do, right?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [まだフェリックスがくれたはさみを持っている]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [セツはどうするかわかってるよね。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 121, p: [123, 123, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 126, p: [45, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 123, p: [A, 0]}
@@ -551,7 +553,7 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Found you~~!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [見っけた～～！]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205

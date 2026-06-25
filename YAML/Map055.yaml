@@ -97,33 +97,35 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 64, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 213, p: [0, 10, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Bennett is snoring in his sleep.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ベンネットはいびきをかいて寝ている。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [52, 52, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [BenFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Bennett looks sad.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ベンネットは悲しそう。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hi, Bennett.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [どうも、ベンネット。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [FelFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Are you dead or something?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [おい、死んだかい？]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [BenFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["...After 1037 episodes and 10 specials"]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [they've finally confessed their undying love]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [to each other!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [１０３７話のエピソードと]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [１０話のスペシャルの後、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [やっと永遠の愛を告白しちゃった！]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [あーあ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [BenFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Underneath my protection suit,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I'm dying from complicated feelings.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [化学防護服の中に、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [複雑な気持ちで死んでるぜ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces2, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Let's leave him until he's ready to return]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['to the harsh reality, shall we?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ひどい現実に戻る気になるまで]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [放っておこうか。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [14, 14, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 213, p: [0, 8, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Bennett is absorbed in watching TV.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ベンネットは夢中になって]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [テレビを見ている。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -175,7 +177,7 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Felix is not here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [フェリックスはいない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -265,73 +267,73 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 64, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Watch TV?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [テレビを見ますか？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Vkljuchajut_televizor_shipit, pitch: 100, volume: 80}]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[見る, 見ない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 見る]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 見ない]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [FelFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Hello, humanity''s worst invention for']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [spreading stupidity among masses.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [どうも、間抜けの普及のための人類の最低の発明。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['It wasn''t always like this. When I was little,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [there were still cartoons on TV besides]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [commercials and soap operas.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ずっとこんなに悪かったわけがない。]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [子供の頃は、テレビで]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ソープ・オペラと宣伝の他に、]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [アニメがまだあった。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Watch TV?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Yes', It's a waste of time], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [テレビを見ますか？]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[はい, 時間の無駄です。], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, はい]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: Vkljuchajut_televizor_shipit, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [All 99 channels show commercials 24/7.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["\"Next on PanopticonTV: Synthemeal Commercial!"]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Don’t miss it!"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [全ての９９チャンネルには常に宣伝がある。]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ["「パノプティコンテレビ　次回：ケミ・エッセン ＣＭ！"]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [お見逃しなく！」]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Switch the channel?']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [チャンネルを変えますか？]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[変える, 変えない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 変える]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ["\"YOU and only YOU can stop the world crisis!"]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Help stop overproduction by buying things NOW!"]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ["「世界の大ピンチを終わらせられるのはあなただけ！"]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [今すぐ買って生産過剰を終わらせて！」]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Switch the channel?']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [チャンネルを変えますか？]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 102, p: [[変える, 変えない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [0, 変える]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [ORGANIC JUNK FOOD AT CHARLIE’S IS]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [THE ULTIMATE CURE FOR OBESITY!]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [Order now by calling 0800-XXXXXXX!]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [チャーリーズの無農薬のジャンクフードは]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [肥満の究極の治療です！]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [０８０－ＸＸＸ－ＸＸＸＸ番に電話して注文！]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [That's enough TV for today.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [今日はテレビはもういい。]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 402, p: [1, 変えない]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [It's so noisy.]}
-      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [That's enough TV for today.]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [本当にうるさいね。]}
+      - !ruby/object:RPG::EventCommand {i: 5, c: 401, p: [今日はテレビはもういい。]}
       - !ruby/object:RPG::EventCommand {i: 5, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 5, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 変えない]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Enough TV for today.]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [今日はテレビはもういい。]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, It's a waste of time]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 時間の無駄です。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Yep, I have better things to do.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [そう、他にもっといいことがある。]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -464,7 +466,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: TV Room
+display_name: テレビの部屋
 specify_battleback: false
 note: ''
 battleback1_name: ''

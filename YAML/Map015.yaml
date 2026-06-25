@@ -154,18 +154,18 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit in the chair?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [椅子を座りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[座る, 座らない], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 座る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Oops, it broke. Have I gained weight lately?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [おっと、壊れた。最近、太ったの？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 座らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Right.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・うん。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 403, p: []}
@@ -311,19 +311,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The big sofa looks comfy.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [大きなソファは心地よさそう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [座りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[座る, 座らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 座る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too hard."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・固すぎるの。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 座らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can sit on the floor if I'm tired.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [疲れたら床の上に座れる。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -414,20 +414,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The chair looks comfy.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [この椅子は心地よさそう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [座りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[座る, 座らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 座る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too soft. Not comfy at all."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・柔らかすぎるの。全然心地よくない。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 座らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Wouldn't want to accidentally]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [break this chair.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [間違って椅子を壊したくないの。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -519,7 +518,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 225, p: [7, 6, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [SOMEBODY HAS BEEN SITTING IN MY CHAIR!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [誰かが我が椅子に座ってしまった！！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -608,8 +607,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A collection of fairytales involving bears.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Neat.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [熊についての色々な童話がある。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [すごい。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -658,7 +657,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Found a Silver Key!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [銀のカギを見つけた！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [10, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -699,110 +698,6 @@ events:
       direction_fix: false
       through: false
       priority_type: 0
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  7: !ruby/object:RPG::Event
-    id: 7
-    name: EV007
-    x: 13
-    y: 4
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The chair looks comfy.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too soft. Not comfy at all."]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Wouldn't want to accidentally break]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this chair.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: true
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -852,7 +747,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nothing of interest in here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [中には興味を引くようなことがない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -900,19 +795,122 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The big sofa looks comfy.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sit on it?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...It's too hard."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [大きなソファは心地よさそう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [座りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[座る, 座らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 座る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・固すぎるの。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 座らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I can sit on the floor if I'm tired.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [疲れたら床の上に座れる。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: EV007
+    x: 13
+    y: 4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [この椅子は心地よさそう。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [座りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[座る, 座らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 座る]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 6, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・柔らかすぎるの。全然心地よくない。"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [175, 175, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [26, 26, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 座らない]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [間違って椅子を壊したくないの。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}

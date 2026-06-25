@@ -95,10 +95,10 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"WAYS TO FIND OUT IF YOUR NEIGHBOUR IS"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['POSSESSED BY GOD:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「隣人が神に取り付かれているかどうか"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [見わける方法：]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [1. SHOOT HIM AND SEE WHAT HAPPENS"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [１．撃って様子を見て」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -151,57 +151,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  3: !ruby/object:RPG::Event
-    id: 3
-    name: EV003
-    x: 7
-    y: 4
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["\"WAYS TO FIND OUT IF YOUR NEIGHBOUR IS"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['POSSESSED BY GOD:']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [1. SHOOT HIM AND SEE WHAT HAPPENS"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
     name: EV002
@@ -251,21 +200,21 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Cool.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[We're not taking that.], 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, We're not taking that.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [すごい。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[シャルロッテは取りません。], 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, シャルロッテは取りません。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['A weapon would come in handy, though.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Not when you don't know how to use it., Kids these days...], 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Not when you don't know how to use it.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [でも、武器は役立つの。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[使い方が分からないのでなければ。, まったく、今時の若い子は。], 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 使い方が分からないのでなければ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Well, you do have a point.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I have the worst marks in gym class.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["・・・ふむ、確かに一理ある。"]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [体育の成績は最悪なのよ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Kids these days...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, まったく、今時の若い子は。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I can almost hear you sighing from]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [the other side of the control console.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [コンソールの向こうから]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [セツのため息を聞こえてくるようだ。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -316,6 +265,57 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    x: 7
+    y: 4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["「隣人が神に取り付かれているかどうか"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [見わける方法：]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [１．撃って様子を見て」]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM

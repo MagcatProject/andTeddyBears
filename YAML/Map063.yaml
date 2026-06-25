@@ -48,7 +48,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My biggest fears are meat and pomegranates.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [最大の恐れは肉とザクロです。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -96,7 +96,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Meat is red, violets are blue.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [肉は赤い　菫は青い。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -144,7 +144,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Flowers that tell lies have a bad memory.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [嘘つきの花は記憶が悪いです。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -193,25 +193,24 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 36]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I hand the item to the flower lady.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [花の女の人にアイテムを上げる。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [36, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Why thank you!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Here, you can have my old-fashioned brooch,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I don't need it anymore.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ありがとうございます！]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [これ、旧式のブローチをもっていっていいです。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [もう要らないのです。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I attach the brooch to my ribbon.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It emits a faint light.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [リボンにブローチをかける。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ぼんやりと光る。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [FelFaces, 1, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [We can use the pin attached to it.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [付いている針を使える。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [104, 104, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [24, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['of the Red Box?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [赤い箱の中身を持ってきて頂けませんか？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
@@ -302,8 +301,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Black Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黒い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -347,8 +345,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Blue Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [青い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
@@ -458,8 +455,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Yellow Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黄色い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -503,8 +499,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Green Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [緑の箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
@@ -553,8 +548,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Blue Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [青い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -598,8 +592,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Black Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黒い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
@@ -648,8 +641,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Green Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [緑の箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -693,8 +685,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Black Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黒い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
@@ -743,8 +734,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Blue Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [青い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -788,8 +778,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Yellow Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黄色い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
@@ -838,8 +827,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Blue Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [青い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -883,8 +871,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Yellow Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黄色い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
@@ -933,8 +920,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Black Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黒い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -978,8 +964,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Yellow Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黄色い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
@@ -1028,8 +1013,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Green Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [緑の箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [42, 42, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1073,8 +1057,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you be so kind as to bring me the contents]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the Black Box?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [黒い箱の中身を持ってきてくれませんか？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
@@ -1172,12 +1155,12 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 113, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The flower lady blows us kisses.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [花の女の人はキスを投げる。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Thank you so much!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [とてもありがとうございました。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Here, take these eyedrops as a token of my']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [eternal gratitude.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [こちらを、永遠の感謝のしるしとして、]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [目薬を受けて取ってください。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [4, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [12, 12, 1, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 129, p: [10, 1, 0]}

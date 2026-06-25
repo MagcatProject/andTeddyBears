@@ -47,24 +47,72 @@ events:
       priority_type: 0
       trigger: 3
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, aetherworks, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: soundlogo43, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [300]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Logo1, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 251, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: voice, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [33]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo4, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [20]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My world met its end a long time ago.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私の世界はずいぶん前に終わった。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The humanity as I knew it has ceased to exist,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and disappeared without a single trace.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私が知っていた人類は消滅して]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [跡形も無く消えてしまった。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The gods they believed in have died, and churches']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [were built as their graves.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼らが信じた神たちは死んで、]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [彼らの墓として教会が建てられた。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The chaos turned into order, and it finally became quiet.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [混沌は秩序になって、静かになった。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['All I can do is dream, for I am so, so tired.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私は夢を見るしかない。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [とてもとても疲れたから。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Before I abandon the words that form noise in my head,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Will you be so kind as to join me in dream-seeing?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hello Charlotte: Episode 1']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Junk Food, Gods and Teddy Bears"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [頭の中のノイズを発生している言葉を捨てる前に、]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [私と一緒に夢を見ていただけませんか。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, introcard_EP1, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 4, 8, 5, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, ActorSheet2, 4, CharFaces, 7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

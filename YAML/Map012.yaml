@@ -49,19 +49,19 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 124, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [THE MIRROR SHOWS THE HIDDEN]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [コノカガミハカクレタコトヲミセル]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [56, 56, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [THE MIRROR SHOWS THE FUTURE]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [コノカガミハミライヲミセル]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Illust3, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Whoa, this feels photoshopped.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [わ、 フォトショコラみたいの。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -112,7 +112,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [8, 10]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Unlocked the door!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カギを開けた！]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [10, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [77, 77, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 2, 8, 11, 0, 0]}
@@ -122,7 +122,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open2, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [This door is closed.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ドアが閉めてある。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -171,48 +171,6 @@ events:
       priority_type: 0
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 0
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [More bear books.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -351,48 +309,6 @@ events:
       priority_type: 0
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 0
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Books, books, books...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -763,30 +679,29 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 213, p: [-1, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['THERE YOU ARE, LITTLE BURGLAR.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [見つけた、小さな泥棒！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CHOOSE THE ROOM YOU WILL AWAIT]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [YOUR PUNISHMENT IN.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Lion Room, Torture Room, Oxygen Room], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Lion Room]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [罰を待つ部屋を選べ。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[ライオンの部屋, 拷問の部屋, 酸素の部屋], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, ライオンの部屋]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["..."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The lions haven't eaten for a long time.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ラオインは長いこと食べなかった。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Torture Room]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 拷問の部屋]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["...This day can't get any worse, right?"]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [今日はこれ以上悪くはならないよ、ね？]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 1, 8, 11, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Oxygen Room]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 酸素の部屋]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["..."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The room is filled with pure oxygen,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [making it impossible to breathe.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [部屋は純粋な酸素で満たされていて]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [呼吸ができなくなっている。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -839,59 +754,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Bear"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Little Polar Bear"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Paddington Bear"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  16: !ruby/object:RPG::Event
-    id: 16
-    name: EV016
-    x: 13
-    y: 5
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Rupert Bear"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Winnie-the-Pooh"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Life and Times of Grizzly Adams"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『熊』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『小さいシロクマ』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『熊のパディントン』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   17: !ruby/object:RPG::Event
     id: 17
@@ -939,9 +804,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Lord of The Bears"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Bear, the Witch and the Wardrobe"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Bear and Peace"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『熊輪物語』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『クマと魔女』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『熊と平和』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -989,8 +854,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Gone with the Honey"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"To Kill a Rabbit"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ハチミツと共に去りぬ』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『兎を殺すのは』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
     id: 21
@@ -1235,14 +1100,14 @@ events:
       priority_type: 1
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Turn ON, Turn OFF], 5]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Turn ON]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[つける, 消す], 5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, つける]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Switch3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [77, 77, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [124, 124, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Turn OFF]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 消す]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Switch3, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [77, 77, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [124, 124, 1]}
@@ -1348,58 +1213,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Valley of the Bears"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Hibernate and Grow Rich"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Girl with the Bear Tattoo"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  27: !ruby/object:RPG::Event
-    id: 27
-    name: EV027
-    x: 5
-    y: 5
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Gone with the Honey"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"To Kill a Rabbit"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『熊の谷』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『冬眠は現実化する』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ベア・タトゥーの女』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   28: !ruby/object:RPG::Event
     id: 28
@@ -1447,9 +1263,108 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Rupert Bear"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Winnie-the-Pooh"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Life and Times of Grizzly Adams"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ルパート・ベア』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『くまのプーさん』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『グリズリーアダムスの人生と時代』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  22: !ruby/object:RPG::Event
+    id: 22
+    name: EV022
+    x: 5
+    y: 5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ハチミツと共に去りぬ』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『兎を殺すのは』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  16: !ruby/object:RPG::Event
+    id: 16
+    name: EV016
+    x: 13
+    y: 5
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『ルパート・ベア』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『くまのプーさん』"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["『グリズリーアダムスの人生と時代』"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -1530,7 +1445,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Mirror Room
+display_name: 鏡の部屋
 specify_battleback: false
 note: ''
 battleback1_name: ''

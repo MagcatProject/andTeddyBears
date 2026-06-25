@@ -381,7 +381,7 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FreyaFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Found you~~!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [見っけた～～！]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205

@@ -139,15 +139,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [8, ActorSheet3, 6, FelFaces2, 7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, ActorSheet2, 5, CharFaces3, 3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["> Follower Mask obtained!"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["＞死刑執行吏の仮面を手に入れた！"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Mask, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [FelFaces2, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How do I look?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [どう見える。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces3, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Rather menacing.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [なかなか威嚇的。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [142, 142, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

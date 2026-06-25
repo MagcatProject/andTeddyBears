@@ -143,7 +143,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Cat Room"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [猫の部屋]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -191,10 +191,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The Bear Room"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [熊の部屋]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I hope there aren't any actual bears out]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [there...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [外には本物の熊がいないといいの・・・]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -246,7 +245,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 1, 0, 31, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Key, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Unlocked the door!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [カギを開けた！]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [31, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 12, 1, 6, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 123, p: [A, 0]}
@@ -255,7 +254,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I need to find a key.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カギを見つけなくちゃ。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -350,7 +349,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 2, 0, 27, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Key, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Unlocked the door!]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [カギを開けた！]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [27, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 11, 4, 18, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [76, 76, 0]}
@@ -360,7 +359,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The door is closed.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ドアは開けない。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -450,9 +449,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The bearer of the key shall pass!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カギを持つ人が通れるクマ！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['These aren''t alive, are they...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [生きていないの、ね・・・？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -495,7 +494,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The bearer of the key shall pass!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カギを持つ人が通れるクマ！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -543,9 +542,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The bearer of the ring shall pass!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [指輪を持つ人が通れるクマ！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['These aren''t alive, are they...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [生きていないの、ね・・・？]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -588,7 +587,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"The bearer of the ring shall pass!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [指輪を持つ人が通れるクマ！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -636,7 +635,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The bears seem to love symmetry.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [熊たちは対称が好きみたい。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -684,7 +683,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The presents are lined up nicely.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [プレゼントは綺麗に並んでいる。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -733,7 +732,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The window seems to open from the other side.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [反対側しか開けられない。]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -783,7 +782,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 7, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Only forward!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [進もう！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -832,7 +831,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [DON'T LOOK IN THE MIRROR]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [カガミヲミルナ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -883,7 +882,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [6, -1, 8]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [TAKE A BREAK]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ヤスメ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

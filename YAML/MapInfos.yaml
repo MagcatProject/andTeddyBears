@@ -8,353 +8,353 @@
   parent_id: 0
 7: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Basement
+  name: 地下
   expanded: false
   order: 15
   scroll_y: 208
   parent_id: 42
 10: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: Dissection
+  name: 解剖
   expanded: false
   order: 16
   scroll_y: 240
   parent_id: 42
 42: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 00: Reality'
+  name: レベル００：現実
   expanded: true
   order: 9
   scroll_y: 224
   parent_id: 0
 53: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Corridor
+  name: 廊下
   expanded: false
   order: 23
   scroll_y: 208
   parent_id: 42
 54: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Library
+  name: 図書館
   expanded: false
   order: 10
   scroll_y: 208
   parent_id: 42
 55: !ruby/object:RPG::MapInfo
   scroll_x: 288
-  name: TVroom
+  name: ＴＶ部屋
   expanded: false
   order: 11
   scroll_y: 208
   parent_id: 42
 57: !ruby/object:RPG::MapInfo
   scroll_x: 288
-  name: Diningroom
+  name: 台所
   expanded: false
   order: 12
   scroll_y: 208
   parent_id: 42
 58: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Outside
+  name: 外
   expanded: false
   order: 13
   scroll_y: 208
   parent_id: 42
 59: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Hallway
+  name: 玄関
   expanded: false
   order: 14
   scroll_y: 208
   parent_id: 42
 1: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 01: Bears'
+  name: レベル０１：熊
   expanded: true
   order: 24
   scroll_y: 208
   parent_id: 0
 3: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 2ndEntrance
+  name: 入口２
   expanded: true
   order: 28
   scroll_y: 208
   parent_id: 1
 5: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: BearRoom
+  name: 熊部屋
   expanded: false
   order: 29
   scroll_y: 208
   parent_id: 3
 6: !ruby/object:RPG::MapInfo
   scroll_x: 320
-  name: CatRoom
+  name: 猫部屋
   expanded: true
   order: 30
   scroll_y: 240
   parent_id: 3
 12: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: MirrorRoom
+  name: 鏡部屋
   expanded: true
-  order: 34
+  order: 32
   scroll_y: 208
-  parent_id: 1
+  parent_id: 3
 9: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: 1stEntrance
+  name: 入口１
   expanded: true
   order: 25
-  scroll_y: 774
+  scroll_y: 773
   parent_id: 1
 8: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: FireRoom
+  name: 炎部屋
   expanded: false
   order: 31
   scroll_y: 256
   parent_id: 6
 13: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: LeftRoom
+  name: 左部屋
   expanded: false
   order: 26
   scroll_y: 208
   parent_id: 9
 29: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: RightRoom
+  name: 右部屋
   expanded: false
   order: 27
   scroll_y: 208
   parent_id: 9
 40: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Kitchen
+  name: 台所
   expanded: true
-  order: 32
+  order: 34
   scroll_y: 208
   parent_id: 1
 41: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: BackDoorPlace
+  name: 裏木戸所
   expanded: false
-  order: 33
+  order: 35
   scroll_y: 208
   parent_id: 40
 2: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: MiniRoom
+  name: 小さい部屋
   expanded: false
-  order: 35
+  order: 33
   scroll_y: 208
   parent_id: 12
 11: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: ThreeBears
+  name: 熊三匹
   expanded: true
   order: 36
   scroll_y: 320
   parent_id: 1
 14: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: CakeRoom
+  name: ケーキ部屋
   expanded: false
   order: 37
   scroll_y: 208
   parent_id: 11
 15: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: ChairRoom
+  name: 椅子部屋
   expanded: false
   order: 38
   scroll_y: 208
   parent_id: 11
 16: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: BedRoom
+  name: ベッド部屋
   expanded: false
   order: 39
   scroll_y: 208
   parent_id: 11
 19: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Chem Lab
+  name: 研究室
   expanded: false
   order: 17
   scroll_y: 208
   parent_id: 42
 20: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Monster Room
+  name: 怪物部屋
   expanded: false
   order: 18
   scroll_y: 208
   parent_id: 42
 22: !ruby/object:RPG::MapInfo
   scroll_x: 448
-  name: Door Room
+  name: ドア部屋
   expanded: false
   order: 19
   scroll_y: 208
   parent_id: 42
 24: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 00: Dream'
+  name: レベル００：夢
   expanded: true
   order: 1
   scroll_y: 208
   parent_id: 0
 25: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Tailor Room
+  name: 仕立ての部屋
   expanded: false
   order: 20
   scroll_y: 208
   parent_id: 42
 21: !ruby/object:RPG::MapInfo
   scroll_x: 384
-  name: 'Level 02.5: Clocks'
+  name: レベル０２．５：時計
   expanded: true
   order: 60
   scroll_y: 240
   parent_id: 0
 30: !ruby/object:RPG::MapInfo
-  scroll_x: 822
-  name: Maze Room
+  scroll_x: 816
+  name: 迷路
   expanded: false
   order: 61
-  scroll_y: 305
+  scroll_y: 320
   parent_id: 21
 28: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Corridor
+  name: 廊下
   expanded: false
   order: 2
   scroll_y: 208
   parent_id: 24
 32: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Library
+  name: 図書館
   expanded: false
   order: 3
   scroll_y: 208
   parent_id: 24
 33: !ruby/object:RPG::MapInfo
   scroll_x: 288
-  name: TVroom
+  name: テレビの部屋
   expanded: false
   order: 4
   scroll_y: 208
   parent_id: 24
 34: !ruby/object:RPG::MapInfo
   scroll_x: 288
-  name: Diningroom
+  name: 台所
   expanded: false
   order: 5
   scroll_y: 208
   parent_id: 24
 37: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Attic
+  name: 玄関
   expanded: false
   order: 6
   scroll_y: 208
   parent_id: 24
 23: !ruby/object:RPG::MapInfo
   scroll_x: 320
-  name: Space
+  name: 宇宙
   expanded: false
   order: 21
   scroll_y: 320
   parent_id: 42
 26: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: "??? Room"
+  name: "？？？部屋"
   expanded: false
   order: 22
   scroll_y: 208
   parent_id: 42
 38: !ruby/object:RPG::MapInfo
   scroll_x: 288
-  name: Tic-tac-toe Room
+  name: 三目並べ部屋
   expanded: false
   order: 68
   scroll_y: 320
   parent_id: 21
 39: !ruby/object:RPG::MapInfo
   scroll_x: 304
-  name: "/WorstEnd"
+  name: "/ワストエンド"
   expanded: true
   order: 72
-  scroll_y: 550
+  scroll_y: 549
   parent_id: 21
 45: !ruby/object:RPG::MapInfo
   scroll_x: 448
-  name: DOORS
+  name: ドア
   expanded: false
   order: 77
   scroll_y: 288
   parent_id: 60
 43: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: "/Intermission"
+  name: "/幕間"
   expanded: false
   order: 73
   scroll_y: 208
   parent_id: 39
 60: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 03: Surreal'
-  expanded: false
+  name: レベル０３：シュール
+  expanded: true
   order: 76
   scroll_y: 208
   parent_id: 0
 48: !ruby/object:RPG::MapInfo
-  scroll_x: 1001
-  name: TV HALL
+  scroll_x: 735
+  name: テレビホール
   expanded: false
   order: 113
   scroll_y: 240
   parent_id: 0
 17: !ruby/object:RPG::MapInfo
   scroll_x: 320
-  name: ROOM
+  name: ヘヤ
   expanded: false
   order: 78
   scroll_y: 256
   parent_id: 60
 62: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: POMEGRANATES
+  name: ザクロ
   expanded: false
   order: 79
   scroll_y: 256
   parent_id: 60
 63: !ruby/object:RPG::MapInfo
   scroll_x: 432
-  name: FLOWERS
+  name: ハナ
   expanded: false
   order: 80
   scroll_y: 288
   parent_id: 60
 64: !ruby/object:RPG::MapInfo
   scroll_x: 432
-  name: MEAT
+  name: ニク
   expanded: false
   order: 81
   scroll_y: 304
   parent_id: 60
 31: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Corridor
+  name: 廊下
   expanded: true
   order: 62
-  scroll_y: 400
+  scroll_y: 485
   parent_id: 21
 65: !ruby/object:RPG::MapInfo
   scroll_x: 272
@@ -393,275 +393,275 @@
   parent_id: 31
 70: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: CharRoom
+  name: シャル部屋
   expanded: false
   order: 7
   scroll_y: 224
   parent_id: 24
 72: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 02: Silent Movie'
+  name: レベル０２：サイレント映画
   expanded: true
   order: 45
   scroll_y: 288
   parent_id: 0
 78: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lft
+  name: ひだり
   expanded: false
   order: 54
   scroll_y: 304
   parent_id: 72
 79: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: rght
+  name: みぎ
   expanded: false
   order: 46
   scroll_y: 256
   parent_id: 72
 73: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lib1
+  name: と１
   expanded: false
   order: 47
   scroll_y: 208
   parent_id: 72
 74: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lib2
+  name: と２
   expanded: false
   order: 48
   scroll_y: 224
   parent_id: 72
 77: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lib3
+  name: と３
   expanded: false
   order: 49
   scroll_y: 224
   parent_id: 72
 80: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lib4
+  name: と４
   expanded: false
   order: 50
   scroll_y: 224
   parent_id: 72
 81: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lib5
+  name: と５
   expanded: false
   order: 51
   scroll_y: 224
   parent_id: 72
 82: !ruby/object:RPG::MapInfo
   scroll_x: 304
-  name: 2drs
+  name: ２ド
   expanded: false
   order: 52
   scroll_y: 208
   parent_id: 72
 83: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 1dr
+  name: １ド
   expanded: false
   order: 53
   scroll_y: 208
   parent_id: 72
 52: !ruby/object:RPG::MapInfo
-  scroll_x: 642
-  name: Maze Room2
+  scroll_x: 816
+  name: 迷路２
   expanded: false
   order: 69
-  scroll_y: 305
+  scroll_y: 306
   parent_id: 21
 56: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Incinerator Room
+  name: 焼却炉部屋
   expanded: false
   order: 70
   scroll_y: 208
   parent_id: 21
 76: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 04: Slaughterland'
+  name: レベル０４：スローターハウス
   expanded: true
   order: 82
   scroll_y: 208
   parent_id: 0
 85: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder1
+  name: ハシゴ１
   expanded: true
   order: 55
   scroll_y: 208
   parent_id: 72
 86: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder2
+  name: ハシゴ２
   expanded: false
   order: 56
   scroll_y: 208
   parent_id: 85
 87: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder3
+  name: ハシゴ３
   expanded: false
   order: 57
   scroll_y: 208
   parent_id: 85
 90: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Waitroom
+  name: 待室
   expanded: false
   order: 44
   scroll_y: 208
   parent_id: 1
 46: !ruby/object:RPG::MapInfo
   scroll_x: 288
-  name: TVroom
+  name: ＴＶ部屋
   expanded: false
   order: 8
   scroll_y: 208
   parent_id: 24
 96: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: River
+  name: 川
   expanded: true
   order: 83
   scroll_y: 208
   parent_id: 76
 97: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: River01
+  name: 川１
   expanded: false
   order: 84
   scroll_y: 208
   parent_id: 96
 98: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: River02
+  name: 川２
   expanded: false
   order: 85
   scroll_y: 208
   parent_id: 96
 99: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: River03
+  name: 川３
   expanded: false
   order: 86
   scroll_y: 208
   parent_id: 96
 100: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TwoHouses
+  name: ２つの家
   expanded: true
   order: 87
   scroll_y: 208
   parent_id: 76
 101: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: House
+  name: 家
   expanded: true
-  order: 90
+  order: 108
   scroll_y: 208
   parent_id: 76
 102: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: House2
+  name: 家２
   expanded: true
-  order: 92
+  order: 90
   scroll_y: 208
   parent_id: 76
 103: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Skyscraper
+  name: 摩天楼
   expanded: true
-  order: 95
-  scroll_y: 646
+  order: 93
+  scroll_y: 645
   parent_id: 76
 104: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: House3
+  name: 家３
   expanded: true
-  order: 103
+  order: 101
   scroll_y: 208
   parent_id: 76
 105: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 3Houses
+  name: 三つの家
   expanded: true
-  order: 106
+  order: 104
   scroll_y: 208
   parent_id: 76
 106: !ruby/object:RPG::MapInfo
   scroll_x: 288
   name: '4981'
   expanded: true
-  order: 104
+  order: 102
   scroll_y: 208
   parent_id: 104
 107: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: '8'
   expanded: false
-  order: 91
+  order: 109
   scroll_y: 208
   parent_id: 101
 108: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: NurseryRhyme-r
+  name: 童謡
   expanded: false
   order: 88
   scroll_y: 208
   parent_id: 100
 109: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: NurseryRhyme-r2
+  name: 童謡２
   expanded: false
   order: 89
   scroll_y: 208
   parent_id: 100
 111: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Executioners-r
+  name: 死刑執行
   expanded: true
-  order: 93
+  order: 91
   scroll_y: 208
   parent_id: 102
 113: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: H1 - 9
   expanded: false
-  order: 107
+  order: 105
   scroll_y: 208
   parent_id: 105
 114: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: H2 - 1
   expanded: false
-  order: 108
+  order: 106
   scroll_y: 208
   parent_id: 105
 115: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: H3 - 4
   expanded: false
-  order: 109
+  order: 107
   scroll_y: 208
   parent_id: 105
 91: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder4
+  name: ハシゴ４
   expanded: false
   order: 58
   scroll_y: 208
   parent_id: 85
 116: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Homunuculi
+  name: ホムンクライ
   expanded: false
-  order: 100
+  order: 98
   scroll_y: 208
   parent_id: 94
 119: !ruby/object:RPG::MapInfo
@@ -673,51 +673,51 @@
   parent_id: 21
 121: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: Entrance
+  name: 入口
   expanded: true
-  order: 96
+  order: 94
   scroll_y: 314
   parent_id: 103
 122: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: TVRUM
   expanded: false
-  order: 102
+  order: 100
   scroll_y: 208
   parent_id: 103
 123: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Key-r
+  name: カギ
   expanded: false
-  order: 94
+  order: 92
   scroll_y: 208
   parent_id: 111
 124: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Executionermask-r
+  name: 死刑執行仮面
   expanded: false
-  order: 105
+  order: 103
   scroll_y: 208
   parent_id: 106
 84: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: Left
+  name: 左
   expanded: false
-  order: 101
+  order: 99
   scroll_y: 320
   parent_id: 121
 93: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: Right
+  name: 右
   expanded: true
-  order: 97
+  order: 95
   scroll_y: 320
   parent_id: 121
 94: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: Right2
+  name: 右２
   expanded: true
-  order: 99
+  order: 97
   scroll_y: 320
   parent_id: 121
 128: !ruby/object:RPG::MapInfo
@@ -729,147 +729,147 @@
   parent_id: 0
 129: !ruby/object:RPG::MapInfo
   scroll_x: 480
-  name: 'Level 05: Final (Tru End)'
+  name: レベル０５：最終（真のエンド）
   expanded: false
   order: 110
-  scroll_y: 326
+  scroll_y: 325
   parent_id: 0
 118: !ruby/object:RPG::MapInfo
   scroll_x: 480
-  name: 3rdEntrance
+  name: 入口３
   expanded: true
   order: 40
   scroll_y: 240
   parent_id: 1
 131: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: corridor
+  name: 廊下
   expanded: true
   order: 41
   scroll_y: 208
   parent_id: 118
 132: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: room1
+  name: 部屋１
   expanded: false
   order: 42
   scroll_y: 208
   parent_id: 131
 133: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: room2
+  name: 部屋２
   expanded: false
   order: 43
   scroll_y: 208
   parent_id: 131
 134: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: "/ToHeart"
+  name: "/中心へ"
   expanded: true
   order: 74
-  scroll_y: 486
+  scroll_y: 485
   parent_id: 39
 135: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 'Level 02.1: Silent Movie'
+  name: レベル２．１：サイレント映画
   expanded: true
   order: 114
   scroll_y: 288
   parent_id: 0
 136: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: rght
+  name: みぎ
   expanded: false
   order: 115
   scroll_y: 256
   parent_id: 135
 137: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lib1-entr
+  name: と１入
   expanded: false
   order: 116
   scroll_y: 208
   parent_id: 135
 138: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: center
+  name: 中
   expanded: false
   order: 117
   scroll_y: 224
   parent_id: 135
 139: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: left
+  name: ひだり
   expanded: false
   order: 118
   scroll_y: 224
   parent_id: 135
 140: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: leftleft
+  name: ひだりひだり
   expanded: false
   order: 119
   scroll_y: 224
   parent_id: 135
 141: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: right
+  name: みぎ
   expanded: false
   order: 120
   scroll_y: 224
   parent_id: 135
 142: !ruby/object:RPG::MapInfo
   scroll_x: 304
-  name: 2drs
+  name: ２ド
   expanded: false
   order: 121
   scroll_y: 208
   parent_id: 135
 143: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: 1dr
+  name: １ド
   expanded: false
   order: 122
   scroll_y: 208
   parent_id: 135
 144: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: lft
+  name: ひだり
   expanded: false
   order: 123
   scroll_y: 304
   parent_id: 135
 145: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder1
+  name: ハシゴ１
   expanded: true
   order: 124
   scroll_y: 208
   parent_id: 135
 146: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder2
+  name: ハシゴ２
   expanded: false
   order: 125
   scroll_y: 208
   parent_id: 145
 147: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder3
+  name: ハシゴ３
   expanded: false
   order: 126
   scroll_y: 208
   parent_id: 145
 148: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: TheLadder4
+  name: ハシゴ４
   expanded: false
   order: 127
   scroll_y: 208
   parent_id: 145
 150: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Char
+  name: シャル
   expanded: false
   order: 75
   scroll_y: 208
@@ -890,8 +890,8 @@
   parent_id: 145
 75: !ruby/object:RPG::MapInfo
   scroll_x: 400
-  name: Rightdoor
+  name: 右ドア
   expanded: false
-  order: 98
+  order: 96
   scroll_y: 320
   parent_id: 93

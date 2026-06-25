@@ -193,8 +193,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["..."]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It wasn't locked yesterday.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["・・・昨日カギは掛かっていなかった。"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -324,7 +323,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Corridor
+display_name: 廊下
 specify_battleback: false
 note: ''
 battleback1_name: ''

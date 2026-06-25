@@ -94,7 +94,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't drink from the right cup!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [右のカップは飲まないで！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -142,7 +142,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't drink from the left cup!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [左のカップは飲まないで！]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -189,13 +189,13 @@ events:
       priority_type: 0
       trigger: 0
       list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[飲む, 飲まない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 飲む]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 313, p: [0, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I feel dizzy...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ちょっとめまいするの・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 飲まない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -337,17 +337,22 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Drink me!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [飲んでください！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[飲む, 飲まない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 飲む]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 313, p: [0, 1, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I feel dizzy...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ちょっとめまいするの・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [19, 19, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [37, 37, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 39, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 121, p: [37, 37, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 飲まない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -391,7 +396,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've drank from the cup already.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もうカップは飲んだ・・・]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -439,15 +444,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Drink me!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Drink, Don't drink], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Drink]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [飲んでください！]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[飲む, 飲まない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 飲む]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [CharFaces, 2, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I feel dizzy...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ちょっとめまいするの・・・]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [19, 19, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [39, 39, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [37, 37, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't drink]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 飲まない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -491,55 +498,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've drank from the cup already.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-  13: !ruby/object:RPG::Event
-    id: 13
-    name: EV013
-    x: 4
-    y: 4
-    pages:
-    - !ruby/object:RPG::Event::Page
-      condition: !ruby/object:RPG::Event::Page::Condition
-        switch1_valid: false
-        switch2_valid: false
-        variable_valid: false
-        self_switch_valid: false
-        item_valid: false
-        actor_valid: false
-        switch1_id: 1
-        switch2_id: 1
-        variable_id: 1
-        variable_value: 0
-        self_switch_ch: A
-        item_id: 1
-        actor_id: 1
-      graphic: !ruby/object:RPG::Event::Page::Graphic
-        tile_id: 0
-        character_name: ''
-        character_index: 0
-        direction: 2
-        pattern: 0
-      move_type: 0
-      move_speed: 3
-      move_frequency: 3
-      move_route: !ruby/object:RPG::MoveRoute
-        repeat: true
-        skippable: false
-        wait: false
-        list:
-        - !ruby/object:RPG::MoveCommand
-          code: 0
-          parameters: []
-      walk_anime: true
-      step_anime: false
-      direction_fix: false
-      through: false
-      priority_type: 1
-      trigger: 0
-      list:
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [These flowers are pretty.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [もうカップは飲んだ・・・]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -587,7 +546,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [These flowers are pretty.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [花は綺麗。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -683,19 +642,19 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The flames are dancing in the fireplace.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Go inside?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Go in, Don't go], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Go in]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [暖炉では炎が踊っている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['入りますか?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[入る, 入らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 入る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 180, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, BurnAlive, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Bad End: Burned To Death']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [バッドエンド：焼死]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Don't go]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 入らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -745,26 +704,26 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The flames are dancing in the fireplace.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Go inside?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Don't go, Go in], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Don't go]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [暖炉では炎が踊っている。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [入りますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[入らない, 入る], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 入らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Go in]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 入る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [0, 37, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The fire embraces me.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [炎は私を包む。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 8, 8, 12, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [The fire embraces me.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [炎は私を包む。]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 180, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, BurnAlive, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 2, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Bad End: Burned To Death']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [バッドエンド：焼死]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
@@ -817,7 +776,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CATS DO NOT TELL LIES]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ネコハウソヲツカナイ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -865,7 +824,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ENTER THE RIGHT FIREPLACE]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ミギノダンロニハイレ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -913,6 +872,54 @@ events:
       trigger: 4
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 245, p: [!ruby/object:RPG::BGS {name: Fire, volume: 25, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: EV013
+    x: 4
+    y: 4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand
+          code: 0
+          parameters: []
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [花は綺麗。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
@@ -1001,7 +1008,7 @@ scroll_type: 0
 parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
-display_name: Cat Room
+display_name: 猫の部屋
 specify_battleback: false
 note: ''
 battleback1_name: ''

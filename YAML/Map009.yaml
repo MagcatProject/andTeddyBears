@@ -50,11 +50,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: Unseen Horrors, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 223, p: [!ruby/object:Tone {r: -68.0, g: -68.0, b: -51.0, a: 0.0}, 60, true]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 3, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What is this place...?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't remember our house having a]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [direct passage to a princess castle.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [この場所は何・・・？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ハウスの中にお姫様のお城への通路があるとは]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [知らなかった。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [CharFaces, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's too dark to see anything.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [暗すぎて何も見えない。]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -143,13 +143,13 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Open the door?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ドアを開けますか？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[開ける, 開けない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 開ける]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [136, 136, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 開けない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -725,7 +725,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 60, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [2, Illust2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Little Teddy Wants To Play']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド： 熊ちゃん　遊びたい]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -822,15 +822,15 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Take the lantern?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [カンデラを持ちます？]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[取る, 取らない], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 取る]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [77, 77, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [79, 79, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 取らない]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -976,7 +976,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Blow4, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 224, p: [!ruby/object:Color {r: 255.0, g: 0.0, b: 0.0, a: 255.0}, 400, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bad End: Shot To Death']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [バッドエンド：射殺]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   23: !ruby/object:RPG::Event
@@ -1131,7 +1131,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"YOU WILL FIND WHAT YOU NEED UPSTAIRS"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ヒツヨウナモノガニカイニアル]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM
